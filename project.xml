@@ -4,13 +4,30 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner Cervantes Hernandez Moreira Gourav Acharya Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_ZZ4X4AxAEeiObrLZoLft4g"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_BCPvkAxJEeingdqlRSYTcw"/>
+    <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
+      <MethodElementProperty name="pkg_loadCheck" value="true"/>
+      <MethodElementProperty name="pakage_supporting" value="false"/>
+      <MethodElementProperty name="me_edited" value="true"/>
+      <ContentElement xsi:type="uma:Role" name="project_manager" briefDescription="" id="_sWgLMAxGEeingdqlRSYTcw" orderingGuide="" presentationName="Project Manager" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Role" name="qa_engineer" briefDescription="" id="_dm_0YAxHEeingdqlRSYTcw" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Role" name="design_engineer" briefDescription="" id="_hmS7gAxHEeingdqlRSYTcw" orderingGuide="" presentationName="Design Engineer" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Role" name="software_engineer" briefDescription="" id="_pQJBwAxHEeingdqlRSYTcw" orderingGuide="" presentationName="Software Engineer" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+    </MethodPackage>
     <MethodPackage xsi:type="uma:ProcessPackage" name="Example Process" briefDescription="" id="_oZljUAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
-      <MethodPackage xsi:type="uma:ProcessComponent" name="Schedule and Assign Tasks" briefDescription="" id="_zEjRMAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+      <MethodPackage xsi:type="uma:ProcessComponent" name="Modify Code" briefDescription="" id="_53rx4Aw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
         <MethodElementProperty name="pkg_loadCheck" value="true"/>
-        <Process xsi:type="uma:CapabilityPattern" name="Schedule and Assign Tasks" briefDescription="" id="_zEjRMQw-EeiObrLZoLft4g" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
-          <Presentation xsi:type="uma:ProcessDescription" name="Schedule and Assign Tasks,_zEjRMQw-EeiObrLZoLft4g" briefDescription="" id="-GgYuy5iGe6VAwKZM8Ldfpw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+        <Process xsi:type="uma:CapabilityPattern" name="Modify Code" briefDescription="" id="_53rx4Qw-EeiObrLZoLft4g" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+          <Presentation xsi:type="uma:ProcessDescription" name="Modify Code,_53rx4Qw-EeiObrLZoLft4g" briefDescription="" id="-fymqN6cjQiNZlwdBo_2TPw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
             <MainDescription></MainDescription>
             <KeyConsiderations></KeyConsiderations>
             <Alternatives></Alternatives>
@@ -27,38 +44,6 @@
         <MethodElementProperty name="pkg_loadCheck" value="true"/>
         <Process xsi:type="uma:CapabilityPattern" name="Modify Design" briefDescription="" id="_03hqsQw-EeiObrLZoLft4g" orderingGuide="" presentationName="Modify Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
           <Presentation xsi:type="uma:ProcessDescription" name="Modify Design,_03hqsQw-EeiObrLZoLft4g" briefDescription="" id="-eTdOoT3VIQ-3j1Q1bhNMAw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-            <MainDescription></MainDescription>
-            <KeyConsiderations></KeyConsiderations>
-            <Alternatives></Alternatives>
-            <HowToStaff></HowToStaff>
-            <Purpose></Purpose>
-            <Scope></Scope>
-            <UsageNotes></UsageNotes>
-          </Presentation>
-          <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
-          <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
-        </Process>
-      </MethodPackage>
-      <MethodPackage xsi:type="uma:ProcessComponent" name="Review Design" briefDescription="" id="_2yT8YAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
-        <MethodElementProperty name="pkg_loadCheck" value="true"/>
-        <Process xsi:type="uma:CapabilityPattern" name="Review Design" briefDescription="" id="_2yT8YQw-EeiObrLZoLft4g" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
-          <Presentation xsi:type="uma:ProcessDescription" name="Review Design,_2yT8YQw-EeiObrLZoLft4g" briefDescription="" id="-lJPZCHObCw-A6xTjiqWj4Q" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-            <MainDescription></MainDescription>
-            <KeyConsiderations></KeyConsiderations>
-            <Alternatives></Alternatives>
-            <HowToStaff></HowToStaff>
-            <Purpose></Purpose>
-            <Scope></Scope>
-            <UsageNotes></UsageNotes>
-          </Presentation>
-          <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
-          <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
-        </Process>
-      </MethodPackage>
-      <MethodPackage xsi:type="uma:ProcessComponent" name="Modify Code" briefDescription="" id="_53rx4Aw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
-        <MethodElementProperty name="pkg_loadCheck" value="true"/>
-        <Process xsi:type="uma:CapabilityPattern" name="Modify Code" briefDescription="" id="_53rx4Qw-EeiObrLZoLft4g" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
-          <Presentation xsi:type="uma:ProcessDescription" name="Modify Code,_53rx4Qw-EeiObrLZoLft4g" briefDescription="" id="-fymqN6cjQiNZlwdBo_2TPw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
             <MainDescription></MainDescription>
             <KeyConsiderations></KeyConsiderations>
             <Alternatives></Alternatives>
@@ -103,6 +88,54 @@
           <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
         </Process>
       </MethodPackage>
+      <MethodPackage xsi:type="uma:ProcessComponent" name="Monitor Progress" briefDescription="" id="_Cz6tEAw_EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+        <MethodElementProperty name="pkg_loadCheck" value="true"/>
+        <Process xsi:type="uma:CapabilityPattern" name="Monitor Progress" briefDescription="" id="_Cz6tEQw_EeiObrLZoLft4g" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+          <Presentation xsi:type="uma:ProcessDescription" name="Monitor Progress,_Cz6tEQw_EeiObrLZoLft4g" briefDescription="" id="-Xf0Nbj6nYxNDi-o77VHnjg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+            <MainDescription></MainDescription>
+            <KeyConsiderations></KeyConsiderations>
+            <Alternatives></Alternatives>
+            <HowToStaff></HowToStaff>
+            <Purpose></Purpose>
+            <Scope></Scope>
+            <UsageNotes></UsageNotes>
+          </Presentation>
+          <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
+          <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
+        </Process>
+      </MethodPackage>
+      <MethodPackage xsi:type="uma:ProcessComponent" name="Review Design" briefDescription="" id="_2yT8YAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+        <MethodElementProperty name="pkg_loadCheck" value="true"/>
+        <Process xsi:type="uma:CapabilityPattern" name="Review Design" briefDescription="" id="_2yT8YQw-EeiObrLZoLft4g" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+          <Presentation xsi:type="uma:ProcessDescription" name="Review Design,_2yT8YQw-EeiObrLZoLft4g" briefDescription="" id="-lJPZCHObCw-A6xTjiqWj4Q" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+            <MainDescription></MainDescription>
+            <KeyConsiderations></KeyConsiderations>
+            <Alternatives></Alternatives>
+            <HowToStaff></HowToStaff>
+            <Purpose></Purpose>
+            <Scope></Scope>
+            <UsageNotes></UsageNotes>
+          </Presentation>
+          <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
+          <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
+        </Process>
+      </MethodPackage>
+      <MethodPackage xsi:type="uma:ProcessComponent" name="Schedule and Assign Tasks" briefDescription="" id="_zEjRMAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+        <MethodElementProperty name="pkg_loadCheck" value="true"/>
+        <Process xsi:type="uma:CapabilityPattern" name="Schedule and Assign Tasks" briefDescription="" id="_zEjRMQw-EeiObrLZoLft4g" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+          <Presentation xsi:type="uma:ProcessDescription" name="Schedule and Assign Tasks,_zEjRMQw-EeiObrLZoLft4g" briefDescription="" id="-GgYuy5iGe6VAwKZM8Ldfpw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+            <MainDescription></MainDescription>
+            <KeyConsiderations></KeyConsiderations>
+            <Alternatives></Alternatives>
+            <HowToStaff></HowToStaff>
+            <Purpose></Purpose>
+            <Scope></Scope>
+            <UsageNotes></UsageNotes>
+          </Presentation>
+          <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
+          <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
+        </Process>
+      </MethodPackage>
       <MethodPackage xsi:type="uma:ProcessComponent" name="Test Unit" briefDescription="" id="_A1Zx8Aw_EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
         <MethodElementProperty name="pkg_loadCheck" value="true"/>
         <Process xsi:type="uma:CapabilityPattern" name="Test Unit" briefDescription="" id="_A1aZAAw_EeiObrLZoLft4g" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
@@ -119,10 +152,10 @@
           <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
         </Process>
       </MethodPackage>
-      <MethodPackage xsi:type="uma:ProcessComponent" name="Monitor Progress" briefDescription="" id="_Cz6tEAw_EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+      <MethodPackage xsi:type="uma:ProcessComponent" name="Develop Change and Test Unit" briefDescription="" id="_Xo8hkAxHEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
         <MethodElementProperty name="pkg_loadCheck" value="true"/>
-        <Process xsi:type="uma:CapabilityPattern" name="Monitor Progress" briefDescription="" id="_Cz6tEQw_EeiObrLZoLft4g" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
-          <Presentation xsi:type="uma:ProcessDescription" name="Monitor Progress,_Cz6tEQw_EeiObrLZoLft4g" briefDescription="" id="-Xf0Nbj6nYxNDi-o77VHnjg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+        <Process xsi:type="uma:CapabilityPattern" name="Develop Change and Test Unit" briefDescription="" id="_Xo8hkQxHEeingdqlRSYTcw" orderingGuide="" presentationName="Develop Change and Test Unit" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+          <Presentation xsi:type="uma:ProcessDescription" name="Develop Change and Test Unit,_Xo8hkQxHEeingdqlRSYTcw" briefDescription="" id="-AuehpQZW1U25248QgvZ6eQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
             <MainDescription></MainDescription>
             <KeyConsiderations></KeyConsiderations>
             <Alternatives></Alternatives>
@@ -175,5 +208,12 @@
     <MethodPackageSelection>_Cz6tEAw_EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_v6G5AAw_EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_gAW5fgw8EeiOk4BfzayU7Q</MethodPackageSelection>
+    <MethodPackageSelection>_gAW5fAw8EeiOk4BfzayU7Q</MethodPackageSelection>
+    <MethodPackageSelection>_BCPvkAxJEeingdqlRSYTcw</MethodPackageSelection>
+    <MethodPackageSelection>_gAW5cgw8EeiOk4BfzayU7Q</MethodPackageSelection>
+    <MethodPackageSelection>_gAW5eAw8EeiOk4BfzayU7Q</MethodPackageSelection>
+    <MethodPackageSelection>_gAW5egw8EeiOk4BfzayU7Q</MethodPackageSelection>
+    <MethodPackageSelection>_j726IAxGEeingdqlRSYTcw</MethodPackageSelection>
+    <MethodPackageSelection>_Xo8hkAxHEeingdqlRSYTcw</MethodPackageSelection>
   </MethodConfiguration>
 </uma:MethodLibrary>
