@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uma:MethodLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uma="http://www.eclipse.org/epf/uma/1.0.6" name="Library1" briefDescription="Software process method library" id="_Gx9JkQw3EeiuGJ1U1vtJHw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" tool="epf=1.5.0">
   <MethodElementProperty name="library_synFree" value="true"/>
-  <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner Cervantes Hernandez Moreira Gourav Acharya Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
+  <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_BCPvkAxJEeingdqlRSYTcw"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_s5D-UAxJEeingdqlRSYTcw"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -209,7 +209,7 @@
     <MethodPackageSelection>_v6G5AAw_EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_gAW5fgw8EeiOk4BfzayU7Q</MethodPackageSelection>
     <MethodPackageSelection>_gAW5fAw8EeiOk4BfzayU7Q</MethodPackageSelection>
-    <MethodPackageSelection>_BCPvkAxJEeingdqlRSYTcw</MethodPackageSelection>
+    <MethodPackageSelection>_s5D-UAxJEeingdqlRSYTcw</MethodPackageSelection>
     <MethodPackageSelection>_gAW5cgw8EeiOk4BfzayU7Q</MethodPackageSelection>
     <MethodPackageSelection>_gAW5eAw8EeiOk4BfzayU7Q</MethodPackageSelection>
     <MethodPackageSelection>_gAW5egw8EeiOk4BfzayU7Q</MethodPackageSelection>
