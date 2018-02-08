@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_ZBaR0A0iEeidz4hOf6CHig"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_OsDqwA0mEeidz4hOf6CHig"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -23,8 +23,19 @@
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="develop_change_and_test_unit" briefDescription="" id="_W1QQMA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Develop Change and Test Unit " suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
-        <Presentation xsi:type="uma:TaskDescription" name="develop_change_and_test_unit,_W1QQMA0KEeiMmoWQJFO3CQ" briefDescription="" id="-t8bZ2KEWDudLTci1KZcZhQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+        <Presentation xsi:type="uma:TaskDescription" name="develop_change_and_test_unit,_W1QQMA0KEeiMmoWQJFO3CQ" briefDescription="" id="-t8bZ2KEWDudLTci1KZcZhQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-08T05:52:31" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[<p>
+    This step is a project management function, and is the first step carried out in this example process. It involves
+    developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to
+    specific staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is
+    also scheduled, and participants are assigned to it; the participants will be the design and QA engineer, along with
+    two other software engineers.
+</p>
+<p>
+    Assume that the basic process to be followed in this example is already familiar to the participants; it is standard
+    procedure for this organization. Consequently, this management step focuses on assignment of resources to the tasks and
+    estimation of the schedule required for those resources to caw out the tasks.
+</p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_kjLG0A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
@@ -52,7 +63,11 @@
       <ContentElement xsi:type="uma:Task" name="schedule_and_assign_tasks" briefDescription="" id="_4m8pEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name=",_4m8pEA0KEeiMmoWQJFO3CQ" briefDescription="" id="-gXyhKGDZ-UNwp7qoi79SCA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+          <MainDescription><![CDATA[This step is a project management function, and is the first step carried out in this example process. It involves
+developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to specific
+staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is also scheduled,
+and participants are assigned to it; the participants will be the design and QA engineer, along with two other software
+engineers.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_rHHU8A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
@@ -73,11 +88,15 @@
           <Purpose></Purpose>
         </Presentation>
         <PerformedBy>_sWgLMAxGEeingdqlRSYTcw</PerformedBy>
+        <AdditionallyPerformedBy>_hmS7gAxHEeingdqlRSYTcw</AdditionallyPerformedBy>
+        <AdditionallyPerformedBy>_dm_0YAxHEeingdqlRSYTcw</AdditionallyPerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_design" briefDescription="" id="_8SsiEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Design" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="modify_design,_8SsiEA0KEeiMmoWQJFO3CQ" briefDescription="" id="-OiZ0itBSVI2MKtsZiG_sMw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+          <MainDescription><![CDATA[This step involves the modification of the design for the code unit affected by the requirements change. It is a highly
+creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the
+design based upon feedback from the design review.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_yldtIA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
@@ -101,8 +120,27 @@
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="review_design" briefDescription="" id="_-y2xsA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
-        <Presentation xsi:type="uma:TaskDescription" name="review_design,_-y2xsA0KEeiMmoWQJFO3CQ" briefDescription="" id="-tfTq9MbVyFneDuvg7yuflg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+        <Presentation xsi:type="uma:TaskDescription" name="review_design,_-y2xsA0KEeiMmoWQJFO3CQ" briefDescription="" id="-tfTq9MbVyFneDuvg7yuflg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-08T06:03:44" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[<p>
+    This step involves the formal review of the modified design. It is conducted by a team including the design engineer
+    who produced the design modifications. There are three alternative outcomes of the review:
+</p>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp; 1) Unconditional approval - The design is totally approved; the approved modified design is
+    incorporated into the software design document.
+</p>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp; 2) Minor changes recommended - Minor changes to the design are required and feedback is
+    provided to the designer. The re-review is expected to be perfunctory.
+</p>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp; 3) Major changes recommended - Major changes to the design are requred and feedback is
+    provided to the designer.
+</p>
+At the conclusion of the review, the project manager is notified of the outcome. Due to the fact that formal design reviews
+are a relatively new step in this organization’s process, they are recording certain measurements to help evaluate its
+impact, In particular, the number of defects identified, and the aggregate effort of the review team in preparing for and
+conducting the review are reported to the project manager.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_5DdEQA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
@@ -128,7 +166,9 @@
       <ContentElement xsi:type="uma:Task" name="modify_code" briefDescription="" id="_BEbLsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="modify_code,_BEbLsA0LEeiMmoWQJFO3CQ" briefDescription="" id="-xwrfyCHFiLNUl6bgEJDUOw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+          <MainDescription><![CDATA[This step involves the implementation of the design changes into code, and compilation of the modified source code into
+object code. Implementation is accomplished by modifying existing source code. This step may also be based upon feedback
+from testing, indicating that additional source code modifications are required.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="__eOIQA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
@@ -156,7 +196,10 @@
       <ContentElement xsi:type="uma:Task" name="modify_test_plans" briefDescription="" id="_DStBIA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="modify_test_plans,_DStBIA0LEeiMmoWQJFO3CQ" briefDescription="" id="-0eQlQV2NecCM68NwUNeriQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+          <MainDescription><![CDATA[This step involves the modification of test plans and objectives to include testing of capabilities related to the
+requirements change prompting this software modification. These test plans are analogous to software designs. They identify
+the functionality and capabilities to be tested, and the approach to be taken. On the other hand, the specifics of actual
+test data, procedures, and so forth are dealt with in the subsequent step (modify unit test package).]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_FWDeUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
@@ -181,7 +224,13 @@
       <ContentElement xsi:type="uma:Task" name="modify_unit_test_package" briefDescription="" id="_FscfsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Unit Test Package" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="modify_unit_test_package,_FscfsA0LEeiMmoWQJFO3CQ" briefDescription="" id="-OF-T3IRl5PWVDTDWWDPKYg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+          <MainDescription><![CDATA[This step involves the modification of the actual unit test package for the affected code unit, in accordance with the
+modifications made to the test plans and objectives. It will be assumed that the test package contains computer software to
+drive and evaluate the unit under test, along with narrative procedures recorded in accompanying computer files. These test
+packages are under automated configuration management, and a new version of the unit test package is created when this step
+ends. Finally, it is noted that the modified design and/or the source code for this unit may be used as input to this step;
+however, this is not always the case. Subsequent iterations of this step may be based upon feedback from testing,
+indicating that additional modifications to the unit test package are required.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_J4RsUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
@@ -208,7 +257,22 @@
       <ContentElement xsi:type="uma:Task" name="test_unit" briefDescription="" id="_IiffwA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="test_unit,_IiffwA0LEeiMmoWQJFO3CQ" briefDescription="" id="-rhzLUj3xx0-bUQheHAKvIQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+          <MainDescription><![CDATA[<p>
+    This step involves the application of the unit test package on the modified code, and analysis of the results. Both the
+    design and QA engineers participate in this step. The entire test package is run before any analysis or further action
+    is taken. Although the unit tests are primarily functional, an automated coverage analyzer is employed to determine
+    that adequate test coverage of the unit’s code has been achieved; a 90% threshold has been established as acceptable.
+    If all tests are successfully completed, and 90% coverage attained, then the unit has successfully passed. When this is
+    not the case, the design and QA engineers jointly analyze the test results and determine appropriate actions. In order
+    to confine the problem, assume that either or both of the following are the outcomes of this analysis: the source code
+    needs to be modified further, the unit tests need to be modified further. When the indicated modifications have been
+    made, the unit can be retested.
+</p>
+<p>
+    If the unit passes its tests and meets an acceptable coverage level, then this example process has been completed.
+    Steps beyond unit testing, such as integration testing, are beyond the scope of the core problem. The project manager
+    is notified that the latest version of the unit code is available for integration testing.
+</p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_QlDGUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
@@ -237,7 +301,13 @@
       <ContentElement xsi:type="uma:Task" name="monitor_progress" briefDescription="" id="_KM2v0A0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="monitor_progress,_KM2v0A0LEeiMmoWQJFO3CQ" briefDescription="" id="-OGxN4NxrlRxdPSYTQRIppQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+          <MainDescription><![CDATA[This step involves the project manager monitoring progress and status of the work. This is based upon notification of
+completion of each step, as well as informal information. While work proceeds according to plan, no action is taken and no
+output is developed by this step. On the other hand, deviations from plan can result in rescheduling of tasks. In severe
+cases, the project manager may put the entire modification effort on hold, and recommend to the CCB that this change effort
+be canceled. The CCB may either concur and cancel the effort, or indicate that it is to be resumed where it left off. In
+such cases the affected personnel are notified (by the project manager) as appropriate regarding the resumption or
+cancellation of their work on this change.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_iigxcA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
@@ -265,43 +335,96 @@
           <MainDescription></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Overview" briefDescription="" id="_sgUeYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This section presents a number of optional extensions to the core problem described above. Their purpose is to provide a&#xD;
+variety of opportunities for showcasing capabilities of a given modeling approach that may not be demonstrated by the core&#xD;
+problem. Each extension builds upon the core problem, and they can be considered independently of each other. They are&#xD;
+rather open-ended, leaving considerable freedom to orient them as desired.</Description>
           </Section>
           <Section name="Modify Code Details" briefDescription="" id="_tK5scA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This extension entails developing the details of the modify code step more fully. Direct modifications are made to the&#xD;
+source code by the engineer, while object code is produced by a compiler. The current source code (latest version) is&#xD;
+withdrawn from the configuration management library at the outset of this step. The engineer invokes an editor to make his&#xD;
+changes to the source code. When he decides that the source code is ready for compilation, he saves the source code file&#xD;
+and invokes the compiler on it. If there are compilation errors, he goes back to the source code to make additional&#xD;
+modifications and then recompile. If a clean compilation has been achieved before the design has been approved, a final&#xD;
+manual check of the code is made by the engineer after the design is approved and before the code is released for unit&#xD;
+testing; this may result in additional source code changes. It may be convenient (although not required) to assume that&#xD;
+intermediate versions of the code objects and compilation information and products are maintained in a private library&#xD;
+(database) under configuration (version) management. Only the final version needs to be placed into the software&#xD;
+development files.</Description>
           </Section>
           <Section name="Basic Elaboration of Details" briefDescription="" id="_u0BmYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>One option is to demonstrate handling of low-level process steps and details by representing the above description, adding&#xD;
+additional elaboration as appropriate.</Description>
           </Section>
           <Section name="Automatic Tool Invocation" briefDescription="" id="_xUjCYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>A more ambitious extension would combine the above with automatic invocation of automated tools. These should include at&#xD;
+least the editor and compiler. It would also be desirable to include automatic connections to an assumed configuration&#xD;
+management tool, and perhaps automatic generation of the e- mail notification message when the final code version is placed&#xD;
+in the software development file (making it available for unit testing).</Description>
           </Section>
           <Section name="Review Design Details" briefDescription="" id="_ypifYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This extension entails developing the details of the review design step more fully. This step is one carried out by a group&#xD;
+of engineers, and involves considerable inter-personal communication, collaboration, and cooperation. Further elaboration&#xD;
+of this step would deal with the dynamics of how such a group review process occurs. Any reasonable design review&#xD;
+procedures may be assumed to incorporate this extension.</Description>
           </Section>
           <Section name="Scheduling and Resource Constraints" briefDescription="" id="_z68c4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This extension deals with the project management issues of scheduling and resource constraints.</Description>
           </Section>
           <Section name="Basic Scheduling" briefDescription="" id="_1zujcA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>Assume a set of reasonable durations for each step in the process (e.g., 3 days to modify design, 4 days to modify code,&#xD;
+etc.). Assume that resources are available as needed to accomplish the tasks without delay. Assumptions must also be made&#xD;
+to handle the iteration loops in this process (such as cycling through the modify design - review design loop a few times&#xD;
+until the design is approved). Indicate how an initial schedule (before the work has begun) would be determined based upon&#xD;
+the process model. Incidently, this work goes on within the schedule and assign tasks step.</Description>
           </Section>
           <Section name="Schedule Revision" briefDescription="" id="_2ux2cA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>Indicate how the initial schedule, derived above, would be modified to cope with actual results obtained during process&#xD;
+enaction. For example, assume that coding actually takes 2 days longer than anticipated. What is the impact on the revised&#xD;
+schedule for completion of unit testing, and how is this determined? Incidently, this work goes on within the monitor&#xD;
+progress step.</Description>
           </Section>
           <Section name="Scheduling Under Resource Constraints" briefDescription="" id="_36ATcA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>Modify one or both of the preceding scheduling extensions to cope with resource constraints. These might include&#xD;
+unavailability of personnel when a task is ready to be started, or partial availability (such as 50% of time can be devoted&#xD;
+to the task).</Description>
           </Section>
           <Section name="Aggregation of Multiple Changes" briefDescription="" id="_581t4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This extension entails the consideration of multiple changes. Rather than considering only one change to the software,&#xD;
+assume that an arbitrary number are being developed independently, and possibly concurrently. The process for each&#xD;
+individual change is as described in the core problem. However, when the full set of changes have passed their independent&#xD;
+unit tests, they are integrated together into a full system build and integration testing is conducted on this new&#xD;
+developmental configuration. Of course, integration testing may reveal problems in the units changed, or elsewhere in the&#xD;
+system, and corresponding additional modifications will have to be made to correct these.</Description>
           </Section>
           <Section name="Process Change" briefDescription="" id="_7VzE4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    This extension involves identifying and implementing changes to the process. The easier case would involve analyzing&#xD;
+    the process to identify opportunities for improvement, selecting one or more, and putting them into practice in the&#xD;
+    future. An example of this would include analyzing the defects idcntified during unit testing, and trying to improve&#xD;
+    future design reviews to catch those types of errors. This specific example would involve adding additional information&#xD;
+    to the data recorded as a result of testing (such as to classify the errors), and a specific post-mortem step oriented&#xD;
+    toward process improvement.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A more challenging case would involve dynamic process change during execution. For example, suppose that due to&#xD;
+    unavailability of assigned personnel, it is decided to bypass a follow-up (say second) design review. This decision is&#xD;
+    made dynamically at the time that this review was scheduled to occur. The rest of the process continues in this&#xD;
+    instance. How would the process model cope with such a dynamic change?&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Product Representation" briefDescription="" id="_8cdK8A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This extension provides an opportunity to examine the relationships between a process modeling approach and the underlying&#xD;
+product representation. Assume a specific implementation and/or design language for the software product. Then develop the&#xD;
+process model in sufficient detail to illustrate the process acting upon the product (considering the product to be&#xD;
+represented in the chosen language). Identify and examine the ways in which the product representation language impacts the&#xD;
+process model and the software process modeling approach.</Description>
           </Section>
           <Section name="Modeler's Choice" briefDescription="" id="_9mhxYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>Those solving the problem are invited to include any other extensions that illustrate special capabilities of their&#xD;
+modeling approaches. The nature of each problem extension should be explained, and the demonstrated special capabilities&#xD;
+should be highlighted.</Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -504,7 +627,7 @@
     <MethodPackageSelection>_a_5KAA0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KDQ0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KCw0dEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_ZBaR0A0iEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_OsDqwA0mEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KAQ0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KBw0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KCQ0dEeidz4hOf6CHig</MethodPackageSelection>
