@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_6JcrsA0MEeiMmoWQJFO3CQ"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_haPsYA0fEeidz4hOf6CHig"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -71,24 +71,228 @@
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_design" briefDescription="" id="_8SsiEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Design" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name="modify_design,_8SsiEA0KEeiMmoWQJFO3CQ" briefDescription="" id="-OiZ0itBSVI2MKtsZiG_sMw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Section name="Description" briefDescription="" id="_yldtIA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Inputs" briefDescription="" id="_0V_2oA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Outputs" briefDescription="" id="_1IcAMA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Responsibility" briefDescription="" id="_120wMA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Constraints" briefDescription="" id="_2opOsA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="review_design" briefDescription="" id="_-y2xsA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name="review_design,_-y2xsA0KEeiMmoWQJFO3CQ" briefDescription="" id="-tfTq9MbVyFneDuvg7yuflg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Section name="Description" briefDescription="" id="_5DdEQA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Inputs" briefDescription="" id="_5zcWwA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Outputs" briefDescription="" id="_6O5jsA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Responsibility" briefDescription="" id="_7YN8MA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Constraints" briefDescription="" id="_8KCasA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_code" briefDescription="" id="_BEbLsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name="modify_code,_BEbLsA0LEeiMmoWQJFO3CQ" briefDescription="" id="-xwrfyCHFiLNUl6bgEJDUOw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Section name="Description" briefDescription="" id="__eOIQA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Inputs" briefDescription="" id="_AFzssA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Outputs" briefDescription="" id="_AbtrQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Responsibility" briefDescription="" id="_BCFHsA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Constraints" briefDescription="" id="_BqJNQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Additional Information" briefDescription="" id="_DG_lwA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_test_plans" briefDescription="" id="_DStBIA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name="modify_test_plans,_DStBIA0LEeiMmoWQJFO3CQ" briefDescription="" id="-0eQlQV2NecCM68NwUNeriQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Section name="Description" briefDescription="" id="_FWDeUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Inputs" briefDescription="" id="_GPMFwA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Outputs" briefDescription="" id="_GuiUMA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Responsibility" briefDescription="" id="_Hr4GMA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Constraints" briefDescription="" id="_IXDxMA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_unit_test_package" briefDescription="" id="_FscfsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Unit Test Package" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name="modify_unit_test_package,_FscfsA0LEeiMmoWQJFO3CQ" briefDescription="" id="-OF-T3IRl5PWVDTDWWDPKYg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Section name="Description" briefDescription="" id="_J4RsUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Inputs" briefDescription="" id="_K3XKwA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Outputs" briefDescription="" id="_LpMQUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Responsibility" briefDescription="" id="_MYzIUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Constraints" briefDescription="" id="_NTsDQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Additional Information" briefDescription="" id="_OLUO0A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="test_unit" briefDescription="" id="_IiffwA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name="test_unit,_IiffwA0LEeiMmoWQJFO3CQ" briefDescription="" id="-rhzLUj3xx0-bUQheHAKvIQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Section name="Description" briefDescription="" id="_QlDGUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Inputs" briefDescription="" id="_R6ku0A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Outputs" briefDescription="" id="_SZAXQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Responsibility" briefDescription="" id="_TPQp0A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Constraints" briefDescription="" id="_T-Qd0A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Additional Information" briefDescription="" id="_U-4NUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="monitor_progress" briefDescription="" id="_KM2v0A0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name="monitor_progress,_KM2v0A0LEeiMmoWQJFO3CQ" briefDescription="" id="-OGxN4NxrlRxdPSYTQRIppQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Section name="Description" briefDescription="" id="_iigxcA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Inputs" briefDescription="" id="_WoZv4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Outputs" briefDescription="" id="_XLZvQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Responsibility" briefDescription="" id="_XoU70A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Constraints" briefDescription="" id="_YNpPYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="optional_extensions" briefDescription="" id="_qUrtQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="Optional Extensions" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name=",_qUrtQA0eEeidz4hOf6CHig" briefDescription="" id="-HTX0RnfMMflmSYkQMLVKaA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Section name="Overview" briefDescription="" id="_sgUeYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Modify Code Details" briefDescription="" id="_tK5scA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Basic Elaboration of Details" briefDescription="" id="_u0BmYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Automatic Tool Invocation" briefDescription="" id="_xUjCYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Review Design Details" briefDescription="" id="_ypifYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Scheduling and Resource Constraints" briefDescription="" id="_z68c4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Basic Scheduling" briefDescription="" id="_1zujcA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Schedule Revision" briefDescription="" id="_2ux2cA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Scheduling Under Resource Constraints" briefDescription="" id="_36ATcA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Aggregation of Multiple Changes" briefDescription="" id="_581t4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Process Change" briefDescription="" id="_7VzE4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Product Representation" briefDescription="" id="_8cdK8A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Modeler's Choice" briefDescription="" id="_9mhxYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
       </ContentElement>
     </MethodPackage>
     <MethodPackage xsi:type="uma:ProcessPackage" name="Example Process" briefDescription="" id="_oZljUAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false">
@@ -276,13 +480,13 @@
     <MethodPackageSelection>_v6G5AAw_EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_j726IAxGEeingdqlRSYTcw</MethodPackageSelection>
     <MethodPackageSelection>_Xo8hkAxHEeingdqlRSYTcw</MethodPackageSelection>
-    <MethodPackageSelection>_EXbqDA0KEeiMmoWQJFO3CQ</MethodPackageSelection>
-    <MethodPackageSelection>_EXbqAA0KEeiMmoWQJFO3CQ</MethodPackageSelection>
-    <MethodPackageSelection>_EXbqDQ0KEeiMmoWQJFO3CQ</MethodPackageSelection>
-    <MethodPackageSelection>_EXbqCw0KEeiMmoWQJFO3CQ</MethodPackageSelection>
-    <MethodPackageSelection>_6JcrsA0MEeiMmoWQJFO3CQ</MethodPackageSelection>
-    <MethodPackageSelection>_EXbqAQ0KEeiMmoWQJFO3CQ</MethodPackageSelection>
-    <MethodPackageSelection>_EXbqBw0KEeiMmoWQJFO3CQ</MethodPackageSelection>
-    <MethodPackageSelection>_EXbqCQ0KEeiMmoWQJFO3CQ</MethodPackageSelection>
+    <MethodPackageSelection>_a_5KDA0dEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_a_5KAA0dEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_a_5KDQ0dEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_a_5KCw0dEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_haPsYA0fEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_a_5KAQ0dEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_a_5KBw0dEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_a_5KCQ0dEeidz4hOf6CHig</MethodPackageSelection>
   </MethodConfiguration>
 </uma:MethodLibrary>
