@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_haPsYA0fEeidz4hOf6CHig"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_ZBaR0A0iEeidz4hOf6CHig"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -44,6 +44,10 @@
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
+        <PerformedBy>_sWgLMAxGEeingdqlRSYTcw</PerformedBy>
+        <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
+        <PerformedBy>_pQJBwAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="schedule_and_assign_tasks" briefDescription="" id="_4m8pEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -68,6 +72,7 @@
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <PerformedBy>_sWgLMAxGEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_design" briefDescription="" id="_8SsiEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Design" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -92,6 +97,7 @@
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="review_design" briefDescription="" id="_-y2xsA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -116,6 +122,8 @@
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
+        <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_code" briefDescription="" id="_BEbLsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -143,6 +151,7 @@
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_test_plans" briefDescription="" id="_DStBIA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -167,6 +176,7 @@
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_unit_test_package" briefDescription="" id="_FscfsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Unit Test Package" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -221,6 +231,8 @@
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
+        <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="monitor_progress" briefDescription="" id="_KM2v0A0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -245,6 +257,7 @@
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="optional_extensions" briefDescription="" id="_qUrtQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="Optional Extensions" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -293,6 +306,13 @@
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
+        <PerformedBy>_sWgLMAxGEeingdqlRSYTcw</PerformedBy>
+        <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
+        <PerformedBy>_pQJBwAxHEeingdqlRSYTcw</PerformedBy>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Role" name="configuration_control_board" briefDescription="" id="_-megkA0gEeidz4hOf6CHig" orderingGuide="" presentationName="Configuration Control Board" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
     </MethodPackage>
     <MethodPackage xsi:type="uma:ProcessPackage" name="Example Process" briefDescription="" id="_oZljUAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false">
@@ -484,7 +504,7 @@
     <MethodPackageSelection>_a_5KAA0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KDQ0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KCw0dEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_haPsYA0fEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_ZBaR0A0iEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KAQ0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KBw0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KCQ0dEeidz4hOf6CHig</MethodPackageSelection>
