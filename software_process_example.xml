@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_OsDqwA0mEeidz4hOf6CHig"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_3Al-MA0pEeidz4hOf6CHig"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -38,19 +38,33 @@
 </p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_kjLG0A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is a high-level abstraction of the process described in this core problem. The details are described in the&#xD;
+remainder of the core problem description. It is intended that solutions show this high- level abstraction as well as its&#xD;
+decomposition into the details.</Description>
           </Section>
           <Section name="Inputs" briefDescription="" id="_gWHQgA0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1)&amp;nbsp;Requirements change (from CCB) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Authorization (from CCB) (verbal)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Outputs" briefDescription="" id="_g7PW0A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>1) No explicit output flow. The final results are available in various files or databases and comprise the modified&#xD;
+software unit in various representations (design, source code, object code) and its associated modified unit tests. These&#xD;
+are all available to subsequent steps in the software life cycle.</Description>
           </Section>
           <Section name="Responsibility" briefDescription="" id="_hqnlUA0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is carried out by the project team.</Description>
           </Section>
           <Section name="Constraints" briefDescription="" id="_jMWd0A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) This step can begin as soon as authorization to make the change has been granted by the CCB.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) This step ends when the unit testing has been successfully completed, or when the CCB cancels the change effort.&#xD;
+&lt;/p></Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -59,6 +73,7 @@
         <PerformedBy>_sWgLMAxGEeingdqlRSYTcw</PerformedBy>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
         <PerformedBy>_pQJBwAxHEeingdqlRSYTcw</PerformedBy>
+        <AdditionallyPerformedBy>_-megkA0gEeidz4hOf6CHig</AdditionallyPerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="schedule_and_assign_tasks" briefDescription="" id="_4m8pEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -70,19 +85,48 @@ and participants are assigned to it; the participants will be the design and QA 
 engineers.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_rHHU8A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    This step is a project management function, and is the first step carried out in this example process. It involves&#xD;
+    developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to&#xD;
+    specific staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is&#xD;
+    also scheduled, and participants are assigned to it; the participants will be the design and QA engineer, along with&#xD;
+    two other software engineers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Assume that the basic process to be followed in this example is already familiar to the participants; it is standard&#xD;
+    procedure for this organization. Consequently, this management step focuses on assignment of resources to the tasks and&#xD;
+    estimation of the schedule required for those resources to caw out the tasks.&amp;nbsp;&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Inputs" briefDescription="" id="_o4SF4A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Requirements change (from CCB) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Authorization (from CCB) (verbal) 3. Project plans (from file) (computer I/O)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Outputs" briefDescription="" id="_p-FQUA0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Updated project plans (to file) (computer I/O)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Notification of task assignments and scheduled dates (to all affected personnel) (e-mail)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) Requirements change (to all assigned personnel) (hand carried)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Responsibility" briefDescription="" id="_sG4v4A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is carried out by the project manager.</Description>
           </Section>
           <Section name="Constraints" briefDescription="" id="_tct6YA0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) This step can begin as soon as authorization to make the change is granted by the CCB.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) This step ends when its outputs have been provided; assume that all outputs are produced simultaneously&#xD;
+&lt;/p></Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -99,19 +143,34 @@ creative task. The modified design will be reviewed, and ultimately implemented 
 design based upon feedback from the design review.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_yldtIA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step involves the modification of the design for the code unit affected by the requirements change. It is a highly&#xD;
+creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the&#xD;
+design based upon feedback from the design review.</Description>
           </Section>
           <Section name="Inputs" briefDescription="" id="_0V_2oA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Current design (from software design document file) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Design review feedback (from design review) (hand carried)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Outputs" briefDescription="" id="_1IcAMA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>1) Modified design (to review design, modify code, modify unit test package) (hand carried)</Description>
           </Section>
           <Section name="Responsibility" briefDescription="" id="_120wMA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is carried out by the assigned design engineer.</Description>
           </Section>
           <Section name="Constraints" briefDescription="" id="_2opOsA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) This step can begin as soon as the task has been assigned by the project manager.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Subsequent iterations can begin as soon as the design review is completed (when the design is not approved).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) This step ends when its output has been provided&#xD;
+&lt;/p></Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -143,19 +202,53 @@ impact, In particular, the number of defects identified, and the aggregate effor
 conducting the review are reported to the project manager.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_5DdEQA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    This step involves the formal review of the modified design. It is conducted by a team including the design engineer&#xD;
+    who produced the design modifications. There are three alternative outcomes of the review:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1) Unconditional approval - The design is totally approved; the approved modified design is&#xD;
+    incorporated into the software design document.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2) Minor changes recommended - Minor changes to the design are required and feedback is&#xD;
+    provided to the designer. The re-review is expected to be perfunctory.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3) Major changes recommended - Major changes to the design are requred and feedback is&#xD;
+    provided to the designer.&#xD;
+&lt;/p>&#xD;
+At the conclusion of the review, the project manager is notified of the outcome. Due to the fact that formal design reviews&#xD;
+are a relatively new step in this organization’s process, they are recording certain measurements to help evaluate its&#xD;
+impact, In particular, the number of defects identified, and the aggregate effort of the review team in preparing for and&#xD;
+conducting the review are reported to the project manager.</Description>
           </Section>
           <Section name="Inputs" briefDescription="" id="_5zcWwA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>1) Modified design (from modify design) (hand carried)</Description>
           </Section>
           <Section name="Outputs" briefDescription="" id="_6O5jsA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Design review feedback (to modify design) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Approved modificd design (to software design document file) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) Outcome notification, number of defects identified, aggregate effort (to monitor progress) (e-mail)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Responsibility" briefDescription="" id="_7YN8MA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is carried out by the design review team assigned by the project manager. This team includes the design engineer,&#xD;
+QA engineer, and two other software engineers.</Description>
           </Section>
           <Section name="Constraints" briefDescription="" id="_8KCasA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) This step will be carried out when it is scheduled to occur, provided that the modified design is available at that&#xD;
+    time. (Note that in cases of delay, the monitor progress step will reschedule the review to a later date).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) This step ends when its outputs have been provided; assume that all outputs are produced simultaneously.&#xD;
+&lt;/p></Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -171,22 +264,66 @@ object code. Implementation is accomplished by modifying existing source code. T
 from testing, indicating that additional source code modifications are required.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="__eOIQA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step involves the implementation of the design changes into code, and compilation of the modified source code into&#xD;
+object code. Implementation is accomplished by modifying existing source code. This step may also be based upon feedback&#xD;
+from testing, indicating that additional source code modifications are required.</Description>
           </Section>
           <Section name="Inputs" briefDescription="" id="_AFzssA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Modified design (from modify design) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Current source code (from software development files) (computer I/O)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) Feedback regarding code (from test unit) (verbal)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Outputs" briefDescription="" id="_AbtrQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Modified source code (to software development files) (computer I/O)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Object code (to software development files) (computer I/O)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Responsibility" briefDescription="" id="_BCFHsA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is carried out by the design engineer.</Description>
           </Section>
           <Section name="Constraints" briefDescription="" id="_BqJNQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) This step can begin as soon as the task has been assigned by the project manager. (Thus, it is possible, if not&#xD;
+    advisable, to begin coding before the design work has even begun.) The engineer’s discretion determines when this task&#xD;
+    will actually commence, if the design has not yet been approved. If this step has not commenced earlier, it will begin&#xD;
+    when the design is approved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Modified code released for testing is to reflect the approved modified design. One consequence is that this step&#xD;
+    cannot be completed before the modified design has been approved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) This step ends when a clean compilation (no errors) has been accomplished and its output has been provided.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    4) Subsequent iterations (if required) can begin as soon as the test unit step has completed.&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Additional Information" briefDescription="" id="_DG_lwA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    This step deals with a set of objects (entities) whose attributes and interrelationships need to be recorded. Both&#xD;
+    source and object code are under automated configuration management. The latest vcrsion of the software unit’s source&#xD;
+    code provides the starting point for modification during this process step. Upon successful compilation, a new version&#xD;
+    of the unit’s source code is recorded, along with its corresponding object code. In addition, these must be related to&#xD;
+    the modified design upon which they are based.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Source code information includes the body, creation timestamp, version information, and engineer responsible for this&#xD;
+    change. Object code information includes the body, target system, and creation timestamp. Each source code instance can&#xD;
+    have multiple corresponding object code instances. Similarly each design version can relate to multiple source code&#xD;
+    instances. For each successful compilation of a given source code instance, it is important to record the timestamp,&#xD;
+    the compiler version used, all compiler options selected (e.g., optimizer on, debugging on), any error or warning&#xD;
+    messages produced, and listings and associated documentation such as memory maps.&#xD;
+&lt;/p></Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -202,19 +339,27 @@ the functionality and capabilities to be tested, and the approach to be taken. O
 test data, procedures, and so forth are dealt with in the subsequent step (modify unit test package).]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_FWDeUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step involves the modification of test plans and objectives to include testing of capabilities related to the&#xD;
+requirements change prompting this software modification. These test plans are analogous to software designs. They identify&#xD;
+the functionality and capabilities to be tested, and the approach to be taken. On the other hand, the specifics of actual&#xD;
+test data, procedures, and so forth are dealt with in the subsequent step (modify unit test package).</Description>
           </Section>
           <Section name="Inputs" briefDescription="" id="_GPMFwA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>1. Current test plans (from test plans file) (hand carried)</Description>
           </Section>
           <Section name="Outputs" briefDescription="" id="_GuiUMA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>1. Modified test plans (to test plans file) (hand carried)</Description>
           </Section>
           <Section name="Responsibility" briefDescription="" id="_Hr4GMA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is carried out by the assigned QA engineer.</Description>
           </Section>
           <Section name="Constraints" briefDescription="" id="_IXDxMA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) This step can begin as soon as the task has been assigned by the project manager.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) This step ends when its output has been provided.&#xD;
+&lt;/p></Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -233,22 +378,51 @@ however, this is not always the case. Subsequent iterations of this step may be 
 indicating that additional modifications to the unit test package are required.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_J4RsUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step involves the modification of the actual unit test package for the affected code unit, in accordance with the&#xD;
+modifications made to the test plans and objectives. It will be assumed that the test package contains computer software to&#xD;
+drive and evaluate the unit under test, along with narrative procedures recorded in accompanying computer files. These test&#xD;
+packages are under automated configuration management, and a new version of the unit test package is created when this step&#xD;
+ends. Finally, it is noted that the modified design and/or the source code for this unit may be used as input to this step;&#xD;
+however, this is not always the case. Subsequent iterations of this step may be based upon feedback from testing,&#xD;
+indicating that additional modifications to the unit test package are required.</Description>
           </Section>
           <Section name="Inputs" briefDescription="" id="_K3XKwA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Modified test plans (from test plans file) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Current unit test package (from test package file) (computer I/O)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) Modified design (from modify design) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    4) Source code (from software development files) (computer I/O)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    5) Feedback regarding test package (from test unit) (verbal&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Outputs" briefDescription="" id="_LpMQUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>1) Modified unit test package (to test package file) (computer I/O)</Description>
           </Section>
           <Section name="Responsibility" briefDescription="" id="_MYzIUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is carried out by the assigned QA engineer.</Description>
           </Section>
           <Section name="Constraints" briefDescription="" id="_NTsDQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) This step can begin as soon as the modify test plans step has completed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) This step ends when its output has been produced.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) Subsequent iterations (if required) can begin as soon as the test unit step has completed&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Additional Information" briefDescription="" id="_OLUO0A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>Each instance of the unit test package includes software, procedures, creation timestamp, version information, and engineer&#xD;
+responsible for this package instance.</Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -275,22 +449,61 @@ indicating that additional modifications to the unit test package are required.]
 </p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_QlDGUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    This step involves the application of the unit test package on the modified code, and analysis of the results. Both the&#xD;
+    design and QA engineers participate in this step. The entire test package is run before any analysis or further action&#xD;
+    is taken. Although the unit tests are primarily functional, an automated coverage analyzer is employed to determine&#xD;
+    that adequate test coverage of the unit’s code has been achieved; a 90% threshold has been established as acceptable.&#xD;
+    If all tests are successfully completed, and 90% coverage attained, then the unit has successfully passed. When this is&#xD;
+    not the case, the design and QA engineers jointly analyze the test results and determine appropriate actions. In order&#xD;
+    to confine the problem, assume that either or both of the following are the outcomes of this analysis: the source code&#xD;
+    needs to be modified further, the unit tests need to be modified further. When the indicated modifications have been&#xD;
+    made, the unit can be retested.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the unit passes its tests and meets an acceptable coverage level, then this example process has been completed.&#xD;
+    Steps beyond unit testing, such as integration testing, are beyond the scope of the core problem. The project manager&#xD;
+    is notified that the latest version of the unit code is available for integration testing.&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Inputs" briefDescription="" id="_R6ku0A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Object code (from software development files) (computer I/O)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Unit test package (from test package file) (computer I/O)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Outputs" briefDescription="" id="_SZAXQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Test results (to test history file) (computer I/O)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Feedback regarding code (to modify code) (verbal)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) Feedback regarding test package (to modify unit test package) (verbal)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    4) Notification of successful testing (to monitor progress) (e-mail)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Responsibility" briefDescription="" id="_TPQp0A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is carried out jointly by the design and QA engineers.</Description>
           </Section>
           <Section name="Constraints" briefDescription="" id="_T-Qd0A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) This step can begin as soon as both the object code and unit test package are available.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) This step ends when its outputs have been provided; assume that all outputs are produced simultaneously.&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Additional Information" briefDescription="" id="_U-4NUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>Each instance of the execution of a set of unit tests upon an instance of the code is recorded in the unit test history&#xD;
+file. This includes identification of the unit test package version and object code version used, along with the timestamp&#xD;
+of the test execution, indication of tests failed, and the coverage level attained. Note the possibility that, over time,&#xD;
+multiple unit test package versions may be applied to a given object code version, and vice versa.</Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -310,19 +523,54 @@ such cases the affected personnel are notified (by the project manager) as appro
 cancellation of their work on this change.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Description" briefDescription="" id="_iigxcA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step involves the project manager monitoring progress and status of the work. This is based upon notification of&#xD;
+completion of each step, as well as informal information. While work proceeds according to plan, no action is taken and no&#xD;
+output is developed by this step. On the other hand, deviations from plan can result in rescheduling of tasks. In severe&#xD;
+cases, the project manager may put the entire modification effort on hold, and recommend to the CCB that this change effort&#xD;
+be canceled. The CCB may either concur and cancel the effort, or indicate that it is to be resumed where it left off. In&#xD;
+such cases the affected personnel are notified (by the project manager) as appropriate regarding the resumption or&#xD;
+cancellation of their work on this change.</Description>
           </Section>
           <Section name="Inputs" briefDescription="" id="_WoZv4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Notification of completion (from all technical tasks) (via e-mail)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Current project plans (from file) (computer I/O)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) Outcome notification, number of defects identified, aggregate effort (from review design)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    4) Notification of successful testing (from test unit) (e-mail)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    5) Decision regarding cancellation (from CCB) (verbal)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Outputs" briefDescription="" id="_XLZvQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) Updated project plans (to file) (computer I/O)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Notification of revised task assignments and scheduled dates (to all affected personnel)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) Recommendation to cancel (to CCB) (verbal)&#xD;
+&lt;/p></Description>
           </Section>
           <Section name="Responsibility" briefDescription="" id="_XoU70A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>This step is carried out by the project manager.</Description>
           </Section>
           <Section name="Constraints" briefDescription="" id="_YNpPYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description></Description>
+            <Description>&lt;p>&#xD;
+    1) This step can begin as soon as the initial task, schedule and assign tasks, is completed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) This step persists throughout the duration of this process. For the purposes of this example, assume that this task&#xD;
+    ends (1) when the unit testing has been successfully completed, or (2) after notifying personnel of cancellation by the&#xD;
+    CCB.&#xD;
+&lt;/p></Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -627,7 +875,7 @@ should be highlighted.</Description>
     <MethodPackageSelection>_a_5KAA0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KDQ0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KCw0dEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_OsDqwA0mEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_3Al-MA0pEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KAQ0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KBw0dEeidz4hOf6CHig</MethodPackageSelection>
     <MethodPackageSelection>_a_5KCQ0dEeidz4hOf6CHig</MethodPackageSelection>
