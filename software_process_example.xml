@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <uma:MethodLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uma="http://www.eclipse.org/epf/uma/1.0.6" name="Library1" briefDescription="Software process method library" id="_Gx9JkQw3EeiuGJ1U1vtJHw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" tool="epf=1.5.0">
   <MethodElementProperty name="library_synFree" value="true"/>
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_ppu0UA01EeiLd-XHTFuD_g"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_gQTU4A03EeiLd-XHTFuD_g"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -763,6 +763,76 @@ should be highlighted.</Description>
           <SuperActivity>_v6G5AQw_EeiObrLZoLft4g</SuperActivity>
           <BreakdownElement xsi:type="uma:Activity" name="Requirements" briefDescription="" id="_UMAj8Q00EeiLd-XHTFuD_g" orderingGuide="" presentationName="Requirements" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
             <SuperActivity>_JmsyIA00EeiLd-XHTFuD_g</SuperActivity>
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="review_design" briefDescription="" id="_bB-O0A03EeiLd-XHTFuD_g" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <Presentation xsi:type="uma:DescriptorDescription" name="review_design,_bB-O0A03EeiLd-XHTFuD_g" briefDescription="" id="-B3o6zNgm7KiQ_OKPT8b-tQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+                <MainDescription></MainDescription>
+                <KeyConsiderations></KeyConsiderations>
+                <RefinedDescription>&lt;p>
+    This step involves the formal review of the modified design. It is conducted by a team including the design engineer
+    who produced the design modifications. There are three alternative outcomes of the review:
+&lt;/p>
+&lt;p>
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1) Unconditional approval - The design is totally approved; the approved modified design is
+    incorporated into the software design document.
+&lt;/p>
+&lt;p>
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2) Minor changes recommended - Minor changes to the design are required and feedback is
+    provided to the designer. The re-review is expected to be perfunctory.
+&lt;/p>
+&lt;p>
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3) Major changes recommended - Major changes to the design are requred and feedback is
+    provided to the designer.
+&lt;/p>
+At the conclusion of the review, the project manager is notified of the outcome. Due to the fact that formal design reviews
+are a relatively new step in this organization’s process, they are recording certain measurements to help evaluate its
+impact, In particular, the number of defects identified, and the aggregate effort of the review team in preparing for and
+conducting the review are reported to the project manager.</RefinedDescription>
+              </Presentation>
+              <SuperActivity>_UMAj8Q00EeiLd-XHTFuD_g</SuperActivity>
+              <Task>_-y2xsA0KEeiMmoWQJFO3CQ</Task>
+              <PerformedPrimarilyBy>_bB_c8A03EeiLd-XHTFuD_g</PerformedPrimarilyBy>
+              <PerformedPrimarilyBy>_bB_c8g03EeiLd-XHTFuD_g</PerformedPrimarilyBy>
+              <Step name="Inputs" briefDescription="" id="_5zcWwA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description>1) Modified design (from modify design) (hand carried)</Description>
+              </Step>
+              <Step name="Outputs" briefDescription="" id="_6O5jsA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description>&lt;p>&#xD;
+    1) Design review feedback (to modify design) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) Approved modificd design (to software design document file) (hand carried)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3) Outcome notification, number of defects identified, aggregate effort (to monitor progress) (e-mail)&#xD;
+&lt;/p></Description>
+              </Step>
+              <Step name="Responsibility" briefDescription="" id="_7YN8MA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description>This step is carried out by the design review team assigned by the project manager. This team includes the design engineer,&#xD;
+QA engineer, and two other software engineers.</Description>
+              </Step>
+              <Step name="Constraints" briefDescription="" id="_8KCasA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description>&lt;p>&#xD;
+    1) This step will be carried out when it is scheduled to occur, provided that the modified design is available at that&#xD;
+    time. (Note that in cases of delay, the monitor progress step will reschedule the review to a later date).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2) This step ends when its outputs have been provided; assume that all outputs are produced simultaneously.&#xD;
+&lt;/p></Description>
+              </Step>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="design_engineer" briefDescription="" id="_bB_c8A03EeiLd-XHTFuD_g" orderingGuide="" presentationName="Design Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_UMAj8Q00EeiLd-XHTFuD_g</SuperActivity>
+              <Role>_hmS7gAxHEeingdqlRSYTcw</Role>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="qa_engineer" briefDescription="" id="_bB_c8g03EeiLd-XHTFuD_g" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_UMAj8Q00EeiLd-XHTFuD_g</SuperActivity>
+              <Role>_dm_0YAxHEeingdqlRSYTcw</Role>
+            </BreakdownElement>
           </BreakdownElement>
         </BreakdownElement>
         <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
@@ -790,7 +860,7 @@ should be highlighted.</Description>
     <MethodPackageSelection>_hGrOIA01EeiLd-XHTFuD_g</MethodPackageSelection>
     <MethodPackageSelection>_hGr1MA01EeiLd-XHTFuD_g</MethodPackageSelection>
     <MethodPackageSelection>_hGfn-w01EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_ppu0UA01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_gQTU4A03EeiLd-XHTFuD_g</MethodPackageSelection>
     <MethodPackageSelection>_hGfn8Q01EeiLd-XHTFuD_g</MethodPackageSelection>
     <MethodPackageSelection>_hGfn9w01EeiLd-XHTFuD_g</MethodPackageSelection>
     <MethodPackageSelection>_hGfn-Q01EeiLd-XHTFuD_g</MethodPackageSelection>
