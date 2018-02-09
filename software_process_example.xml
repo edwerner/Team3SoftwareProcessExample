@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <uma:MethodLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uma="http://www.eclipse.org/epf/uma/1.0.6" name="Library1" briefDescription="Software process method library" id="_Gx9JkQw3EeiuGJ1U1vtJHw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" tool="epf=1.5.0">
   <MethodElementProperty name="library_synFree" value="true"/>
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_3Al-MA0pEeidz4hOf6CHig"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_ppu0UA01EeiLd-XHTFuD_g"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -37,11 +37,6 @@
     estimation of the schedule required for those resources to caw out the tasks.
 </p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Description" briefDescription="" id="_kjLG0A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>This step is a high-level abstraction of the process described in this core problem. The details are described in the&#xD;
-remainder of the core problem description. It is intended that solutions show this high- level abstraction as well as its&#xD;
-decomposition into the details.</Description>
-          </Section>
           <Section name="Inputs" briefDescription="" id="_gWHQgA0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>&lt;p>&#xD;
     1)&amp;nbsp;Requirements change (from CCB) (hand carried)&#xD;
@@ -84,20 +79,6 @@ staff members: specifically, a design engineer and a quality assurance (QA) engi
 and participants are assigned to it; the participants will be the design and QA engineer, along with two other software
 engineers.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Description" briefDescription="" id="_rHHU8A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>&lt;p>&#xD;
-    This step is a project management function, and is the first step carried out in this example process. It involves&#xD;
-    developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to&#xD;
-    specific staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is&#xD;
-    also scheduled, and participants are assigned to it; the participants will be the design and QA engineer, along with&#xD;
-    two other software engineers.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Assume that the basic process to be followed in this example is already familiar to the participants; it is standard&#xD;
-    procedure for this organization. Consequently, this management step focuses on assignment of resources to the tasks and&#xD;
-    estimation of the schedule required for those resources to caw out the tasks.&amp;nbsp;&#xD;
-&lt;/p></Description>
-          </Section>
           <Section name="Inputs" briefDescription="" id="_o4SF4A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>&lt;p>&#xD;
     1) Requirements change (from CCB) (hand carried)&#xD;
@@ -142,11 +123,6 @@ engineers.]]></MainDescription>
 creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the
 design based upon feedback from the design review.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Description" briefDescription="" id="_yldtIA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>This step involves the modification of the design for the code unit affected by the requirements change. It is a highly&#xD;
-creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the&#xD;
-design based upon feedback from the design review.</Description>
-          </Section>
           <Section name="Inputs" briefDescription="" id="_0V_2oA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>&lt;p>&#xD;
     1) Current design (from software design document file) (hand carried)&#xD;
@@ -201,28 +177,6 @@ are a relatively new step in this organization’s process, they are recording c
 impact, In particular, the number of defects identified, and the aggregate effort of the review team in preparing for and
 conducting the review are reported to the project manager.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Description" briefDescription="" id="_5DdEQA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>&lt;p>&#xD;
-    This step involves the formal review of the modified design. It is conducted by a team including the design engineer&#xD;
-    who produced the design modifications. There are three alternative outcomes of the review:&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1) Unconditional approval - The design is totally approved; the approved modified design is&#xD;
-    incorporated into the software design document.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2) Minor changes recommended - Minor changes to the design are required and feedback is&#xD;
-    provided to the designer. The re-review is expected to be perfunctory.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3) Major changes recommended - Major changes to the design are requred and feedback is&#xD;
-    provided to the designer.&#xD;
-&lt;/p>&#xD;
-At the conclusion of the review, the project manager is notified of the outcome. Due to the fact that formal design reviews&#xD;
-are a relatively new step in this organization’s process, they are recording certain measurements to help evaluate its&#xD;
-impact, In particular, the number of defects identified, and the aggregate effort of the review team in preparing for and&#xD;
-conducting the review are reported to the project manager.</Description>
-          </Section>
           <Section name="Inputs" briefDescription="" id="_5zcWwA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>1) Modified design (from modify design) (hand carried)</Description>
           </Section>
@@ -263,11 +217,6 @@ QA engineer, and two other software engineers.</Description>
 object code. Implementation is accomplished by modifying existing source code. This step may also be based upon feedback
 from testing, indicating that additional source code modifications are required.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Description" briefDescription="" id="__eOIQA0dEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>This step involves the implementation of the design changes into code, and compilation of the modified source code into&#xD;
-object code. Implementation is accomplished by modifying existing source code. This step may also be based upon feedback&#xD;
-from testing, indicating that additional source code modifications are required.</Description>
-          </Section>
           <Section name="Inputs" briefDescription="" id="_AFzssA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>&lt;p>&#xD;
     1) Modified design (from modify design) (hand carried)&#xD;
@@ -338,12 +287,6 @@ requirements change prompting this software modification. These test plans are a
 the functionality and capabilities to be tested, and the approach to be taken. On the other hand, the specifics of actual
 test data, procedures, and so forth are dealt with in the subsequent step (modify unit test package).]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Description" briefDescription="" id="_FWDeUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>This step involves the modification of test plans and objectives to include testing of capabilities related to the&#xD;
-requirements change prompting this software modification. These test plans are analogous to software designs. They identify&#xD;
-the functionality and capabilities to be tested, and the approach to be taken. On the other hand, the specifics of actual&#xD;
-test data, procedures, and so forth are dealt with in the subsequent step (modify unit test package).</Description>
-          </Section>
           <Section name="Inputs" briefDescription="" id="_GPMFwA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>1. Current test plans (from test plans file) (hand carried)</Description>
           </Section>
@@ -377,15 +320,6 @@ ends. Finally, it is noted that the modified design and/or the source code for t
 however, this is not always the case. Subsequent iterations of this step may be based upon feedback from testing,
 indicating that additional modifications to the unit test package are required.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Description" briefDescription="" id="_J4RsUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>This step involves the modification of the actual unit test package for the affected code unit, in accordance with the&#xD;
-modifications made to the test plans and objectives. It will be assumed that the test package contains computer software to&#xD;
-drive and evaluate the unit under test, along with narrative procedures recorded in accompanying computer files. These test&#xD;
-packages are under automated configuration management, and a new version of the unit test package is created when this step&#xD;
-ends. Finally, it is noted that the modified design and/or the source code for this unit may be used as input to this step;&#xD;
-however, this is not always the case. Subsequent iterations of this step may be based upon feedback from testing,&#xD;
-indicating that additional modifications to the unit test package are required.</Description>
-          </Section>
           <Section name="Inputs" briefDescription="" id="_K3XKwA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>&lt;p>&#xD;
     1) Modified test plans (from test plans file) (hand carried)&#xD;
@@ -448,24 +382,6 @@ responsible for this package instance.</Description>
     is notified that the latest version of the unit code is available for integration testing.
 </p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Description" briefDescription="" id="_QlDGUA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>&lt;p>&#xD;
-    This step involves the application of the unit test package on the modified code, and analysis of the results. Both the&#xD;
-    design and QA engineers participate in this step. The entire test package is run before any analysis or further action&#xD;
-    is taken. Although the unit tests are primarily functional, an automated coverage analyzer is employed to determine&#xD;
-    that adequate test coverage of the unit’s code has been achieved; a 90% threshold has been established as acceptable.&#xD;
-    If all tests are successfully completed, and 90% coverage attained, then the unit has successfully passed. When this is&#xD;
-    not the case, the design and QA engineers jointly analyze the test results and determine appropriate actions. In order&#xD;
-    to confine the problem, assume that either or both of the following are the outcomes of this analysis: the source code&#xD;
-    needs to be modified further, the unit tests need to be modified further. When the indicated modifications have been&#xD;
-    made, the unit can be retested.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    If the unit passes its tests and meets an acceptable coverage level, then this example process has been completed.&#xD;
-    Steps beyond unit testing, such as integration testing, are beyond the scope of the core problem. The project manager&#xD;
-    is notified that the latest version of the unit code is available for integration testing.&#xD;
-&lt;/p></Description>
-          </Section>
           <Section name="Inputs" briefDescription="" id="_R6ku0A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>&lt;p>&#xD;
     1) Object code (from software development files) (computer I/O)&#xD;
@@ -522,15 +438,6 @@ be canceled. The CCB may either concur and cancel the effort, or indicate that i
 such cases the affected personnel are notified (by the project manager) as appropriate regarding the resumption or
 cancellation of their work on this change.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Description" briefDescription="" id="_iigxcA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>This step involves the project manager monitoring progress and status of the work. This is based upon notification of&#xD;
-completion of each step, as well as informal information. While work proceeds according to plan, no action is taken and no&#xD;
-output is developed by this step. On the other hand, deviations from plan can result in rescheduling of tasks. In severe&#xD;
-cases, the project manager may put the entire modification effort on hold, and recommend to the CCB that this change effort&#xD;
-be canceled. The CCB may either concur and cancel the effort, or indicate that it is to be resumed where it left off. In&#xD;
-such cases the affected personnel are notified (by the project manager) as appropriate regarding the resumption or&#xD;
-cancellation of their work on this change.</Description>
-          </Section>
           <Section name="Inputs" briefDescription="" id="_WoZv4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>&lt;p>&#xD;
     1) Notification of completion (from all technical tasks) (via e-mail)&#xD;
@@ -852,6 +759,12 @@ should be highlighted.</Description>
           <ProjectMemberExpertise></ProjectMemberExpertise>
           <TypeOfContract></TypeOfContract>
         </Presentation>
+        <BreakdownElement xsi:type="uma:Phase" name="Inception" briefDescription="" id="_JmsyIA00EeiLd-XHTFuD_g" orderingGuide="" presentationName="Inception" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+          <SuperActivity>_v6G5AQw_EeiObrLZoLft4g</SuperActivity>
+          <BreakdownElement xsi:type="uma:Activity" name="Requirements" briefDescription="" id="_UMAj8Q00EeiLd-XHTFuD_g" orderingGuide="" presentationName="Requirements" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+            <SuperActivity>_JmsyIA00EeiLd-XHTFuD_g</SuperActivity>
+          </BreakdownElement>
+        </BreakdownElement>
         <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
         <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
       </Process>
@@ -871,13 +784,15 @@ should be highlighted.</Description>
     <MethodPackageSelection>_v6G5AAw_EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_j726IAxGEeingdqlRSYTcw</MethodPackageSelection>
     <MethodPackageSelection>_Xo8hkAxHEeingdqlRSYTcw</MethodPackageSelection>
-    <MethodPackageSelection>_a_5KDA0dEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_a_5KAA0dEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_a_5KDQ0dEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_a_5KCw0dEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_3Al-MA0pEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_a_5KAQ0dEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_a_5KBw0dEeidz4hOf6CHig</MethodPackageSelection>
-    <MethodPackageSelection>_a_5KCQ0dEeidz4hOf6CHig</MethodPackageSelection>
+    <MethodPackageSelection>_hGfn_A01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_hGfn8A01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_hGfn_Q01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_hGrOIA01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_hGr1MA01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_hGfn-w01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_ppu0UA01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_hGfn8Q01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_hGfn9w01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_hGfn-Q01EeiLd-XHTFuD_g</MethodPackageSelection>
   </MethodConfiguration>
 </uma:MethodLibrary>
