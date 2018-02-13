@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uma:MethodLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uma="http://www.eclipse.org/epf/uma/1.0.6" name="Library1" briefDescription="Software process method library" id="_Gx9JkQw3EeiuGJ1U1vtJHw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" tool="epf=1.5.0">
   <MethodElementProperty name="library_synFree" value="true"/>
+  <MethodElementProperty value="0"/>
+  <MethodElementProperty value="_gAW5cAw8EeiOk4BfzayU7Q"/>
+  <MethodElementProperty value="software_process_example"/>
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_DB8XQBD7Eeig5aQZWB7FhQ"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_tqb4EBEDEei8Su4HoO2AXw"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -77,6 +80,10 @@
         <PerformedBy>_sWgLMAxGEeingdqlRSYTcw</PerformedBy>
         <MandatoryInput>_kkFBQBDnEeig5aQZWB7FhQ</MandatoryInput>
         <MandatoryInput>_OVrKwBD6Eeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_xWp74BDnEeig5aQZWB7FhQ</MandatoryInput>
+        <Output>_lA6RwBDoEeig5aQZWB7FhQ</Output>
+        <Output>_T2d_ABDoEeig5aQZWB7FhQ</Output>
+        <Output>_Ajn4gBDsEeig5aQZWB7FhQ</Output>
         <AdditionallyPerformedBy>_hmS7gAxHEeingdqlRSYTcw</AdditionallyPerformedBy>
         <AdditionallyPerformedBy>_dm_0YAxHEeingdqlRSYTcw</AdditionallyPerformedBy>
       </ContentElement>
@@ -130,6 +137,9 @@
           <Purpose></Purpose>
         </Presentation>
         <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
+        <MandatoryInput>_8xrYQBDoEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>__SDqUBDoEeig5aQZWB7FhQ</MandatoryInput>
+        <Output>_CgIv4BDpEeig5aQZWB7FhQ</Output>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="review_design" briefDescription="This step involves the formal review of the modified design." id="_-y2xsA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -199,6 +209,10 @@ QA engineer, and two other software engineers.</Description>
         </Presentation>
         <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
+        <MandatoryInput>_TNe6IBDtEeig5aQZWB7FhQ</MandatoryInput>
+        <Output>_LmQ_MBDvEeig5aQZWB7FhQ</Output>
+        <Output>_TPtEgBDpEeig5aQZWB7FhQ</Output>
+        <Output>_ZLH6EBDpEeig5aQZWB7FhQ</Output>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_code" briefDescription="This step involves the implementation of the design changes into code, and compilation of the modified source code into object code." id="_BEbLsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -290,6 +304,11 @@ QA engineer, and two other software engineers.</Description>
           <Purpose></Purpose>
         </Presentation>
         <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
+        <MandatoryInput>_TNe6IBDtEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_e7-eYBDpEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_iMt2YBDpEeig5aQZWB7FhQ</MandatoryInput>
+        <Output>_lZNAgBDpEeig5aQZWB7FhQ</Output>
+        <Output>_nka64BDpEeig5aQZWB7FhQ</Output>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_test_plans" briefDescription="This step involves the modification of test plans and objectives to include testing of capabilities related to the requirements change prompting this software modification." id="_DStBIA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Test Plans" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -332,6 +351,8 @@ QA engineer, and two other software engineers.</Description>
           <Purpose></Purpose>
         </Presentation>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
+        <MandatoryInput>_qkeykBDpEeig5aQZWB7FhQ</MandatoryInput>
+        <Output>_tJgUEBDpEeig5aQZWB7FhQ</Output>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_unit_test_package" briefDescription="This step involves the modification of test plans and objectives to include testing of capabilities related to the requirements change prompting this software modification." id="_FscfsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Unit Test Package" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -399,6 +420,12 @@ responsible for this package instance.</Description>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
+        <MandatoryInput>_LhYxIBDtEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_wU21wBDpEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_TNe6IBDtEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_dIcHYBDtEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_4BQgwBDpEeig5aQZWB7FhQ</MandatoryInput>
+        <Output>_7g0X4BDpEeig5aQZWB7FhQ</Output>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="test_unit" briefDescription="This step involves the application of the unit test package on the modified code, and analysis of the results. Both the design and QA engineers participate in this step." id="_IiffwA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -473,6 +500,12 @@ multiple unit test package versions may be applied to a given object code versio
         </Presentation>
         <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
+        <MandatoryInput>_q8wL0BDtEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_wtbJ8BDtEeig5aQZWB7FhQ</MandatoryInput>
+        <Output>_Cvj2gBDqEeig5aQZWB7FhQ</Output>
+        <Output>_5-6jcBDtEeig5aQZWB7FhQ</Output>
+        <Output>_AoPA0BDuEeig5aQZWB7FhQ</Output>
+        <Output>_GdWW4BDqEeig5aQZWB7FhQ</Output>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="monitor_progress" briefDescription="This step involves the project manager monitoring progress and status of the work" id="_KM2v0A0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -543,6 +576,13 @@ multiple unit test package versions may be applied to a given object code versio
           <Purpose></Purpose>
         </Presentation>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
+        <MandatoryInput>_M5ukcBDqEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_ShKHABDqEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_ZeXM4BDuEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_Zg_m8BDqEeig5aQZWB7FhQ</MandatoryInput>
+        <Output>_lA6RwBDoEeig5aQZWB7FhQ</Output>
+        <Output>_iQZnEBDqEeig5aQZWB7FhQ</Output>
+        <Output>_nFFeEBDqEeig5aQZWB7FhQ</Output>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="optional_extensions" briefDescription="This section presents a number of optional extensions to the core problem described above." id="_qUrtQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="Optional Extensions" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -1071,15 +1111,15 @@ QA engineer, and two other software engineers.</Description>
     <MethodPackageSelection>_v6G5AAw_EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_j726IAxGEeingdqlRSYTcw</MethodPackageSelection>
     <MethodPackageSelection>_Xo8hkAxHEeingdqlRSYTcw</MethodPackageSelection>
-    <MethodPackageSelection>_1ivUHBDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_1ivUEBDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_1ivUHRDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_1lH5sBDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_1lH5sRDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_1ivUGxDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_DB8XQBD7Eeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_1ivUERDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_1ivUFxDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_1ivUGRDiEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_YwnYTBD9Eei8Su4HoO2AXw</MethodPackageSelection>
+    <MethodPackageSelection>_YwnYQBD9Eei8Su4HoO2AXw</MethodPackageSelection>
+    <MethodPackageSelection>_YwnYTRD9Eei8Su4HoO2AXw</MethodPackageSelection>
+    <MethodPackageSelection>_YxgwIBD9Eei8Su4HoO2AXw</MethodPackageSelection>
+    <MethodPackageSelection>_YxilUBD9Eei8Su4HoO2AXw</MethodPackageSelection>
+    <MethodPackageSelection>_YwnYSxD9Eei8Su4HoO2AXw</MethodPackageSelection>
+    <MethodPackageSelection>_tqb4EBEDEei8Su4HoO2AXw</MethodPackageSelection>
+    <MethodPackageSelection>_YwnYQRD9Eei8Su4HoO2AXw</MethodPackageSelection>
+    <MethodPackageSelection>_YwnYRxD9Eei8Su4HoO2AXw</MethodPackageSelection>
+    <MethodPackageSelection>_YwnYSRD9Eei8Su4HoO2AXw</MethodPackageSelection>
   </MethodConfiguration>
 </uma:MethodLibrary>
