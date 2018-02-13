@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_xgHSgBDqEeig5aQZWB7FhQ">
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_pQaT4BDvEeig5aQZWB7FhQ">
       <ContentCategory xsi:type="uma:CustomCategory" name="develop_change_and_test_unit" briefDescription="" id="_8INhUBDkEeig5aQZWB7FhQ" orderingGuide="" presentationName="Develop Change and Test Unit" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation name="new_custom_category,_8INhUBDkEeig5aQZWB7FhQ" briefDescription="" id="-AKBRgFJkmzW8q-euBZ3MyA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
@@ -567,86 +567,109 @@ should be highlighted.</Description>
       <ContentElement xsi:type="uma:Role" name="configuration_control_board" briefDescription="" id="_-megkA0gEeidz4hOf6CHig" orderingGuide="" presentationName="Configuration Control Board" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="authorization" briefDescription="" id="_kkFBQBDnEeig5aQZWB7FhQ" orderingGuide="" presentationName="Authorization" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="authorization" briefDescription="from CCB, verbal" id="_kkFBQBDnEeig5aQZWB7FhQ" orderingGuide="" presentationName="Authorization" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="project_plans" briefDescription="" id="_xWp74BDnEeig5aQZWB7FhQ" orderingGuide="" presentationName="Project Plans" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="project_plans" briefDescription="From file, computer I/O" id="_xWp74BDnEeig5aQZWB7FhQ" orderingGuide="" presentationName="Project Plans" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="notification_of_task_assignments_and_scheduled_dates" briefDescription="" id="_T2d_ABDoEeig5aQZWB7FhQ" orderingGuide="" presentationName="Notification of Task Assignments and Scheduled Dates" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="notification_of_task_assignments_and_scheduled_dates" briefDescription="To all affected personnel, e-mail" id="_T2d_ABDoEeig5aQZWB7FhQ" orderingGuide="" presentationName="Notification of Task Assignments and Scheduled Dates" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="updated_project_plans" briefDescription="" id="_lA6RwBDoEeig5aQZWB7FhQ" orderingGuide="" presentationName="Updated Project Plans" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="updated_project_plans" briefDescription="To file, computer I/O" id="_lA6RwBDoEeig5aQZWB7FhQ" orderingGuide="" presentationName="Updated Project Plans" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="requirements_change" briefDescription="" id="_5Ae-kBDoEeig5aQZWB7FhQ" orderingGuide="" presentationName="Requirements Change" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="current_design" briefDescription="From software design document file, hand carried" id="_8xrYQBDoEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Design" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="current_design" briefDescription="" id="_8xrYQBDoEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Design" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="design_review_feedback" briefDescription="To modify design, hand carried" id="__SDqUBDoEeig5aQZWB7FhQ" orderingGuide="" presentationName="Design Review Feedback" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="design_review_feedback" briefDescription="" id="__SDqUBDoEeig5aQZWB7FhQ" orderingGuide="" presentationName="Design Review Feedback" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="modified_design" briefDescription="To review design, modify code, modify unit test package, hand carried; From modify design, hand carried" id="_CgIv4BDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Design" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="modified_design" briefDescription="" id="_CgIv4BDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Design" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="approved_modified_design" briefDescription="To software design document file, hand carried" id="_TPtEgBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Approved Modified Design" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="design_review_feedback" briefDescription="" id="_Q3DyIBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Design Review Feedback" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="outcome_notification_number_of_defects_identified_aggregate_effort" briefDescription="To monitor progress, e-mail" id="_ZLH6EBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Outcome notification, number of defects identified, aggregate effort" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="approved_modified_design" briefDescription="" id="_TPtEgBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Approved Modified Design" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="current_source_code" briefDescription="From software development files, computer I/O" id="_e7-eYBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Source Code" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="outcome_notification_number_of_defects_identified_aggregate_effort" briefDescription="" id="_ZLH6EBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Outcome notification, number of defects identified, aggregate effort" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="feedback_regarding_code" briefDescription="From test unit, verbal" id="_iMt2YBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Feedback Regarding Code" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="current_source_code" briefDescription="" id="_e7-eYBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Source Code" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="modified_source_code" briefDescription="To software development files, computer I/O" id="_lZNAgBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Source Code" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="feedback_regarding_code" briefDescription="" id="_iMt2YBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Feedback Regarding Code" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="object_code" briefDescription="To software development files, computer I/O" id="_nka64BDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Object Code" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="modified_source_code" briefDescription="" id="_lZNAgBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Source Code" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="current_test_plans" briefDescription="From test plans file, hand carried" id="_qkeykBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="object_code" briefDescription="" id="_nka64BDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Object Code" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="modified_test_plans" briefDescription="To test plans file, hand carried" id="_tJgUEBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="current_test_plans" briefDescription="" id="_qkeykBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="current_unit_test_package" briefDescription="From test package file, computer I/O" id="_wU21wBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Unit Test Package" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="modified_test_plans" briefDescription="" id="_tJgUEBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="feedback_regarding_test_package" briefDescription="From test unit, verbal" id="_4BQgwBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Feedback Regarding Test Package" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="current_unit_test_package" briefDescription="" id="_wU21wBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Unit Test Package" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="modified_unit_test_package" briefDescription="To test package file, computer I/O" id="_7g0X4BDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Unit Test Package" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="feedback_regarding_test_package" briefDescription="" id="_4BQgwBDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Feedback Regarding Test Package" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="test_results" briefDescription="To test history file, computer I/O" id="_Cvj2gBDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Test Results" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="modified_unit_test_package" briefDescription="" id="_7g0X4BDpEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Unit Test Package" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="notification_of_successful_testing" briefDescription="From test unit, e-mail" id="_GdWW4BDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Notification of Successful Testing" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="test_results" briefDescription="" id="_Cvj2gBDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Test Results" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_M5ukcBDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="notification_of_successful_testing" briefDescription="" id="_GdWW4BDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Notification of Successful Testing" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="current_project_plans" briefDescription="From file, computer I/O" id="_ShKHABDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Project Plans" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="new_outcome" briefDescription="" id="_KiRk4BDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="New Outcome" suppressed="false" isAbstract="false" variabilityType="na"/>
-      <ContentElement xsi:type="uma:Artifact" name="notification_of_completion" briefDescription="" id="_M5ukcBDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" variabilityType="na">
-        <MethodElementProperty name="me_edited" value="true"/>
-      </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="current_project_plans" briefDescription="" id="_ShKHABDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Current Project Plans" suppressed="false" isAbstract="false" variabilityType="na">
-        <MethodElementProperty name="me_edited" value="true"/>
-      </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="decision_regarding_cancellation" briefDescription="" id="_Zg_m8BDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Decision Regarding Cancellation" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Artifact" name="decision_regarding_cancellation" briefDescription="From CCB, verbal" id="_Zg_m8BDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Decision Regarding Cancellation" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
       <ContentElement xsi:type="uma:Outcome" name="notification_of_revised_task_assignments_and_scheduled_dates" briefDescription="" id="_iQZnEBDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Notification of Revised Task Assignments and Scheduled Dates" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="recommendation_to_cancel" briefDescription="" id="_nFFeEBDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Recommendation to Cancel" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Outcome" name="recommendation_to_cancel" briefDescription="To CCB, verbal" id="_nFFeEBDqEeig5aQZWB7FhQ" orderingGuide="" presentationName="Recommendation to Cancel" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Outcome" name="requirements_change" briefDescription="To all assigned personnel, hand carried" id="_Ajn4gBDsEeig5aQZWB7FhQ" orderingGuide="" presentationName="Requirements Change" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="modified_test_plans" briefDescription="From test plans file, hand carried" id="_LhYxIBDtEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="modified_design" briefDescription="From modify design, hand carried" id="_TNe6IBDtEeig5aQZWB7FhQ" orderingGuide="" presentationName="Modified Design" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="source_code" briefDescription="From software development files, computer I/O" id="_dIcHYBDtEeig5aQZWB7FhQ" orderingGuide="" presentationName="Source Code" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="object_code" briefDescription="From software development files, computer I/O" id="_q8wL0BDtEeig5aQZWB7FhQ" orderingGuide="" presentationName="Object Code" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="unit_test_package" briefDescription="From test package file, computer I/O" id="_wtbJ8BDtEeig5aQZWB7FhQ" orderingGuide="" presentationName="Unit Test Package" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Outcome" name="feedback_regarding_code" briefDescription="To modify code, verbal" id="_5-6jcBDtEeig5aQZWB7FhQ" orderingGuide="" presentationName="Feedback Regarding Code" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Outcome" name="feedback_regarding_test_package" briefDescription="To modify unit test package, verbal" id="_AoPA0BDuEeig5aQZWB7FhQ" orderingGuide="" presentationName="Feedback Regarding Test Package" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="outcome_notification_number_of_defects_identified_aggregate_effort" briefDescription="From review design, e-mail" id="_ZeXM4BDuEeig5aQZWB7FhQ" orderingGuide="" presentationName="Outcome notification, number of defects identified, aggregate effort" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Outcome" name="design_review_feedback" briefDescription="From design review, hand carried" id="_LmQ_MBDvEeig5aQZWB7FhQ" orderingGuide="" presentationName="Design Review Feedback" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
     </MethodPackage>
@@ -917,7 +940,7 @@ QA engineer, and two other software engineers.</Description>
     <MethodPackageSelection>_1lH5sBDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1lH5sRDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUGxDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_xgHSgBDqEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_pQaT4BDvEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUERDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUFxDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUGRDiEeig5aQZWB7FhQ</MethodPackageSelection>
