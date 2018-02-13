@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_kg_y4BD5Eeig5aQZWB7FhQ"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_DB8XQBD7Eeig5aQZWB7FhQ"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -75,6 +75,8 @@
           <Purpose></Purpose>
         </Presentation>
         <PerformedBy>_sWgLMAxGEeingdqlRSYTcw</PerformedBy>
+        <MandatoryInput>_kkFBQBDnEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_OVrKwBD6Eeig5aQZWB7FhQ</MandatoryInput>
         <AdditionallyPerformedBy>_hmS7gAxHEeingdqlRSYTcw</AdditionallyPerformedBy>
         <AdditionallyPerformedBy>_dm_0YAxHEeingdqlRSYTcw</AdditionallyPerformedBy>
       </ContentElement>
@@ -804,6 +806,9 @@ should be highlighted.</Description>
 </p>]]></Purpose>
         </Presentation>
       </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="requirements_change" briefDescription="" id="_OVrKwBD6Eeig5aQZWB7FhQ" orderingGuide="" presentationName="Requirements Change" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
     </MethodPackage>
     <MethodPackage xsi:type="uma:ProcessPackage" name="Example Process" briefDescription="" id="_oZljUAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
@@ -1072,7 +1077,7 @@ QA engineer, and two other software engineers.</Description>
     <MethodPackageSelection>_1lH5sBDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1lH5sRDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUGxDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_kg_y4BD5Eeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_DB8XQBD7Eeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUERDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUFxDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUGRDiEeig5aQZWB7FhQ</MethodPackageSelection>
