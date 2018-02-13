@@ -4,7 +4,28 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_gQTU4A03EeiLd-XHTFuD_g"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_v1PB4BDmEeig5aQZWB7FhQ">
+      <ContentCategory xsi:type="uma:CustomCategory" name="develop_change_and_test_unit" briefDescription="" id="_8INhUBDkEeig5aQZWB7FhQ" orderingGuide="" presentationName="Develop Change and Test Unit" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation name="new_custom_category,_8INhUBDkEeig5aQZWB7FhQ" briefDescription="" id="-AKBRgFJkmzW8q-euBZ3MyA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[This step is a project management function, and is the first step carried out in this example process. It involves
+developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to specific
+staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is also scheduled,
+and participants are assigned to it; the participants will be the design and QA engineer, along with two other software
+engineers.]]></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+        </Presentation>
+        <CategorizedElement>_BEbLsA0LEeiMmoWQJFO3CQ</CategorizedElement>
+        <CategorizedElement>_8SsiEA0KEeiMmoWQJFO3CQ</CategorizedElement>
+        <CategorizedElement>_DStBIA0LEeiMmoWQJFO3CQ</CategorizedElement>
+        <CategorizedElement>_FscfsA0LEeiMmoWQJFO3CQ</CategorizedElement>
+        <CategorizedElement>_KM2v0A0LEeiMmoWQJFO3CQ</CategorizedElement>
+        <CategorizedElement>_qUrtQA0eEeidz4hOf6CHig</CategorizedElement>
+        <CategorizedElement>_-y2xsA0KEeiMmoWQJFO3CQ</CategorizedElement>
+        <CategorizedElement>_4m8pEA0KEeiMmoWQJFO3CQ</CategorizedElement>
+        <CategorizedElement>_IiffwA0LEeiMmoWQJFO3CQ</CategorizedElement>
+      </ContentCategory>
+    </MethodPackage>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -20,55 +41,6 @@
       </ContentElement>
       <ContentElement xsi:type="uma:Role" name="software_engineer" briefDescription="" id="_pQJBwAxHEeingdqlRSYTcw" orderingGuide="" presentationName="Software Engineer" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
-      </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="develop_change_and_test_unit" briefDescription="" id="_W1QQMA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Develop Change and Test Unit " suppressed="false" isAbstract="false" variabilityType="na">
-        <MethodElementProperty name="me_edited" value="true"/>
-        <Presentation xsi:type="uma:TaskDescription" name="develop_change_and_test_unit,_W1QQMA0KEeiMmoWQJFO3CQ" briefDescription="" id="-t8bZ2KEWDudLTci1KZcZhQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-08T05:52:31" changeDescription="" version="" externalId="">
-          <MainDescription><![CDATA[<p>
-    This step is a project management function, and is the first step carried out in this example process. It involves
-    developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to
-    specific staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is
-    also scheduled, and participants are assigned to it; the participants will be the design and QA engineer, along with
-    two other software engineers.
-</p>
-<p>
-    Assume that the basic process to be followed in this example is already familiar to the participants; it is standard
-    procedure for this organization. Consequently, this management step focuses on assignment of resources to the tasks and
-    estimation of the schedule required for those resources to caw out the tasks.
-</p>]]></MainDescription>
-          <KeyConsiderations></KeyConsiderations>
-          <Section name="Inputs" briefDescription="" id="_gWHQgA0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>&lt;p>&#xD;
-    1)&amp;nbsp;Requirements change (from CCB) (hand carried)&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    2) Authorization (from CCB) (verbal)&#xD;
-&lt;/p></Description>
-          </Section>
-          <Section name="Outputs" briefDescription="" id="_g7PW0A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>1) No explicit output flow. The final results are available in various files or databases and comprise the modified&#xD;
-software unit in various representations (design, source code, object code) and its associated modified unit tests. These&#xD;
-are all available to subsequent steps in the software life cycle.</Description>
-          </Section>
-          <Section name="Responsibility" briefDescription="" id="_hqnlUA0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>This step is carried out by the project team.</Description>
-          </Section>
-          <Section name="Constraints" briefDescription="" id="_jMWd0A0MEeiMmoWQJFO3CQ" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>&lt;p>&#xD;
-    1) This step can begin as soon as authorization to make the change has been granted by the CCB.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    2) This step ends when the unit testing has been successfully completed, or when the CCB cancels the change effort.&#xD;
-&lt;/p></Description>
-          </Section>
-          <Alternatives></Alternatives>
-          <Purpose></Purpose>
-        </Presentation>
-        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
-        <PerformedBy>_sWgLMAxGEeingdqlRSYTcw</PerformedBy>
-        <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
-        <PerformedBy>_pQJBwAxHEeingdqlRSYTcw</PerformedBy>
-        <AdditionallyPerformedBy>_-megkA0gEeidz4hOf6CHig</AdditionallyPerformedBy>
       </ContentElement>
       <ContentElement xsi:type="uma:Task" name="schedule_and_assign_tasks" briefDescription="" id="_4m8pEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
@@ -487,7 +459,10 @@ cancellation of their work on this change.]]></MainDescription>
       <ContentElement xsi:type="uma:Task" name="optional_extensions" briefDescription="" id="_qUrtQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="Optional Extensions" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name=",_qUrtQA0eEeidz4hOf6CHig" briefDescription="" id="-HTX0RnfMMflmSYkQMLVKaA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription></MainDescription>
+          <MainDescription><![CDATA[This section presents a number of optional extensions to the core problem described above. Their purpose is to provide a
+variety of opportunities for showcasing capabilities of a given modeling approach that may not be demonstrated by the core
+problem. Each extension builds upon the core problem, and they can be considered independently of each other. They are
+rather open-ended, leaving considerable freedom to orient them as desired.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
           <Section name="Overview" briefDescription="" id="_sgUeYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description>This section presents a number of optional extensions to the core problem described above. Their purpose is to provide a&#xD;
@@ -854,15 +829,15 @@ QA engineer, and two other software engineers.</Description>
     <MethodPackageSelection>_v6G5AAw_EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_j726IAxGEeingdqlRSYTcw</MethodPackageSelection>
     <MethodPackageSelection>_Xo8hkAxHEeingdqlRSYTcw</MethodPackageSelection>
-    <MethodPackageSelection>_hGfn_A01EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_hGfn8A01EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_hGfn_Q01EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_hGrOIA01EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_hGr1MA01EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_hGfn-w01EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_gQTU4A03EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_hGfn8Q01EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_hGfn9w01EeiLd-XHTFuD_g</MethodPackageSelection>
-    <MethodPackageSelection>_hGfn-Q01EeiLd-XHTFuD_g</MethodPackageSelection>
+    <MethodPackageSelection>_1ivUHBDiEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_1ivUEBDiEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_1ivUHRDiEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_1lH5sBDiEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_1lH5sRDiEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_1ivUGxDiEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_v1PB4BDmEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_1ivUERDiEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_1ivUFxDiEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_1ivUGRDiEeig5aQZWB7FhQ</MethodPackageSelection>
   </MethodConfiguration>
 </uma:MethodLibrary>
