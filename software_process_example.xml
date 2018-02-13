@@ -4,28 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_pQaT4BDvEeig5aQZWB7FhQ">
-      <ContentCategory xsi:type="uma:CustomCategory" name="develop_change_and_test_unit" briefDescription="" id="_8INhUBDkEeig5aQZWB7FhQ" orderingGuide="" presentationName="Develop Change and Test Unit" suppressed="false" isAbstract="false" variabilityType="na">
-        <MethodElementProperty name="me_edited" value="true"/>
-        <Presentation name="new_custom_category,_8INhUBDkEeig5aQZWB7FhQ" briefDescription="" id="-AKBRgFJkmzW8q-euBZ3MyA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
-          <MainDescription><![CDATA[This step is a project management function, and is the first step carried out in this example process. It involves
-developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to specific
-staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is also scheduled,
-and participants are assigned to it; the participants will be the design and QA engineer, along with two other software
-engineers.]]></MainDescription>
-          <KeyConsiderations></KeyConsiderations>
-        </Presentation>
-        <CategorizedElement>_BEbLsA0LEeiMmoWQJFO3CQ</CategorizedElement>
-        <CategorizedElement>_8SsiEA0KEeiMmoWQJFO3CQ</CategorizedElement>
-        <CategorizedElement>_DStBIA0LEeiMmoWQJFO3CQ</CategorizedElement>
-        <CategorizedElement>_FscfsA0LEeiMmoWQJFO3CQ</CategorizedElement>
-        <CategorizedElement>_KM2v0A0LEeiMmoWQJFO3CQ</CategorizedElement>
-        <CategorizedElement>_qUrtQA0eEeidz4hOf6CHig</CategorizedElement>
-        <CategorizedElement>_-y2xsA0KEeiMmoWQJFO3CQ</CategorizedElement>
-        <CategorizedElement>_4m8pEA0KEeiMmoWQJFO3CQ</CategorizedElement>
-        <CategorizedElement>_IiffwA0LEeiMmoWQJFO3CQ</CategorizedElement>
-      </ContentCategory>
-    </MethodPackage>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_oVkNgBD1Eeig5aQZWB7FhQ"/>
     <MethodPackage xsi:type="uma:ContentPackage" name="example_content_package" briefDescription="" id="_j726IAxGEeingdqlRSYTcw" orderingGuide="" presentationName="" suppressed="false" global="false">
       <MethodElementProperty name="pkg_loadCheck" value="true"/>
       <MethodElementProperty name="pakage_supporting" value="false"/>
@@ -42,7 +21,7 @@ engineers.]]></MainDescription>
       <ContentElement xsi:type="uma:Role" name="software_engineer" briefDescription="" id="_pQJBwAxHEeingdqlRSYTcw" orderingGuide="" presentationName="Software Engineer" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="schedule_and_assign_tasks" briefDescription="" id="_4m8pEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Task" name="schedule_and_assign_tasks" briefDescription="" id="_4m8pEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name=",_4m8pEA0KEeiMmoWQJFO3CQ" briefDescription="" id="-gXyhKGDZ-UNwp7qoi79SCA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
           <MainDescription><![CDATA[This step is a project management function, and is the first step carried out in this example process. It involves
@@ -88,7 +67,7 @@ engineers.]]></MainDescription>
         <AdditionallyPerformedBy>_hmS7gAxHEeingdqlRSYTcw</AdditionallyPerformedBy>
         <AdditionallyPerformedBy>_dm_0YAxHEeingdqlRSYTcw</AdditionallyPerformedBy>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="modify_design" briefDescription="" id="_8SsiEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Design" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Task" name="modify_design" briefDescription="" id="_8SsiEA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Design" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="modify_design,_8SsiEA0KEeiMmoWQJFO3CQ" briefDescription="" id="-OiZ0itBSVI2MKtsZiG_sMw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
           <MainDescription><![CDATA[This step involves the modification of the design for the code unit affected by the requirements change. It is a highly
@@ -125,7 +104,7 @@ design based upon feedback from the design review.]]></MainDescription>
         </Presentation>
         <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="review_design" briefDescription="" id="_-y2xsA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Task" name="review_design" briefDescription="" id="_-y2xsA0KEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="review_design,_-y2xsA0KEeiMmoWQJFO3CQ" briefDescription="" id="-tfTq9MbVyFneDuvg7yuflg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-08T06:03:44" changeDescription="" version="" externalId="">
           <MainDescription><![CDATA[<p>
@@ -182,7 +161,7 @@ QA engineer, and two other software engineers.</Description>
         <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="modify_code" briefDescription="" id="_BEbLsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Task" name="modify_code" briefDescription="" id="_BEbLsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="modify_code,_BEbLsA0LEeiMmoWQJFO3CQ" briefDescription="" id="-xwrfyCHFiLNUl6bgEJDUOw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
           <MainDescription><![CDATA[This step involves the implementation of the design changes into code, and compilation of the modified source code into
@@ -251,7 +230,7 @@ from testing, indicating that additional source code modifications are required.
         </Presentation>
         <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="modify_test_plans" briefDescription="" id="_DStBIA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Task" name="modify_test_plans" briefDescription="" id="_DStBIA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Test Plans" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="modify_test_plans,_DStBIA0LEeiMmoWQJFO3CQ" briefDescription="" id="-0eQlQV2NecCM68NwUNeriQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
           <MainDescription><![CDATA[This step involves the modification of test plans and objectives to include testing of capabilities related to the
@@ -281,7 +260,7 @@ test data, procedures, and so forth are dealt with in the subsequent step (modif
         </Presentation>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="modify_unit_test_package" briefDescription="" id="_FscfsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Unit Test Package" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Task" name="modify_unit_test_package" briefDescription="" id="_FscfsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Unit Test Package" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="modify_unit_test_package,_FscfsA0LEeiMmoWQJFO3CQ" briefDescription="" id="-OF-T3IRl5PWVDTDWWDPKYg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
           <MainDescription><![CDATA[This step involves the modification of the actual unit test package for the affected code unit, in accordance with the
@@ -334,7 +313,7 @@ responsible for this package instance.</Description>
           <Purpose></Purpose>
         </Presentation>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="test_unit" briefDescription="" id="_IiffwA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Task" name="test_unit" briefDescription="" id="_IiffwA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="test_unit,_IiffwA0LEeiMmoWQJFO3CQ" briefDescription="" id="-rhzLUj3xx0-bUQheHAKvIQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
           <MainDescription><![CDATA[<p>
@@ -399,7 +378,7 @@ multiple unit test package versions may be applied to a given object code versio
         <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="monitor_progress" briefDescription="" id="_KM2v0A0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Task" name="monitor_progress" briefDescription="" id="_KM2v0A0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="monitor_progress,_KM2v0A0LEeiMmoWQJFO3CQ" briefDescription="" id="-OGxN4NxrlRxdPSYTQRIppQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
           <MainDescription><![CDATA[This step involves the project manager monitoring progress and status of the work. This is based upon notification of
@@ -456,7 +435,7 @@ cancellation of their work on this change.]]></MainDescription>
         </Presentation>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="optional_extensions" briefDescription="" id="_qUrtQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="Optional Extensions" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Task" name="optional_extensions" briefDescription="" id="_qUrtQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="Optional Extensions" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ipppABD0Eeig5aQZWB7FhQ" variabilityType="extends">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name=",_qUrtQA0eEeidz4hOf6CHig" briefDescription="" id="-HTX0RnfMMflmSYkQMLVKaA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
           <MainDescription><![CDATA[This section presents a number of optional extensions to the core problem described above. Their purpose is to provide a
@@ -671,6 +650,40 @@ should be highlighted.</Description>
       </ContentElement>
       <ContentElement xsi:type="uma:Outcome" name="design_review_feedback" briefDescription="From design review, hand carried" id="_LmQ_MBDvEeig5aQZWB7FhQ" orderingGuide="" presentationName="Design Review Feedback" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="develop_change_and_test_unit" briefDescription="" id="_ipppABD0Eeig5aQZWB7FhQ" orderingGuide="" presentationName="Develop Change and Test Unit" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name=",_ipppABD0Eeig5aQZWB7FhQ" briefDescription="" id="-B0gc9pMeG1DwMZaMqt_EKA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-13T02:32:38" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[This step is a project management function, and is the first step carried out in this example process. It involves
+developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to specific
+staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is also scheduled,
+and participants are assigned to it; the participants will be the design and QA engineer, along with two other software
+engineers.]]></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Alternatives></Alternatives>
+          <Purpose><![CDATA[<p>
+    For every technical step in this process:
+</p>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp; - Requirements change (from schedule and assign tasks) (hand carried)
+</p>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp; - Notification of task assignments and scheduled dates (from schedule and assign tasks)
+    (e-mail)
+</p>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp; - Notification of revised task assignments and scheduled dates (from monitor progress)
+    (e-mail)
+</p>
+<p>
+    In addition, the following information is provided by each technical step in this process; consequently, they are not
+    listed for each step individually.
+</p>
+<p>
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp; - Notification of completion of each step (to monitor progress) (e-mail)
+</p>]]></Purpose>
+        </Presentation>
       </ContentElement>
     </MethodPackage>
     <MethodPackage xsi:type="uma:ProcessPackage" name="Example Process" briefDescription="" id="_oZljUAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false">
@@ -940,7 +953,7 @@ QA engineer, and two other software engineers.</Description>
     <MethodPackageSelection>_1lH5sBDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1lH5sRDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUGxDiEeig5aQZWB7FhQ</MethodPackageSelection>
-    <MethodPackageSelection>_pQaT4BDvEeig5aQZWB7FhQ</MethodPackageSelection>
+    <MethodPackageSelection>_oVkNgBD1Eeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUERDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUFxDiEeig5aQZWB7FhQ</MethodPackageSelection>
     <MethodPackageSelection>_1ivUGRDiEeig5aQZWB7FhQ</MethodPackageSelection>
