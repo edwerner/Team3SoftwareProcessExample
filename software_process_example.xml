@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_NKxooBYCEeiW0s6g70wq-g">
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_pX3F0BZ4EeirgZu0P7sRdQ">
       <ContentCategory xsi:type="uma:WorkProductType" name="hand_carried" briefDescription="" id="_DmY3QBUQEeiy1JjwJG5oCw" orderingGuide="" presentationName="Hand Carried" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <WorkProduct>_OVrKwBD6Eeig5aQZWB7FhQ</WorkProduct>
@@ -870,23 +870,7 @@ simultaneously]]></MainDescription>
               <Presentation xsi:type="uma:DescriptorDescription" name="modify_design,_H_Ab4BWVEeiy1JjwJG5oCw" briefDescription="" id="-dbr04E2ReQebCwtUAg7KnQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
                 <MainDescription></MainDescription>
                 <KeyConsiderations></KeyConsiderations>
-                <RefinedDescription>&lt;p>
-    This step involves the modification of the design for the code unit affected by the requirements change. It is a highly
-    creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the
-    design based upon feedback from the design review.
-&lt;/p>
-&lt;p>
-    Constraints:
-&lt;/p>
-&lt;p>
-    1. This step can begin as soon as the task has been assigned by the project manager.
-&lt;/p>
-&lt;p>
-    2) Subsequent iterations can begin as soon as the design review is completed (when the design is not approved).
-&lt;/p>
-&lt;p>
-    3) This step ends when its output has been provided.
-&lt;/p></RefinedDescription>
+                <RefinedDescription></RefinedDescription>
               </Presentation>
               <SuperActivity>_-160DhXiEeiW0s6g70wq-g</SuperActivity>
               <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
@@ -927,38 +911,7 @@ simultaneously]]></MainDescription>
               <Presentation xsi:type="uma:DescriptorDescription" name="review_design,_Jgk8UBWVEeiy1JjwJG5oCw" briefDescription="" id="-TU-eA9KGG5bupfdqcfiEkA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
                 <MainDescription></MainDescription>
                 <KeyConsiderations></KeyConsiderations>
-                <RefinedDescription>&lt;p>
-    This step involves the formal review of the modified design. It is conducted by a team including the design engineer
-    who produced the design modifications. There are three alternative outcomes of the review:
-&lt;/p>
-&lt;p>
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1) Unconditional approval - The design is totally approved; the approved modified design is
-    incorporated into the software design document.
-&lt;/p>
-&lt;p>
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2) Minor changes recommended - Minor changes to the design are required and feedback is
-    provided to the designer. The re-review is expected to be perfunctory.
-&lt;/p>
-&lt;p>
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3) Major changes recommended - Major changes to the design are requred and feedback is
-    provided to the designer.
-&lt;/p>
-&lt;p>
-    At the conclusion of the review, the project manager is notified of the outcome. Due to the fact that formal design
-    reviews are a relatively new step in this organization’s process, they are recording certain measurements to help
-    evaluate its impact, In particular, the number of defects identified, and the aggregate effort of the review team in
-    preparing for and conducting the review are reported to the project manager.
-&lt;/p>
-&lt;p>
-    Constraints:
-&lt;/p>
-&lt;p>
-    1) This step will be carried out when it is scheduled to occur, provided that the modified design is available at that
-    time. (Note that in cases of delay, the monitor progress step will reschedule the review to a later date.)
-&lt;/p>
-&lt;p>
-    2) This step ends when its outputs have been provided; assume that all outputs are produced simultaneously.
-&lt;/p></RefinedDescription>
+                <RefinedDescription></RefinedDescription>
               </Presentation>
               <SuperActivity>_-160DhXiEeiW0s6g70wq-g</SuperActivity>
               <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
@@ -1389,7 +1342,7 @@ multiple unit test package versions may be applied to a given object code versio
     <MethodPackageSelection>_YwnYQBD9Eei8Su4HoO2AXw</MethodPackageSelection>
     <MethodPackageSelection>_YwnYTRD9Eei8Su4HoO2AXw</MethodPackageSelection>
     <MethodPackageSelection>_YwnYSxD9Eei8Su4HoO2AXw</MethodPackageSelection>
-    <MethodPackageSelection>_NKxooBYCEeiW0s6g70wq-g</MethodPackageSelection>
+    <MethodPackageSelection>_pX3F0BZ4EeirgZu0P7sRdQ</MethodPackageSelection>
     <MethodPackageSelection>_YwnYQRD9Eei8Su4HoO2AXw</MethodPackageSelection>
     <MethodPackageSelection>_YwnYRxD9Eei8Su4HoO2AXw</MethodPackageSelection>
     <MethodPackageSelection>_YwnYSRD9Eei8Su4HoO2AXw</MethodPackageSelection>
