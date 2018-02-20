@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_TSRlMBZsEei-X60GZyOg_w">
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_tGxokBZtEei-X60GZyOg_w">
       <ContentCategory xsi:type="uma:WorkProductType" name="hand_carried" briefDescription="" id="_DmY3QBUQEeiy1JjwJG5oCw" orderingGuide="" presentationName="Hand Carried" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <WorkProduct>_OVrKwBD6Eeig5aQZWB7FhQ</WorkProduct>
@@ -1582,7 +1582,7 @@ multiple unit test package versions may be applied to a given object code versio
               <SuperActivity>_UMAj8Q00EeiLd-XHTFuD_g</SuperActivity>
               <WorkProduct>_OVrKwBD6Eeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_uj6DShXQEeigMKzQDWeMkQ" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="defined" activityExitState="defined">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_uj6DShXQEeigMKzQDWeMkQ" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="true" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="defined" activityExitState="defined">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
               <SuperActivity>_UMAj8Q00EeiLd-XHTFuD_g</SuperActivity>
@@ -1600,7 +1600,7 @@ multiple unit test package versions may be applied to a given object code versio
               <SuperActivity>_UMAj8Q00EeiLd-XHTFuD_g</SuperActivity>
               <WorkProduct>_jF20IBEFEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="updated_project_plans" briefDescription="To file, computer I/O" id="_uj6DUBXQEeigMKzQDWeMkQ" orderingGuide="" presentationName="Updated Project Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="undefined" activityExitState="defined">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="updated_project_plans" briefDescription="To file, computer I/O" id="_uj6DUBXQEeigMKzQDWeMkQ" orderingGuide="" presentationName="Updated Project Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="true" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="undefined" activityExitState="defined">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
               <SuperActivity>_UMAj8Q00EeiLd-XHTFuD_g</SuperActivity>
@@ -1725,7 +1725,7 @@ multiple unit test package versions may be applied to a given object code versio
               <SuperActivity>_UngD0RZNEei-X60GZyOg_w</SuperActivity>
               <WorkProduct>_ZeXM4BDuEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_DAtcMRZhEei-X60GZyOg_w" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="undefined" activityExitState="defined">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_DAtcMRZhEei-X60GZyOg_w" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="true" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="undefined" activityExitState="defined">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
               <SuperActivity>_UngD0RZNEei-X60GZyOg_w</SuperActivity>
@@ -1815,7 +1815,7 @@ multiple unit test package versions may be applied to a given object code versio
               <SuperActivity>_JiJgARZNEei-X60GZyOg_w</SuperActivity>
               <WorkProduct>_-8Sr4BZdEei-X60GZyOg_w</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_DA63kRZhEei-X60GZyOg_w" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="defined" activityExitState="applied">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_DA63kRZhEei-X60GZyOg_w" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="true" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="defined" activityExitState="applied">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
               <SuperActivity>_JiJgARZNEei-X60GZyOg_w</SuperActivity>
@@ -2060,7 +2060,7 @@ multiple unit test package versions may be applied to a given object code versio
               <SuperActivity>_lV560RZNEei-X60GZyOg_w</SuperActivity>
               <WorkProduct>_-8Sr4BZdEei-X60GZyOg_w</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_DBHr4RZhEei-X60GZyOg_w" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="undefined" activityExitState="defined">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_DBHr4RZhEei-X60GZyOg_w" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="true" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true" activityEntryState="undefined" activityExitState="defined">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
               <SuperActivity>_lV560RZNEei-X60GZyOg_w</SuperActivity>
@@ -2098,7 +2098,7 @@ multiple unit test package versions may be applied to a given object code versio
     <MethodPackageSelection>_K56F8BXFEeigMKzQDWeMkQ</MethodPackageSelection>
     <MethodPackageSelection>_K56F9BXFEeigMKzQDWeMkQ</MethodPackageSelection>
     <MethodPackageSelection>_K6D28BXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_TSRlMBZsEei-X60GZyOg_w</MethodPackageSelection>
+    <MethodPackageSelection>_tGxokBZtEei-X60GZyOg_w</MethodPackageSelection>
     <MethodPackageSelection>_K4kCIRXFEeigMKzQDWeMkQ</MethodPackageSelection>
     <MethodPackageSelection>_K4kCJxXFEeigMKzQDWeMkQ</MethodPackageSelection>
     <MethodPackageSelection>_K4kCKRXFEeigMKzQDWeMkQ</MethodPackageSelection>
