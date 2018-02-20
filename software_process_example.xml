@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_9XjpUBXGEeigMKzQDWeMkQ">
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_hLuhkBYaEeiSXc-6wpjN9Q">
       <ContentCategory xsi:type="uma:WorkProductType" name="hand_carried" briefDescription="" id="_DmY3QBUQEeiy1JjwJG5oCw" orderingGuide="" presentationName="Hand Carried" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <WorkProduct>_OVrKwBD6Eeig5aQZWB7FhQ</WorkProduct>
@@ -174,45 +174,6 @@
         <Output>_Rb2jgBUWEeiy1JjwJG5oCw</Output>
         <Output>_ZeXM4BDuEeig5aQZWB7FhQ</Output>
       </ContentElement>
-      <ContentElement xsi:type="uma:Task" name="modify_code" briefDescription="This step involves the implementation of the design changes into code, and compilation of the modified source code into object code." id="_BEbLsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" variabilityType="na">
-        <MethodElementProperty name="me_edited" value="true"/>
-        <Presentation xsi:type="uma:TaskDescription" name="modify_code,_BEbLsA0LEeiMmoWQJFO3CQ" briefDescription="" id="-xwrfyCHFiLNUl6bgEJDUOw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-13T02:56:11" changeDescription="" version="" externalId="">
-          <MainDescription><![CDATA[<p>
-    This step involves the implementation of the design changes into code, and compilation of the modified source code into
-    object code. Implementation is accomplished by modifying existing source code. This step may also be based upon
-    feedback from testing, indicating that additional source code modifications are required.
-</p>
-<p>
-    Constraints:
-</p>
-<p>
-    1)&nbsp;&nbsp;This step can begin as soon as the task has been assigned by the project manager. (Thus, it is possible,
-    if not advisable, to begin coding before the design work has even begun.) The engineer’s discretion determines when
-    this task will actually commence, if the design has not yet been approved. If this step has not commenced earlier, it
-    will begin when the design is approved.
-</p>
-<p>
-    2) Modified code released for testing is to reflect the approved modified design. One consequence is that this step
-    cannot be completed before the modified design has been approved.
-</p>
-<p>
-    3) This step ends when a clean compilation (no errors) has been accomplished and its output has been provided.
-</p>
-<p>
-    4) Subsequent iterations (if required) can begin as soon as the test unit step has completed.&nbsp;&nbsp;<br />
-    <br />
-</p>]]></MainDescription>
-          <KeyConsiderations></KeyConsiderations>
-          <Alternatives></Alternatives>
-          <Purpose></Purpose>
-        </Presentation>
-        <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
-        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
-        <MandatoryInput>_TNe6IBDtEeig5aQZWB7FhQ</MandatoryInput>
-        <MandatoryInput>_e7-eYBDpEeig5aQZWB7FhQ</MandatoryInput>
-        <Output>_Y-q_QBUXEeiy1JjwJG5oCw</Output>
-        <Output>_q8wL0BDtEeig5aQZWB7FhQ</Output>
-      </ContentElement>
       <ContentElement xsi:type="uma:Task" name="modify_test_plans" briefDescription="This step involves the modification of test plans and objectives to include testing of capabilities related to the requirements change prompting this software modification." id="_DStBIA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Test Plans" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation xsi:type="uma:TaskDescription" name="modify_test_plans,_DStBIA0LEeiMmoWQJFO3CQ" briefDescription="" id="-0eQlQV2NecCM68NwUNeriQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
@@ -270,6 +231,7 @@
           <Purpose></Purpose>
         </Presentation>
         <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
+        <Guideline>_J-SEMBYSEei7tO_70BPhqA</Guideline>
         <PerformedBy>_dm_0YAxHEeingdqlRSYTcw</PerformedBy>
         <MandatoryInput>_LhYxIBDtEeig5aQZWB7FhQ</MandatoryInput>
         <MandatoryInput>_wU21wBDpEeig5aQZWB7FhQ</MandatoryInput>
@@ -615,6 +577,71 @@ should be highlighted.</Description>
       <ContentElement xsi:type="uma:Artifact" name="notification_of_successful_testing" briefDescription="" id="_jF20IBEFEeig5aQZWB7FhQ" orderingGuide="" presentationName="Notification of Successful Testing" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
       </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="approved_modified_design" briefDescription="" id="_Rb2jgBUWEeiy1JjwJG5oCw" orderingGuide="" presentationName="Approved Modified Design" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="modified_source_code" briefDescription="To software development files, computer I/O" id="_Y-q_QBUXEeiy1JjwJG5oCw" orderingGuide="" presentationName="Modified source code" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="modified_unit_test_package" briefDescription="" id="_kdCkwBV_Eeiy1JjwJG5oCw" orderingGuide="" presentationName="Modified unit test package " suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="test_results" briefDescription="" id="_B8XwkBWAEeiy1JjwJG5oCw" orderingGuide="" presentationName="Test results" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Outcome" name="feedback_regarding_code" briefDescription="" id="_ikOzkBWAEeiy1JjwJG5oCw" orderingGuide="" presentationName="Feedback regarding code" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Outcome" name="feedback_regarding_test_package" briefDescription="" id="_nE7-oBWAEeiy1JjwJG5oCw" orderingGuide="" presentationName="Feedback_regarding_test_package" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="updated_project_plans" briefDescription="To file, computer I/O" id="_Ytu_0BWREeiy1JjwJG5oCw" orderingGuide="" presentationName="Updated Project Plans" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="notification_of_revised_task_assignments_and_scheduled_dates" briefDescription="" id="_vT-z8BWREeiy1JjwJG5oCw" orderingGuide="" presentationName="Notification of revised task assignments and scheduled dates" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="modify_code" briefDescription="This step involves the implementation of the design changes into code, and compilation of the modified source code into object code." id="_BEbLsA0LEeiMmoWQJFO3CQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name="modify_code,_BEbLsA0LEeiMmoWQJFO3CQ" briefDescription="" id="-xwrfyCHFiLNUl6bgEJDUOw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-13T02:56:11" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[<p>
+    This step involves the implementation of the design changes into code, and compilation of the modified source code into
+    object code. Implementation is accomplished by modifying existing source code. This step may also be based upon
+    feedback from testing, indicating that additional source code modifications are required.
+</p>
+<p>
+    Constraints:
+</p>
+<p>
+    1)&nbsp;&nbsp;This step can begin as soon as the task has been assigned by the project manager. (Thus, it is possible,
+    if not advisable, to begin coding before the design work has even begun.) The engineer’s discretion determines when
+    this task will actually commence, if the design has not yet been approved. If this step has not commenced earlier, it
+    will begin when the design is approved.
+</p>
+<p>
+    2) Modified code released for testing is to reflect the approved modified design. One consequence is that this step
+    cannot be completed before the modified design has been approved.
+</p>
+<p>
+    3) This step ends when a clean compilation (no errors) has been accomplished and its output has been provided.
+</p>
+<p>
+    4) Subsequent iterations (if required) can begin as soon as the test unit step has completed.&nbsp;&nbsp;<br />
+    <br />
+</p>]]></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
+        <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
+        <Guideline>_ghDf0BYNEei7tO_70BPhqA</Guideline>
+        <Guideline>_yT5DwBYXEei7tO_70BPhqA</Guideline>
+        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
+        <MandatoryInput>_TNe6IBDtEeig5aQZWB7FhQ</MandatoryInput>
+        <MandatoryInput>_e7-eYBDpEeig5aQZWB7FhQ</MandatoryInput>
+        <Output>_Y-q_QBUXEeiy1JjwJG5oCw</Output>
+        <Output>_q8wL0BDtEeig5aQZWB7FhQ</Output>
+      </ContentElement>
       <ContentElement xsi:type="uma:Guideline" name="develop_change_and_test_unit" briefDescription="" id="_BCWjMBGtEeifx6UZyY1EkQ" orderingGuide="" presentationName="Develop Change and Test Unit" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <Presentation name="new_guideline,_BCWjMBGtEeifx6UZyY1EkQ" briefDescription="" id="-lpNiBnhceiuVM2TXeSOk3Q" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-14T12:34:20" changeDescription="" version="" externalId="">
@@ -677,29 +704,551 @@ should be highlighted.</Description>
           <KeyConsiderations></KeyConsiderations>
         </Presentation>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="approved_modified_design" briefDescription="" id="_Rb2jgBUWEeiy1JjwJG5oCw" orderingGuide="" presentationName="Approved Modified Design" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Roadmap" name="example_process" briefDescription="A concise description of how the work in the process is being performed. " id="_XGZc4BYFEei7tO_70BPhqA" orderingGuide="" presentationName="Example Process" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation name="new_roadmap,_XGZc4BYFEei7tO_70BPhqA" briefDescription="" id="-DT7O53hX219veo4gesL6Wg" orderingGuide="" presentationName="" suppressed="false" authors="Jon Doe" changeDate="2018-02-20T01:19:28" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[<div class="OutlineElement Ltr SCXW102164446"
+style='FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; POSITION: relative; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; DIRECTION: ltr; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'>
+    <p lang="EN-US" class="Paragraph SCXW102164446"
+    style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 0px 24px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{22}" paraid="1679955531" xml:lang="EN-US">
+        <span lang="EN-US" class="TextRun SCXW102164446"
+        style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+        style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+        Here's a brief description of how the Software process flows and how tasks are performed:</span></span><span
+        class="EOP SCXW102164446"
+        style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559685":360,"335559739":160,"335559740":259}'>&nbsp;</span>
+    </p>
+</div>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'>
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="1" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{24}" paraid="1546367024" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            A change in requirements is requested, presumably by the customer, late into the development or support
+            (</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            maintenance</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            <span>&nbsp;</span>and enhancements) phase of the process.</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ol>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'
+ start="2">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="2" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{26}" paraid="98174552" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            If the<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            CCB (</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Configuration Control Board) analyses and approves the change then the Project manager starts scheduling and
+            assigning tasks to ultimately carry out the change in the code unit affected.</span></span><span
+            class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ol>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'
+ start="3">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="3" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{28}" paraid="566040974" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            These tasks<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            include:-</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ol>
+<ul role="list" class="BulletListStyle1 SCXW102164446"
+style="LIST-STYLE-TYPE: disc; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 72px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="2" data-aria-posinset="1" data-listid="2" data-font="Symbol" data-leveltext="">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{164}" paraid="1414435626" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Modify Design<span>&nbsp;</span></span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 72px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="2" data-aria-posinset="2" data-listid="2" data-font="Symbol" data-leveltext="">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{d8850d28-e182-418b-9f67-ae5564c06627}{119}" paraid="681860443" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Review Design<span>&nbsp;</span></span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 72px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="2" data-aria-posinset="3" data-listid="2" data-font="Symbol" data-leveltext="">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{168}" paraid="178626706" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Modify Code</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ul>
+<ul role="list" class="BulletListStyle1 SCXW102164446"
+style="LIST-STYLE-TYPE: disc; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 72px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="2" data-aria-posinset="3" data-listid="2" data-font="Symbol" data-leveltext="">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{170}" paraid="601201240" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Modify Test Plans</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ul>
+<ul role="list" class="BulletListStyle1 SCXW102164446"
+style="LIST-STYLE-TYPE: disc; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 72px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="2" data-aria-posinset="4" data-listid="2" data-font="Symbol" data-leveltext="">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{172}" paraid="196721527" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Modify Unit Test Package<span>&nbsp;</span></span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ul>
+<ul role="list" class="BulletListStyle1 SCXW102164446"
+style="LIST-STYLE-TYPE: disc; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 72px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="2" data-aria-posinset="5" data-listid="2" data-font="Symbol" data-leveltext="">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{174}" paraid="677914419" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Test Unit<span>&nbsp;</span></span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 72px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="2" data-aria-posinset="7" data-listid="2" data-font="Symbol" data-leveltext="">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{d8850d28-e182-418b-9f67-ae5564c06627}{137}" paraid="1307483776" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Monitor Progress<span>&nbsp;</span></span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ul>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'
+ start="4">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="4" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{178}" paraid="1962229484" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Even though "Modify code" and "Modify plans" are scheduled in parallel with the other tasks, it would not be
+            ideal to have these tasks move forward without the design being reviewed and the code modified
+            respectively.</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ol>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'
+ start="5">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="5" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{180}" paraid="986977977" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            First, the design is<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            modified</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            <span>&nbsp;</span>and sent for design review&nbsp;conducted by&nbsp;the currently new task for
+            the<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            organization</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            <span>&nbsp;</span>called "Review Design".</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ol>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'
+ start="6">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="6" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{182}" paraid="1060680450" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            If the design is approved, the code is modified under the "Modify code" task. Otherwise Modify design task
+            keeps iterating until design is accepted.</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ol>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'
+ start="7">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="7" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{184}" paraid="1034210810" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Once code is modified appropriately,&nbsp;new test plans are<span>&nbsp;</span></span></span><span lang="EN-US"
+            class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            drafted,</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            <span>&nbsp;</span>or old ones are modified&nbsp;to verify its<span>&nbsp;</span></span></span><span
+            lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            behavior (</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            "Modify test plans").<span>&nbsp;</span></span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ol>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'
+ start="8">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="8" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{186}" paraid="731822526" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            This leads to the modification of the unit test package which<span>&nbsp;</span></span></span><span
+            lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            must</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            <span>&nbsp;</span>be modified to test the code modification.</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ol>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'
+ start="9">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="9" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{2a6d5abe-c198-403b-8436-ea267f7a0481}{16}" paraid="2013858974" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Then comes the "Test unit" task which</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            <span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            involves the application<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            of<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            the<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            unit<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            test<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            package<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            on the<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            modified code,<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            and<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            analysis<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            of<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            the<span>&nbsp;</span></span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            results</span></span><span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            .</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559685":720,"335559737":0,"335559739":160,"335559740":259,"335559991":360}'>
+            &nbsp;</span>
+        </p>
+    </li>
+</ol>
+<ol role="list" class="NumberListStyle1 SCXW102164446"
+style='LIST-STYLE-TYPE: decimal; FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'
+ start="10">
+    <li role="listitem" aria-setsize="-1" class="OutlineElement Ltr SCXW102164446"
+    style="FONT-SIZE: 12pt; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: Calibri, sans-serif; VERTICAL-ALIGN: baseline; POSITION: relative; PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; MARGIN: 0px 0px 0px 24px; DISPLAY: block; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     data-aria-level="1" data-aria-posinset="10" data-listid="1" data-font="Calibri" data-leveltext="%1.">
+        <p lang="EN-US" class="Paragraph SCXW102164446"
+        style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+         paraeid="{2a6d5abe-c198-403b-8436-ea267f7a0481}{208}" paraid="64096414" xml:lang="EN-US">
+            <span lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            Once the unit test passes and meets the appropriate coverage levels the Software process is</span></span> <span
+            lang="EN-US" class="TextRun SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; font-variant-ligatures: none; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             xml:lang="EN-US"><span class="NormalTextRun SCXW102164446"
+            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent">
+            deemed completed.</span></span><span class="EOP SCXW102164446"
+            style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri, Calibri_MSFontService, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+             data-ccp-props='{"134233279":true,"201341983":0,"335551550":6,"335551620":6,"335559739":160,"335559740":259}'>&nbsp;</span>
+        </p>
+    </li>
+</ol>
+<div class="OutlineElement Ltr SCXW102164446"
+style='FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: text; FONT-FAMILY: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; POSITION: relative; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; DIRECTION: ltr; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: both; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent'>
+    <p lang="EN-US" class="Paragraph SCXW102164446"
+    style="WORD-WRAP: break-word; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; COLOR: windowtext; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: justify; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; TEXT-INDENT: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent"
+     paraeid="{27e6dd90-ab96-4381-bf65-84954bc3f792}{11}" paraid="281960733" xml:lang="EN-US">
+        &nbsp;
+    </p>
+</div>]]></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+        </Presentation>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="modified_source_code" briefDescription="To software development files, computer I/O" id="_Y-q_QBUXEeiy1JjwJG5oCw" orderingGuide="" presentationName="Modified source code" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Guideline" name="configuration_management" briefDescription="This text contains some additional information for the Modify Code task." id="_ghDf0BYNEei7tO_70BPhqA" orderingGuide="" presentationName="Configuration Management" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation name="modify_code,_ghDf0BYNEei7tO_70BPhqA" briefDescription="" id="-oGrUss9N3bMlWe7QtwHyXQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-20T02:16:15" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[<P class=MsoNormal style="MARGIN: 0in 0in 8pt"><SPAN style='FONT-SIZE: 12pt; COLOR: black; LINE-HEIGHT: 107%; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; mso-themecolor: text1'><FONT face=Calibri>This step deals with a set of objects (entities) whose attributes and interrelationships need to be recorded. Both source and object code are under automated configuration management. The latest version of the software unit’s source code provides the starting point for modification during this step. </FONT></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 8pt"><SPAN style='FONT-SIZE: 12pt; COLOR: black; LINE-HEIGHT: 107%; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; mso-themecolor: text1'><FONT face=Calibri>Upon successful compilation, a new version of the unit’s source code is recorded, along with its corresponding object code. In addition, these must be related to the modified design upon which they are based. Source code information includes the body, creation timestamp, version information, and engineer responsible for this change.<SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN>Object code information includes the body, target system, and creation timestamp. Each source code instance can have multiple corresponding object code instances. Similarly, each design version can relate to multiple source code instances.</FONT></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 8pt"><SPAN style='FONT-SIZE: 12pt; COLOR: black; LINE-HEIGHT: 107%; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; mso-themecolor: text1'><FONT face=Calibri>&nbsp;For each successful compilation of a given source code<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>instance, it is important<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>to<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>record the<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>timestamp,<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>the<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>compiler<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>version<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>used, all compiler options selected<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>(e.g., optimizer on,<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>debugging on), any error or warning messages produced, and listings and associated documentation such as memory maps.</FONT></SPAN><SPAN style="FONT-SIZE: 12pt; COLOR: black; LINE-HEIGHT: 107%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; mso-themecolor: text1"><?xml:namespace prefix = "o" ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></P>]]></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+        </Presentation>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="modified_unit_test_package" briefDescription="" id="_kdCkwBV_Eeiy1JjwJG5oCw" orderingGuide="" presentationName="Modified unit test package " suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Guideline" name="additional_information_for_unit_test_package" briefDescription="Additional information for the task  'unit test package'" id="_J-SEMBYSEei7tO_70BPhqA" orderingGuide="" presentationName="Additional information for unit test package" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation name="new_guideline,_J-SEMBYSEei7tO_70BPhqA" briefDescription="" id="-fOlSeUt19lFWknI8oIKlNw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-20T02:50:40" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[<p>
+    Each instance of the unit test package include:-
+</p>
+<br />
+<p>
+    1. Software
+</p>
+<br />
+<p>
+    2. Procedures
+</p>
+<br />
+<p>
+    3.Timestamp
+</p>
+<br />
+<p>
+    4.Version Information
+</p>
+<br />
+<p>
+    5.Engineer responsible for this package instance
+</p>
+<br />]]></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+        </Presentation>
       </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="test_results" briefDescription="" id="_B8XwkBWAEeiy1JjwJG5oCw" orderingGuide="" presentationName="Test results" suppressed="false" isAbstract="false" variabilityType="na">
+      <ContentElement xsi:type="uma:Guideline" name="detailed_steps_to_modify_code" briefDescription="A detailed analysis of what happens during the modification of code.&#x9;" id="_yT5DwBYXEei7tO_70BPhqA" orderingGuide="" presentationName="Detailed steps to modify code" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
-      </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="feedback_regarding_code" briefDescription="" id="_ikOzkBWAEeiy1JjwJG5oCw" orderingGuide="" presentationName="Feedback regarding code" suppressed="false" isAbstract="false" variabilityType="na">
-        <MethodElementProperty name="me_edited" value="true"/>
-      </ContentElement>
-      <ContentElement xsi:type="uma:Outcome" name="feedback_regarding_test_package" briefDescription="" id="_nE7-oBWAEeiy1JjwJG5oCw" orderingGuide="" presentationName="Feedback_regarding_test_package" suppressed="false" isAbstract="false" variabilityType="na">
-        <MethodElementProperty name="me_edited" value="true"/>
-      </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="updated_project_plans" briefDescription="To file, computer I/O" id="_Ytu_0BWREeiy1JjwJG5oCw" orderingGuide="" presentationName="Updated Project Plans" suppressed="false" isAbstract="false" variabilityType="na">
-        <MethodElementProperty name="me_edited" value="true"/>
-      </ContentElement>
-      <ContentElement xsi:type="uma:Artifact" name="notification_of_revised_task_assignments_and_scheduled_dates" briefDescription="" id="_vT-z8BWREeiy1JjwJG5oCw" orderingGuide="" presentationName="Notification of revised task assignments and scheduled dates" suppressed="false" isAbstract="false" variabilityType="na">
-        <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation name="detailed_steps_to_modify_code,_yT5DwBYXEei7tO_70BPhqA" briefDescription="" id="-dKz3Yuf7GC8Mv3G9B-JuAg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2018-02-20T03:27:35" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[<p>
+    1. Direct modifications are made to the source code by the engineer, while object code is produced by compiler.
+</p>
+<br />
+<p>
+    2. The current source code (latest version) is withdrawn from the configuration management library at the outset of
+    this step.
+</p>
+<br />
+<p>
+    3. The engineer invokes an editor to make his changes to the source code. When he decides that the source code is ready
+    for&nbsp;&nbsp; compilation, he saves the source code file and invokes the compiler on it.
+</p>
+<br />
+<p>
+    4. If there are compilation errors, he goes back to the source code to make additional modifications and then
+    recompile.
+</p>
+<br />
+<p>
+    5. If a clean compilation has been achieved before the design has been approved, a final manual check of the code is
+    made by the engineer after the design is approved and before the code is released for unit testing; this may result in
+    additional source code changes.
+</p>
+<p>
+    <br />
+    6. It may be convenient (although not required) to assume that intermediate versions of the code objects and
+    compilation information and products are maintained in a private library (database) under configuration (version)
+    management. Only the final version needs to be placed into the software development files.<br />
+</p>]]></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+        </Presentation>
       </ContentElement>
     </MethodPackage>
     <MethodPackage xsi:type="uma:ProcessPackage" name="Example Process" briefDescription="" id="_oZljUAw-EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false">
@@ -1639,6 +2188,15 @@ multiple unit test package versions may be applied to a given object code versio
   </MethodPlugin>
   <MethodConfiguration name="software_process_config" briefDescription="" id="_XiNlQAw4Eeiqu5ZRAGwGhg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="">
     <MethodPluginSelection>_gAW5cAw8EeiOk4BfzayU7Q</MethodPluginSelection>
+    <MethodPackageSelection>_j726IAxGEeingdqlRSYTcw</MethodPackageSelection>
+    <MethodPackageSelection>_bv02PBXxEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_bv02MBXxEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_bv02PRXxEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_bv02OxXxEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_hLuhkBYaEeiSXc-6wpjN9Q</MethodPackageSelection>
+    <MethodPackageSelection>_bv02MRXxEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_bv02NxXxEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_bv02ORXxEei7tO_70BPhqA</MethodPackageSelection>
     <MethodPackageSelection>_oZljUAw-EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_zEjRMAw-EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_03hqsAw-EeiObrLZoLft4g</MethodPackageSelection>
@@ -1649,22 +2207,13 @@ multiple unit test package versions may be applied to a given object code versio
     <MethodPackageSelection>_A1Zx8Aw_EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_Cz6tEAw_EeiObrLZoLft4g</MethodPackageSelection>
     <MethodPackageSelection>_v6G5AAw_EeiObrLZoLft4g</MethodPackageSelection>
-    <MethodPackageSelection>_j726IAxGEeingdqlRSYTcw</MethodPackageSelection>
     <MethodPackageSelection>_Xo8hkAxHEeingdqlRSYTcw</MethodPackageSelection>
     <MethodPackageSelection>_t3FVYBKiEei_JOWs6zR2NA</MethodPackageSelection>
     <MethodPackageSelection>_zCRn4BKiEei_JOWs6zR2NA</MethodPackageSelection>
-    <MethodPackageSelection>_K4kCLBXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K4kCIBXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K4kCLRXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K6D28xXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K6D29BXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K4kCKxXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K56F8BXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K56F9BXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K6D28BXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_9XjpUBXGEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K4kCIRXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K4kCJxXFEeigMKzQDWeMkQ</MethodPackageSelection>
-    <MethodPackageSelection>_K4kCKRXFEeigMKzQDWeMkQ</MethodPackageSelection>
+    <MethodPackageSelection>_sZbLGRYEEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_sZbLGhYEEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_sZbLEBYEEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_sZbLFBYEEei7tO_70BPhqA</MethodPackageSelection>
+    <MethodPackageSelection>_sZbLFhYEEei7tO_70BPhqA</MethodPackageSelection>
   </MethodConfiguration>
 </uma:MethodLibrary>
