@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="__XYfoBcREeigwoZSBFLhxA">
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_u_YiYBdREeiBzv2yz8Quzw">
       <ContentCategory xsi:type="uma:CustomCategory" name="example_custom_category" briefDescription="" id="_ntOhcBajEeiIf8YthU0UvA" orderingGuide="" presentationName="Example Custom Category" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <CategorizedElement>_7QlE8BamEeiIf8YthU0UvA</CategorizedElement>
@@ -141,7 +141,7 @@
 <p>
     2) This step ends when its outputs have been provided; assume that all outputs are produced simultaneously.
 </p>]]></KeyConsiderations>
-          <Section name="Develope a schedule for the work to be undertaken for this software change" briefDescription="" id="_mNiH4BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+          <Section name="Develop a schedule for the work to be undertaken for this software change" briefDescription="" id="_mNiH4BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
             <Description></Description>
           </Section>
           <Section name="Schedule design review" briefDescription="" id="_1SxBoBUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
@@ -254,6 +254,15 @@
     <br />
 </p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
+          <Section name="Implement design changes in code" briefDescription="" id="_oMFCkBdREeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Compile modified source code into object code" briefDescription="" id="_JFwq0BdREeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Complete additional source code modifications based on testing feedback" briefDescription="" id="_Uss4wBdREeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
@@ -1518,7 +1527,7 @@ simultaneously]]></MainDescription>
             <Output>_t5jlIBKjEei_JOWs6zR2NA</Output>
             <Output>_PNniMBWWEeiy1JjwJG5oCw</Output>
             <PerformedPrimarilyBy>_t5iXABKjEei_JOWs6zR2NA</PerformedPrimarilyBy>
-            <Step name="Develope a schedule for the work to be undertaken for this software change" briefDescription="" id="_mNiH4BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Develop a schedule for the work to be undertaken for this software change" briefDescription="" id="_mNiH4BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
               <Description></Description>
             </Step>
             <Step name="Schedule design review" briefDescription="" id="_1SxBoBUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
@@ -2228,7 +2237,7 @@ multiple unit test package versions may be applied to a given object code versio
             <Output>_s4sSLxapEeiIf8YthU0UvA</Output>
             <Output>_s4sSNxapEeiIf8YthU0UvA</Output>
             <PerformedPrimarilyBy>_s4sSLRapEeiIf8YthU0UvA</PerformedPrimarilyBy>
-            <Step name="Develope a schedule for the work to be undertaken for this software change" briefDescription="" id="_mNiH4BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Develop a schedule for the work to be undertaken for this software change" briefDescription="" id="_mNiH4BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
               <Description></Description>
             </Step>
             <Step name="Schedule design review" briefDescription="" id="_1SxBoBUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
@@ -2879,7 +2888,7 @@ multiple unit test package versions may be applied to a given object code versio
     <MethodPackageSelection>_4Zlt4BafEeiIf8YthU0UvA</MethodPackageSelection>
     <MethodPackageSelection>_4Zlt4xafEeiIf8YthU0UvA</MethodPackageSelection>
     <MethodPackageSelection>_4Zlt5RafEeiIf8YthU0UvA</MethodPackageSelection>
-    <MethodPackageSelection>__XYfoBcREeigwoZSBFLhxA</MethodPackageSelection>
+    <MethodPackageSelection>_u_YiYBdREeiBzv2yz8Quzw</MethodPackageSelection>
     <MethodPackageSelection>_4ZJB8RafEeiIf8YthU0UvA</MethodPackageSelection>
     <MethodPackageSelection>_4ZJB9xafEeiIf8YthU0UvA</MethodPackageSelection>
     <MethodPackageSelection>_4ZJB-RafEeiIf8YthU0UvA</MethodPackageSelection>
