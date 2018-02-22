@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_vqDQ8BgKEeiqZOF2Bql_hQ">
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_lcTGsBgOEeixJaG6Mh6fxA">
       <ContentCategory xsi:type="uma:CustomCategory" name="team_3_process" briefDescription="" id="_ntOhcBajEeiIf8YthU0UvA" orderingGuide="" presentationName="Team 3 Process" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <CategorizedElement>_7QlE8BamEeiIf8YthU0UvA</CategorizedElement>
@@ -1682,103 +1682,6 @@ design based upon feedback from the design review.</RefinedDescription>
               <SuperActivity>_IEs_8RWwEeiy1JjwJG5oCw</SuperActivity>
               <WorkProduct>_q8wL0BDtEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:TaskDescriptor" name="test_unit" briefDescription="This step involves the application of the unit test package on the modified code, and analysis of the results. Both the design and QA engineers participate in this step." id="_QCKlwBWwEeiy1JjwJG5oCw" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <Presentation xsi:type="uma:DescriptorDescription" name="test_unit,_QCKlwBWwEeiy1JjwJG5oCw" briefDescription="" id="-97T5aeQtOw5ae283VMskpg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-                <MainDescription></MainDescription>
-                <KeyConsiderations></KeyConsiderations>
-                <RefinedDescription>&lt;p>
-    This step involves the application of the unit test package on the modified code, and analysis of the results. Both the
-    design and QA engineers participate in this step. The entire test package is run before any analysis or further action
-    is taken. Although the unit tests are primarily functional, an automated coverage analyzer is employed to determine
-    that adequate test coverage of the unit’s code has been achieved; a 90% threshold has been established as acceptable.
-    If all tests are successfully completed, and 90% coverage attained, then the unit has successfully passed. When this is
-    not the case, the design and QA engineers jointly analyze the test results and determine appropriate actions. In order
-    to confine the problem, assume that either or both of the following are the outcomes of this analysis: the source code
-    needs to be modified further, the unit tests need to be modified further. When the indicated modifications have been
-    made, the unit can be retested.
-&lt;/p>
-&lt;p>
-    If the unit passes its tests and meets an acceptable coverage level, then this example process has been completed.
-    Steps beyond unit testing, such as integration testing, are beyond the scope of the core problem. The project manager
-    is notified that the latest version of the unit code is available for integration testing.
-&lt;/p>
-&lt;p>
-    Constraints:
-&lt;/p>
-&lt;p>
-    1) This step can begin as soon as both the object code and unit test package are available.
-&lt;/p>
-&lt;p>
-    2) This step ends when its outputs have been provided; assume that all outputs are produced simultaneously.
-&lt;/p></RefinedDescription>
-              </Presentation>
-              <SuperActivity>_IEs_8RWwEeiy1JjwJG5oCw</SuperActivity>
-              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
-              <Guideline>_pqt7IBaeEeiP8KYb2COzmg</Guideline>
-              <Predecessor id="_lvycsBgJEeiqZOF2Bql_hQ" linkType="finishToStart">_PRQGMBWwEeiy1JjwJG5oCw</Predecessor>
-              <Task>_IiffwA0LEeiMmoWQJFO3CQ</Task>
-              <MandatoryInput>_PRQtRhWwEeiy1JjwJG5oCw</MandatoryInput>
-              <MandatoryInput>_QCLM0BWwEeiy1JjwJG5oCw</MandatoryInput>
-              <Output>_QCLM0hWwEeiy1JjwJG5oCw</Output>
-              <Output>_QCLM1BWwEeiy1JjwJG5oCw</Output>
-              <Output>_Qc4bgRZjEei-X60GZyOg_w</Output>
-              <Output>_QdBlcRZjEei-X60GZyOg_w</Output>
-              <Output>_Qc5poRZjEei-X60GZyOg_w</Output>
-              <PerformedPrimarilyBy>_QCKlwRWwEeiy1JjwJG5oCw</PerformedPrimarilyBy>
-              <PerformedPrimarilyBy>_PRQGMRWwEeiy1JjwJG5oCw</PerformedPrimarilyBy>
-              <Step name="Apply unit test package on modified code" briefDescription="" id="_5gB2YBfwEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Run entire test package before analysis or further action is taken" briefDescription="" id="_-ZW80BfwEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Employ test coverage analyzer to determine adequate coverage (90%)" briefDescription="" id="_ETSkoBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Design and QA engineers jointly analyze test results" briefDescription="" id="_SHBaQBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Determine actions when insufficient coverage is discovered" briefDescription="" id="_b_pFMBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Modify source code if insufficient coverage is discovered" briefDescription="" id="_h-ozMBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Modify unit tests if insufficient coverage is discovered" briefDescription="" id="_vFNn4BfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Re-run unit tests after changes are made" briefDescription="" id="_zXkN4BfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Notify project manager that latest version of the unit code is available for integration testing" briefDescription="" id="_4IxTEBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:RoleDescriptor" name="qa_engineer" briefDescription="" id="_QCKlwRWwEeiy1JjwJG5oCw" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_IEs_8RWwEeiy1JjwJG5oCw</SuperActivity>
-              <Role>_dm_0YAxHEeingdqlRSYTcw</Role>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="unit_test_package" briefDescription="From test package file, computer I/O" id="_QCLM0BWwEeiy1JjwJG5oCw" orderingGuide="" presentationName="Unit Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_IEs_8RWwEeiy1JjwJG5oCw</SuperActivity>
-              <WorkProduct>_wtbJ8BDtEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="test_results" briefDescription="" id="_QCLM0hWwEeiy1JjwJG5oCw" orderingGuide="" presentationName="Test results" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_IEs_8RWwEeiy1JjwJG5oCw</SuperActivity>
-              <WorkProduct>_B8XwkBWAEeiy1JjwJG5oCw</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_successful_testing" briefDescription="" id="_QCLM1BWwEeiy1JjwJG5oCw" orderingGuide="" presentationName="Notification of Successful Testing" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_IEs_8RWwEeiy1JjwJG5oCw</SuperActivity>
-              <WorkProduct>_jF20IBEFEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
             <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="feedback_regarding_code" briefDescription="" id="_Qc4bgRZjEei-X60GZyOg_w" orderingGuide="" presentationName="Feedback Regarding Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
@@ -1790,12 +1693,6 @@ design based upon feedback from the design review.</RefinedDescription>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
               <SuperActivity>_IEs_8RWwEeiy1JjwJG5oCw</SuperActivity>
               <WorkProduct>_M5ukcBDqEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="feedback_regarding_test_package" briefDescription="" id="_QdBlcRZjEei-X60GZyOg_w" orderingGuide="" presentationName="Feedback Regarding Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_IEs_8RWwEeiy1JjwJG5oCw</SuperActivity>
-              <WorkProduct>_MRdWMBZeEei-X60GZyOg_w</WorkProduct>
             </BreakdownElement>
           </BreakdownElement>
           <BreakdownElement xsi:type="uma:Iteration" name="Modify Tests" briefDescription="" id="_omQI8RgIEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modify Tests" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="true" variabilityType="na">
@@ -1930,424 +1827,9 @@ design based upon feedback from the design review.</RefinedDescription>
               <SuperActivity>_omQI8RgIEeiqZOF2Bql_hQ</SuperActivity>
               <WorkProduct>_qkeykBDpEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-          </BreakdownElement>
-          <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
-          <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
-        </Process>
-      </MethodPackage>
-    </MethodPackage>
-    <MethodPackage xsi:type="uma:ProcessComponent" name="example_delivery_process" briefDescription="" id="_v6G5AAw_EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
-      <MethodElementProperty name="pkg_loadCheck" value="true"/>
-      <MethodElementProperty name="me_edited" value="true"/>
-      <Process xsi:type="uma:DeliveryProcess" name="example_delivery_process" briefDescription="" id="_v6G5AQw_EeiObrLZoLft4g" orderingGuide="" presentationName="Example Delivery Process" suppressed="false" isAbstract="false" hasMultipleOccurrences="true" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
-        <Presentation xsi:type="uma:DeliveryProcessDescription" name="example_delivery_process,_v6G5AQw_EeiObrLZoLft4g" briefDescription="" id="-nTOHBD5O3MRQfNUdvtKgQg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-          <MainDescription></MainDescription>
-          <KeyConsiderations></KeyConsiderations>
-          <Alternatives></Alternatives>
-          <HowToStaff></HowToStaff>
-          <Purpose></Purpose>
-          <Scope></Scope>
-          <UsageNotes></UsageNotes>
-          <Scale></Scale>
-          <ProjectCharacteristics></ProjectCharacteristics>
-          <RiskLevel></RiskLevel>
-          <EstimatingTechnique></EstimatingTechnique>
-          <ProjectMemberExpertise></ProjectMemberExpertise>
-          <TypeOfContract></TypeOfContract>
-        </Presentation>
-        <BreakdownElement xsi:type="uma:CapabilityPattern" name="Develop Change and Test Unit" briefDescription="The complete process for changing sourcecode and testing." id="_lt0RURgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Develop Change and Test Unit" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
-          <Presentation xsi:type="uma:ProcessDescription" name="Develop Change and Test Unit 2.0,_zCRn4RKiEei_JOWs6zR2NA" briefDescription="" id="-A-oW0awtv85WsRtsSgtmUw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-            <MainDescription><![CDATA[<p>
-    Given a Requirements change this process will be carried out to make that change possible.
-</p>
-<br />]]></MainDescription>
-            <KeyConsiderations><![CDATA[<p>
-    Constraints.
-</p>
-<p>
-    1.This step can begin as soon as authorization to make the change has been granted by the CCB.
-</p>
-<p>
-    2. This step ends when the unit testing has been successfully completed, or when the CCB cancels the change effort.
-</p>
-<br />]]></KeyConsiderations>
-            <Alternatives></Alternatives>
-            <HowToStaff></HowToStaff>
-            <Purpose><![CDATA[Changing source code]]></Purpose>
-            <Scope></Scope>
-            <UsageNotes></UsageNotes>
-          </Presentation>
-          <SuperActivity>_v6G5AQw_EeiObrLZoLft4g</SuperActivity>
-          <BreakdownElement xsi:type="uma:Iteration" name="Manage Project" briefDescription="" id="_lt0ReBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Manage Project" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="true" variabilityType="na">
-            <SuperActivity>_lt0RURgKEeiqZOF2Bql_hQ</SuperActivity>
-            <BreakdownElement xsi:type="uma:RoleDescriptor" name="project_manager" briefDescription="" id="_lt0RehgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Project Manager" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="test_unit" briefDescription="This step involves the application of the unit test package on the modified code, and analysis of the results. Both the design and QA engineers participate in this step." id="_9hOUwBgNEeixJaG6Mh6fxA" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Role>_sWgLMAxGEeingdqlRSYTcw</Role>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="authorization" briefDescription="from CCB, verbal" id="_lt0RexgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Authorization" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_kkFBQBDnEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="requirements_change" briefDescription="Although " id="_lt0RfBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Requirements Change" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_OVrKwBD6Eeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="project_plans" briefDescription="From file, computer I/O" id="_lt0RfRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Project Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_xWp74BDnEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="updated_project_plans" briefDescription="To file, computer I/O" id="_lt0RfhgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Updated Project Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_Ytu_0BWREeiy1JjwJG5oCw</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_revised_task_assignments_and_scheduled_dates" briefDescription="" id="_lt0RfxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Notification of revised task assignments and scheduled dates" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_vT-z8BWREeiy1JjwJG5oCw</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_lt0RgBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_M5ukcBDqEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:TaskDescriptor" name="schedule_and_assign_tasks" briefDescription="Developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to specific staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is also scheduled, and participants are assigned to it; the participants will be the design and QA engineer, along with two other software engineers. " id="_lt0ReRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <Presentation xsi:type="uma:DescriptorDescription" name="schedule_and_assign_tasks,_0rljEBgIEeiqZOF2Bql_hQ" briefDescription="" id="-xggMqfhBpYEJzTV9YWyzuA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-                <MainDescription></MainDescription>
-                <KeyConsiderations></KeyConsiderations>
-                <RefinedDescription>&lt;p>
-    This step is a project management function, and is the first step carried out in this process. It involves developing a
-    schedule for the work to be undertaken for this software change, and assigning individual tasks to specific staff
-    members: specifically, &lt;strong>a design engineer and a quality assurance (QA) engineer&lt;/strong>. The design review is
-    also scheduled, and participants are assigned to it; the participants will be the &lt;strong>design and QA engineer, along
-    with two other software engineers.&lt;/strong>
-&lt;/p></RefinedDescription>
-              </Presentation>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
-              <Guideline>_pqtUFxaeEeiP8KYb2COzmg</Guideline>
-              <Task>_4m8pEA0KEeiMmoWQJFO3CQ</Task>
-              <MandatoryInput>_lt0RexgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RfBgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RfRgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <Output>_lt0RfhgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RfxgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RfBgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RgBgKEeiqZOF2Bql_hQ</Output>
-              <PerformedPrimarilyBy>_lt0RehgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
-              <Step name="Develop a schedule for the work to be undertaken for this software change" briefDescription="" id="_mNiH4BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Schedule design review" briefDescription="" id="_1SxBoBUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Assign tasks for the design engineer" briefDescription="" id="_s0rbABUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Assign tasks for the QA engineer" briefDescription="" id="_yYgP8BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Assign two software engineers" briefDescription="" id="_-rqqsBUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:TaskDescriptor" name="monitor_progress" briefDescription="This step involves the project manager monitoring progress and status of the work" id="_lt0RgRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <Presentation xsi:type="uma:DescriptorDescription" name="monitor_progress,_1tKU0BgIEeiqZOF2Bql_hQ" briefDescription="" id="-enmctn9ajdbLVLciXVxh1w" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-                <MainDescription></MainDescription>
-                <KeyConsiderations></KeyConsiderations>
-                <RefinedDescription>&lt;p>
-    This step involves the project manager monitoring progress and status of the work. This is based upon notification of
-    completion of each step, as well as informal information. While work proceeds according to plan, no action is taken and
-    no output is developed by this step. On the other hand, deviations from plan can result in rescheduling of tasks. In
-    severe cases, the project manager may put the entire modification effort on hold, and recommend to the CCB that this
-    change effort be canceled. The CCB may either concur and cancel the effort, or indicate that it is to be resumed where
-    it left off. In such cases the affected personnel are notified (by the project manager) as appropriate regarding the
-    resumption or cancellation of their work on this change.
-&lt;/p>
-&lt;br /></RefinedDescription>
-              </Presentation>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
-              <Guideline>_pqtUFRaeEeiP8KYb2COzmg</Guideline>
-              <Task>_KM2v0A0LEeiMmoWQJFO3CQ</Task>
-              <MandatoryInput>_lt0RgxgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RhBgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RhRgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RhhgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RgBgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <Output>_lt0RfhgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RfxgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RhxgKEeiqZOF2Bql_hQ</Output>
-              <PerformedPrimarilyBy>_lt0RghgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
-              <Step name="Monitor progress and status of work" briefDescription="" id="_pCmBkBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Reschedule tasks due to deviations" briefDescription="" id="_tlb6oBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Put the entire modification effort on hold (in severe cases)" briefDescription="" id="_x1VpkBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Recommend to the CCB that this change effort be canceled (in severe cases)" briefDescription="" id="_4Nb0EBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:RoleDescriptor" name="qa_engineer" briefDescription="" id="_lt0RghgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Role>_dm_0YAxHEeingdqlRSYTcw</Role>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_project_plans" briefDescription="From file, computer I/O" id="_lt0RgxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Current Project Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_ShKHABDqEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="outcome_notification_number_of_defects_identified_aggregate_effort" briefDescription="From review design, e-mail" id="_lt0RhBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Outcome notification, number of defects identified, aggregate effort" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_ZeXM4BDuEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_successful_testing" briefDescription="" id="_lt0RhRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Notification of Successful Testing" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_jF20IBEFEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="decision_regarding_cancellation" briefDescription="From CCB, verbal" id="_lt0RhhgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Decision Regarding Cancellation" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_Zg_m8BDqEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="recommendation_to_cancel" briefDescription="" id="_lt0RhxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Recommendation to Cancel" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0ReBgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_mWmLsBZhEei-X60GZyOg_w</WorkProduct>
-            </BreakdownElement>
-          </BreakdownElement>
-          <BreakdownElement xsi:type="uma:Iteration" name="Modify Design" briefDescription="" id="_lt0RiRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modify Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="true" variabilityType="na">
-            <SuperActivity>_lt0RURgKEeiqZOF2Bql_hQ</SuperActivity>
-            <Predecessor id="_lt0RlRgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0ReRgKEeiqZOF2Bql_hQ</Predecessor>
-            <BreakdownElement xsi:type="uma:TaskDescriptor" name="review_design" briefDescription="This step involves the formal review of the modified design." id="_lt0RkBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <Presentation xsi:type="uma:DescriptorDescription" name="review_design,_GmBvYBgJEeiqZOF2Bql_hQ" briefDescription="" id="-JaLJ01BbQg6fI3RgiOe72g" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-                <MainDescription></MainDescription>
-                <KeyConsiderations></KeyConsiderations>
-                <RefinedDescription>&lt;p>
-    This step involves the formal review of the modified design. It is conducted by a team including the design engineer
-    who produced the design modifications. There are three alternative outcomes of the review:
-&lt;/p>
-&lt;p>
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1) Unconditional approval - The design is totally approved; the approved modified design is
-    incorporated into the software design document.
-&lt;/p>
-&lt;p>
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2) Minor changes recommended - Minor changes to the design are required and feedback is
-    provided to the designer. The re-review is expected to be perfunctory.
-&lt;/p>
-&lt;p>
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3) Major changes recommended - Major changes to the design are requred and feedback is
-    provided to the designer.
-&lt;/p>
-&lt;p>
-    At the conclusion of the review, the project manager is notified of the outcome. Due to the fact that formal design
-    reviews are a relatively new step in this organization’s process, they are recording certain measurements to help
-    evaluate its impact, In particular, the number of defects identified, and the aggregate effort of the review team in
-    preparing for and conducting the review are reported to the project manager.
-&lt;/p></RefinedDescription>
-              </Presentation>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
-              <Guideline>_pqtUFhaeEeiP8KYb2COzmg</Guideline>
-              <Predecessor id="_lt0RlhgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0ReRgKEeiqZOF2Bql_hQ</Predecessor>
-              <Task>_-y2xsA0KEeiMmoWQJFO3CQ</Task>
-              <MandatoryInput>_lt0RjhgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <Output>_lt0RjBgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RkxgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RlBgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RjxgKEeiqZOF2Bql_hQ</Output>
-              <PerformedPrimarilyBy>_lt0RixgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
-              <PerformedPrimarilyBy>_lt0RkRgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
-              <PerformedPrimarilyBy>_lt0RkhgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
-              <Step name="Review modified design" briefDescription="" id="_rM3IMBfvEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Include number of defects identified and aggregate effort of review team in review" briefDescription="" id="_46LMwBfvEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Notify project manager of outcome at conclusion of review" briefDescription="" id="_tb7AwBfvEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:TaskDescriptor" name="modify_design" briefDescription="This  step  involves  the modification of the  design  for  the  code unit  affected by the requirements change." id="_lt0RihgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modify Designs" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <Presentation xsi:type="uma:DescriptorDescription" name="modify_design,_FisDEBgJEeiqZOF2Bql_hQ" briefDescription="" id="-LqNL9Ic5ZAZNmwUG-txU7A" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-                <MainDescription></MainDescription>
-                <KeyConsiderations></KeyConsiderations>
-                <RefinedDescription>This step involves the modification of the design for the code unit affected by the requirements change. It is a highly
-creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the
-design based upon feedback from the design review.</RefinedDescription>
-              </Presentation>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Guideline>_pqtUEhaeEeiP8KYb2COzmg</Guideline>
-              <Predecessor id="_lt0RlxgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0RkBgKEeiqZOF2Bql_hQ</Predecessor>
-              <Task>_ZPjZwBZdEei-X60GZyOg_w</Task>
-              <MandatoryInput>_lt0RjBgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RjRgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <Output>_lt0RjhgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RjxgKEeiqZOF2Bql_hQ</Output>
-              <PerformedPrimarilyBy>_lt0RixgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
-              <Step name="Modify design based on requirements change" briefDescription="" id="_ylC6IBdUEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Modify design based on design review feedback" briefDescription="" id="_3noqQBdUEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:RoleDescriptor" name="design_engineer" briefDescription="" id="_lt0RixgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Design Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Role>_hmS7gAxHEeingdqlRSYTcw</Role>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="design_review_feedback" briefDescription="To modify design, hand carried" id="_lt0RjBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Design Review Feedback" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>__SDqUBDoEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_design" briefDescription="From software design document file, hand carried" id="_lt0RjRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Current Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_8xrYQBDoEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_design" briefDescription="From modify design, hand carried" id="_lt0RjhgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modified Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_TNe6IBDtEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_lt0RjxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_M5ukcBDqEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:RoleDescriptor" name="software_engineer" briefDescription="" id="_lt0RkRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Software Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Role>_pQJBwAxHEeingdqlRSYTcw</Role>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:RoleDescriptor" name="qa_engineer" briefDescription="" id="_lt0RkhgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Role>_dm_0YAxHEeingdqlRSYTcw</Role>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="approved_modified_design" briefDescription="" id="_lt0RkxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Approved Modified Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_Rb2jgBUWEeiy1JjwJG5oCw</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="outcome_notification_number_of_defects_identified_aggregate_effort" briefDescription="From review design, e-mail" id="_lt0RlBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Outcome notification, number of defects identified, aggregate effort" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RiRgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_ZeXM4BDuEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-          </BreakdownElement>
-          <BreakdownElement xsi:type="uma:Iteration" name="Modify Code" briefDescription="" id="_lt0RUxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="true" variabilityType="na">
-            <SuperActivity>_lt0RURgKEeiqZOF2Bql_hQ</SuperActivity>
-            <Predecessor id="_lt0RYhgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0ReRgKEeiqZOF2Bql_hQ</Predecessor>
-            <BreakdownElement xsi:type="uma:RoleDescriptor" name="design_engineer" briefDescription="" id="_lt0RVRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Design Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Role>_hmS7gAxHEeingdqlRSYTcw</Role>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_design" briefDescription="From modify design, hand carried" id="_lt0RVhgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modified Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_TNe6IBDtEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_source_code" briefDescription="From software development files, computer I/O" id="_lt0RVxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Current Source Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_e7-eYBDpEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_source_code" briefDescription="To software development files, computer I/O" id="_lt0RWBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modified source code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_Y-q_QBUXEeiy1JjwJG5oCw</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="object_code" briefDescription="From software development files, computer I/O" id="_lt0RWRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Object Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_q8wL0BDtEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:TaskDescriptor" name="modify_code" briefDescription="This step involves the implementation of the design changes into code, and compilation of the modified source code into object code." id="_lt0RVBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <Presentation xsi:type="uma:DescriptorDescription" name="modify_code,_PRQGMBWwEeiy1JjwJG5oCw" briefDescription="" id="-F2a4DwDntn7zf92JsuE0lg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
-                <MainDescription></MainDescription>
-                <KeyConsiderations></KeyConsiderations>
-                <RefinedDescription>&lt;p>
-    This step involves the implementation of the design changes into code, and compilation of the modified source code into
-    object code. Implementation is accomplished by modifying existing source code. This step may also be based upon
-    feedback from testing, indicating that additional source code modifications are required.
-&lt;/p></RefinedDescription>
-              </Presentation>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
-              <Guideline>_qKoRcRZ2Eeisp88dpWskHA</Guideline>
-              <Guideline>_qKoRchZ2Eeisp88dpWskHA</Guideline>
-              <Guideline>_pqtUERaeEeiP8KYb2COzmg</Guideline>
-              <Predecessor id="_lt0RYxgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0ReRgKEeiqZOF2Bql_hQ</Predecessor>
-              <Predecessor id="_lt0RZBgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0RkBgKEeiqZOF2Bql_hQ</Predecessor>
-              <Task>_BEbLsA0LEeiMmoWQJFO3CQ</Task>
-              <MandatoryInput>_lt0RVhgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RVxgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RXxgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <Output>_lt0RWBgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RWRgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RYBgKEeiqZOF2Bql_hQ</Output>
-              <PerformedPrimarilyBy>_lt0RVRgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
-              <Step name="Implement design changes in code" briefDescription="" id="_oMFCkBdREeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Compile modified source code into object code" briefDescription="" id="_JFwq0BdREeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-              <Step name="Complete additional source code modifications based on testing feedback" briefDescription="" id="_Uss4wBdREeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-                <Description></Description>
-              </Step>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:TaskDescriptor" name="test_unit" briefDescription="This step involves the application of the unit test package on the modified code, and analysis of the results. Both the design and QA engineers participate in this step." id="_lt0RWhgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <Presentation xsi:type="uma:DescriptorDescription" name="test_unit,_QCKlwBWwEeiy1JjwJG5oCw" briefDescription="" id="-yxLGUNFc4WecLDFIHoP4xQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+              <Presentation xsi:type="uma:DescriptorDescription" name="test_unit,_9hOUwBgNEeixJaG6Mh6fxA" briefDescription="" id="-pfy3c34T0rBTV7Zl-Zcrgg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
                 <MainDescription></MainDescription>
                 <KeyConsiderations></KeyConsiderations>
                 <RefinedDescription>&lt;p>
@@ -2376,20 +1858,20 @@ design based upon feedback from the design review.</RefinedDescription>
     2) This step ends when its outputs have been provided; assume that all outputs are produced simultaneously.
 &lt;/p></RefinedDescription>
               </Presentation>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
+              <SuperActivity>_omQI8RgIEeiqZOF2Bql_hQ</SuperActivity>
               <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
               <Guideline>_pqt7IBaeEeiP8KYb2COzmg</Guideline>
-              <Predecessor id="_lt0RZRgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0RVBgKEeiqZOF2Bql_hQ</Predecessor>
+              <Predecessor id="__Gtr4BgNEeixJaG6Mh6fxA" linkType="finishToStart">_PRQGMBWwEeiy1JjwJG5oCw</Predecessor>
               <Task>_IiffwA0LEeiMmoWQJFO3CQ</Task>
-              <MandatoryInput>_lt0RWRgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RXBgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <Output>_lt0RXRgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RXhgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RXxgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RYRgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RYBgKEeiqZOF2Bql_hQ</Output>
-              <PerformedPrimarilyBy>_lt0RVRgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
-              <PerformedPrimarilyBy>_lt0RWxgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
+              <MandatoryInput>_9hOUwxgNEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_9hOUxRgNEeixJaG6Mh6fxA</MandatoryInput>
+              <Output>_9hOUxxgNEeixJaG6Mh6fxA</Output>
+              <Output>_9hOUyRgNEeixJaG6Mh6fxA</Output>
+              <Output>_9hOUyxgNEeixJaG6Mh6fxA</Output>
+              <Output>_rABcuhgIEeiqZOF2Bql_hQ</Output>
+              <Output>_rABcvhgIEeiqZOF2Bql_hQ</Output>
+              <PerformedPrimarilyBy>_9hOUwRgNEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <PerformedPrimarilyBy>_rABcsBgIEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
               <Step name="Apply unit test package on modified code" briefDescription="" id="_5gB2YBfwEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
                 <Description></Description>
               </Step>
@@ -2418,55 +1900,476 @@ design based upon feedback from the design review.</RefinedDescription>
                 <Description></Description>
               </Step>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:RoleDescriptor" name="qa_engineer" briefDescription="" id="_lt0RWxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="design_engineer" briefDescription="" id="_9hOUwRgNEeixJaG6Mh6fxA" orderingGuide="" presentationName="Design Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Role>_dm_0YAxHEeingdqlRSYTcw</Role>
+              <SuperActivity>_omQI8RgIEeiqZOF2Bql_hQ</SuperActivity>
+              <Role>_hmS7gAxHEeingdqlRSYTcw</Role>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="unit_test_package" briefDescription="From test package file, computer I/O" id="_lt0RXBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Unit Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="object_code" briefDescription="From software development files, computer I/O" id="_9hOUwxgNEeixJaG6Mh6fxA" orderingGuide="" presentationName="Object Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
+              <SuperActivity>_omQI8RgIEeiqZOF2Bql_hQ</SuperActivity>
+              <WorkProduct>_q8wL0BDtEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="unit_test_package" briefDescription="From test package file, computer I/O" id="_9hOUxRgNEeixJaG6Mh6fxA" orderingGuide="" presentationName="Unit Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_omQI8RgIEeiqZOF2Bql_hQ</SuperActivity>
               <WorkProduct>_wtbJ8BDtEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="test_results" briefDescription="" id="_lt0RXRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Test results" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="test_results" briefDescription="" id="_9hOUxxgNEeixJaG6Mh6fxA" orderingGuide="" presentationName="Test results" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
+              <SuperActivity>_omQI8RgIEeiqZOF2Bql_hQ</SuperActivity>
               <WorkProduct>_B8XwkBWAEeiy1JjwJG5oCw</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_successful_testing" briefDescription="" id="_lt0RXhgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Notification of Successful Testing" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_successful_testing" briefDescription="" id="_9hOUyRgNEeixJaG6Mh6fxA" orderingGuide="" presentationName="Notification of Successful Testing" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
+              <SuperActivity>_omQI8RgIEeiqZOF2Bql_hQ</SuperActivity>
               <WorkProduct>_jF20IBEFEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="feedback_regarding_code" briefDescription="" id="_lt0RXxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Feedback Regarding Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="feedback_regarding_code" briefDescription="" id="_9hOUyxgNEeixJaG6Mh6fxA" orderingGuide="" presentationName="Feedback Regarding Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
+              <SuperActivity>_omQI8RgIEeiqZOF2Bql_hQ</SuperActivity>
               <WorkProduct>_-8Sr4BZdEei-X60GZyOg_w</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_lt0RYBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+          </BreakdownElement>
+          <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
+          <ValidContext>_XiNlQAw4Eeiqu5ZRAGwGhg</ValidContext>
+        </Process>
+      </MethodPackage>
+    </MethodPackage>
+    <MethodPackage xsi:type="uma:ProcessComponent" name="example_delivery_process" briefDescription="" id="_v6G5AAw_EeiObrLZoLft4g" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+      <MethodElementProperty name="pkg_loadCheck" value="true"/>
+      <MethodElementProperty name="me_edited" value="true"/>
+      <Process xsi:type="uma:DeliveryProcess" name="example_delivery_process" briefDescription="" id="_v6G5AQw_EeiObrLZoLft4g" orderingGuide="" presentationName="Example Delivery Process" suppressed="false" isAbstract="false" hasMultipleOccurrences="true" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+        <Presentation xsi:type="uma:DeliveryProcessDescription" name="example_delivery_process,_v6G5AQw_EeiObrLZoLft4g" briefDescription="" id="-nTOHBD5O3MRQfNUdvtKgQg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Alternatives></Alternatives>
+          <HowToStaff></HowToStaff>
+          <Purpose></Purpose>
+          <Scope></Scope>
+          <UsageNotes></UsageNotes>
+          <Scale></Scale>
+          <ProjectCharacteristics></ProjectCharacteristics>
+          <RiskLevel></RiskLevel>
+          <EstimatingTechnique></EstimatingTechnique>
+          <ProjectMemberExpertise></ProjectMemberExpertise>
+          <TypeOfContract></TypeOfContract>
+        </Presentation>
+        <BreakdownElement xsi:type="uma:CapabilityPattern" name="Develop Change and Test Unit" briefDescription="The complete process for changing sourcecode and testing." id="_QsCj0RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Develop Change and Test Unit" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+          <Presentation xsi:type="uma:ProcessDescription" name="Develop Change and Test Unit 2.0,_zCRn4RKiEei_JOWs6zR2NA" briefDescription="" id="-L2s3k6T9ev4oQiT1aCySXg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+            <MainDescription><![CDATA[<p>
+    Given a Requirements change this process will be carried out to make that change possible.
+</p>
+<br />]]></MainDescription>
+            <KeyConsiderations><![CDATA[<p>
+    Constraints.
+</p>
+<p>
+    1.This step can begin as soon as authorization to make the change has been granted by the CCB.
+</p>
+<p>
+    2. This step ends when the unit testing has been successfully completed, or when the CCB cancels the change effort.
+</p>
+<br />]]></KeyConsiderations>
+            <Alternatives></Alternatives>
+            <HowToStaff></HowToStaff>
+            <Purpose><![CDATA[Changing source code]]></Purpose>
+            <Scope></Scope>
+            <UsageNotes></UsageNotes>
+          </Presentation>
+          <SuperActivity>_v6G5AQw_EeiObrLZoLft4g</SuperActivity>
+          <BreakdownElement xsi:type="uma:Iteration" name="Manage Project" briefDescription="" id="_QsMU6xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Manage Project" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="true" variabilityType="na">
+            <SuperActivity>_QsCj0RgOEeixJaG6Mh6fxA</SuperActivity>
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="project_manager" briefDescription="" id="_QsMU7RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Project Manager" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <Role>_sWgLMAxGEeingdqlRSYTcw</Role>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="authorization" briefDescription="from CCB, verbal" id="_QsMU7hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Authorization" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_kkFBQBDnEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="requirements_change" briefDescription="Although " id="_QsMU7xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Requirements Change" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_OVrKwBD6Eeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="project_plans" briefDescription="From file, computer I/O" id="_QsMU8BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Project Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_xWp74BDnEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="updated_project_plans" briefDescription="To file, computer I/O" id="_QsMU8RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Updated Project Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_Ytu_0BWREeiy1JjwJG5oCw</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_revised_task_assignments_and_scheduled_dates" briefDescription="" id="_QsMU8hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Notification of revised task assignments and scheduled dates" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_vT-z8BWREeiy1JjwJG5oCw</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_QsMU8xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
               <WorkProduct>_M5ukcBDqEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="feedback_regarding_test_package" briefDescription="" id="_lt0RYRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Feedback Regarding Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="schedule_and_assign_tasks" briefDescription="Developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to specific staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is also scheduled, and participants are assigned to it; the participants will be the design and QA engineer, along with two other software engineers. " id="_QsMU7BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Schedule and Assign Tasks" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <Presentation xsi:type="uma:DescriptorDescription" name="schedule_and_assign_tasks,_0rljEBgIEeiqZOF2Bql_hQ" briefDescription="" id="-K0rIXdf_QykuCIaBnsVKYQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+                <MainDescription></MainDescription>
+                <KeyConsiderations></KeyConsiderations>
+                <RefinedDescription>&lt;p>
+    This step is a project management function, and is the first step carried out in this process. It involves developing a
+    schedule for the work to be undertaken for this software change, and assigning individual tasks to specific staff
+    members: specifically, &lt;strong>a design engineer and a quality assurance (QA) engineer&lt;/strong>. The design review is
+    also scheduled, and participants are assigned to it; the participants will be the &lt;strong>design and QA engineer, along
+    with two other software engineers.&lt;/strong>
+&lt;/p></RefinedDescription>
+              </Presentation>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
+              <Guideline>_pqtUFxaeEeiP8KYb2COzmg</Guideline>
+              <Task>_4m8pEA0KEeiMmoWQJFO3CQ</Task>
+              <MandatoryInput>_QsMU7hgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU7xgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU8BgOEeixJaG6Mh6fxA</MandatoryInput>
+              <Output>_QsMU8RgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU8hgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU7xgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU8xgOEeixJaG6Mh6fxA</Output>
+              <PerformedPrimarilyBy>_QsMU7RgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <Step name="Develop a schedule for the work to be undertaken for this software change" briefDescription="" id="_mNiH4BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Schedule design review" briefDescription="" id="_1SxBoBUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Assign tasks for the design engineer" briefDescription="" id="_s0rbABUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Assign tasks for the QA engineer" briefDescription="" id="_yYgP8BUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Assign two software engineers" briefDescription="" id="_-rqqsBUEEeiy1JjwJG5oCw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="monitor_progress" briefDescription="This step involves the project manager monitoring progress and status of the work" id="_QsMU9BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Monitor Progress" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <Presentation xsi:type="uma:DescriptorDescription" name="monitor_progress,_1tKU0BgIEeiqZOF2Bql_hQ" briefDescription="" id="-2gvbfY3WcEp5qVTRN2GQDA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+                <MainDescription></MainDescription>
+                <KeyConsiderations></KeyConsiderations>
+                <RefinedDescription>&lt;p>
+    This step involves the project manager monitoring progress and status of the work. This is based upon notification of
+    completion of each step, as well as informal information. While work proceeds according to plan, no action is taken and
+    no output is developed by this step. On the other hand, deviations from plan can result in rescheduling of tasks. In
+    severe cases, the project manager may put the entire modification effort on hold, and recommend to the CCB that this
+    change effort be canceled. The CCB may either concur and cancel the effort, or indicate that it is to be resumed where
+    it left off. In such cases the affected personnel are notified (by the project manager) as appropriate regarding the
+    resumption or cancellation of their work on this change.
+&lt;/p>
+&lt;br /></RefinedDescription>
+              </Presentation>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
+              <Guideline>_pqtUFRaeEeiP8KYb2COzmg</Guideline>
+              <Task>_KM2v0A0LEeiMmoWQJFO3CQ</Task>
+              <MandatoryInput>_QsMU9hgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU9xgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU-BgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU-RgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU8xgOEeixJaG6Mh6fxA</MandatoryInput>
+              <Output>_QsMU8RgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU8hgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU-hgOEeixJaG6Mh6fxA</Output>
+              <PerformedPrimarilyBy>_QsMU9RgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <Step name="Monitor progress and status of work" briefDescription="" id="_pCmBkBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Reschedule tasks due to deviations" briefDescription="" id="_tlb6oBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Put the entire modification effort on hold (in severe cases)" briefDescription="" id="_x1VpkBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Recommend to the CCB that this change effort be canceled (in severe cases)" briefDescription="" id="_4Nb0EBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="qa_engineer" briefDescription="" id="_QsMU9RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RUxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_MRdWMBZeEei-X60GZyOg_w</WorkProduct>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <Role>_dm_0YAxHEeingdqlRSYTcw</Role>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_project_plans" briefDescription="From file, computer I/O" id="_QsMU9hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Current Project Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_ShKHABDqEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="outcome_notification_number_of_defects_identified_aggregate_effort" briefDescription="From review design, e-mail" id="_QsMU9xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Outcome notification, number of defects identified, aggregate effort" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_ZeXM4BDuEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_successful_testing" briefDescription="" id="_QsMU-BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Notification of Successful Testing" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_jF20IBEFEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="decision_regarding_cancellation" briefDescription="From CCB, verbal" id="_QsMU-RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Decision Regarding Cancellation" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_Zg_m8BDqEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="recommendation_to_cancel" briefDescription="" id="_QsMU-hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Recommendation to Cancel" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU6xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_mWmLsBZhEei-X60GZyOg_w</WorkProduct>
             </BreakdownElement>
           </BreakdownElement>
-          <BreakdownElement xsi:type="uma:Iteration" name="Modify Tests" briefDescription="" id="_lt0RZxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modify Tests" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="true" variabilityType="na">
-            <SuperActivity>_lt0RURgKEeiqZOF2Bql_hQ</SuperActivity>
-            <Predecessor id="_lt0RdhgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0ReRgKEeiqZOF2Bql_hQ</Predecessor>
-            <BreakdownElement xsi:type="uma:TaskDescriptor" name="modify_test_plans" briefDescription="This step involves the modification of test plans and objectives to include testing of capabilities related to the requirements change prompting this software modification." id="_lt0RcRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modify Test Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <BreakdownElement xsi:type="uma:Iteration" name="Modify Design" briefDescription="" id="_QsVewBgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modify Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="true" variabilityType="na">
+            <SuperActivity>_QsCj0RgOEeixJaG6Mh6fxA</SuperActivity>
+            <Predecessor id="_QsVezBgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsMU7BgOEeixJaG6Mh6fxA</Predecessor>
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="review_design" briefDescription="This step involves the formal review of the modified design." id="_QsVexxgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Review Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <Presentation xsi:type="uma:DescriptorDescription" name="modify_test_plans,_sY3e8BgIEeiqZOF2Bql_hQ" briefDescription="" id="-3oV399LU85SKQkZDmaZwqQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+              <Presentation xsi:type="uma:DescriptorDescription" name="review_design,_GmBvYBgJEeiqZOF2Bql_hQ" briefDescription="" id="-uCI7m6SHWel1BcNVa3DI7A" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+                <MainDescription></MainDescription>
+                <KeyConsiderations></KeyConsiderations>
+                <RefinedDescription>&lt;p>
+    This step involves the formal review of the modified design. It is conducted by a team including the design engineer
+    who produced the design modifications. There are three alternative outcomes of the review:
+&lt;/p>
+&lt;p>
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1) Unconditional approval - The design is totally approved; the approved modified design is
+    incorporated into the software design document.
+&lt;/p>
+&lt;p>
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2) Minor changes recommended - Minor changes to the design are required and feedback is
+    provided to the designer. The re-review is expected to be perfunctory.
+&lt;/p>
+&lt;p>
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3) Major changes recommended - Major changes to the design are requred and feedback is
+    provided to the designer.
+&lt;/p>
+&lt;p>
+    At the conclusion of the review, the project manager is notified of the outcome. Due to the fact that formal design
+    reviews are a relatively new step in this organization’s process, they are recording certain measurements to help
+    evaluate its impact, In particular, the number of defects identified, and the aggregate effort of the review team in
+    preparing for and conducting the review are reported to the project manager.
+&lt;/p></RefinedDescription>
+              </Presentation>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
+              <Guideline>_pqtUFhaeEeiP8KYb2COzmg</Guideline>
+              <Predecessor id="_QsVezRgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsMU7BgOEeixJaG6Mh6fxA</Predecessor>
+              <Task>_-y2xsA0KEeiMmoWQJFO3CQ</Task>
+              <MandatoryInput>_QsVexRgOEeixJaG6Mh6fxA</MandatoryInput>
+              <Output>_QsVewxgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsVeyhgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsVeyxgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsVexhgOEeixJaG6Mh6fxA</Output>
+              <PerformedPrimarilyBy>_QsVewhgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <PerformedPrimarilyBy>_QsVeyBgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <PerformedPrimarilyBy>_QsVeyRgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <Step name="Review modified design" briefDescription="" id="_rM3IMBfvEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Include number of defects identified and aggregate effort of review team in review" briefDescription="" id="_46LMwBfvEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Notify project manager of outcome at conclusion of review" briefDescription="" id="_tb7AwBfvEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="modify_design" briefDescription="This  step  involves  the modification of the  design  for  the  code unit  affected by the requirements change." id="_QsVewRgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modify Designs" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <Presentation xsi:type="uma:DescriptorDescription" name="modify_design,_FisDEBgJEeiqZOF2Bql_hQ" briefDescription="" id="-Cq3XPmD0esJjs1OrXcE5GA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+                <MainDescription></MainDescription>
+                <KeyConsiderations></KeyConsiderations>
+                <RefinedDescription>This step involves the modification of the design for the code unit affected by the requirements change. It is a highly
+creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the
+design based upon feedback from the design review.</RefinedDescription>
+              </Presentation>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <Guideline>_pqtUEhaeEeiP8KYb2COzmg</Guideline>
+              <Predecessor id="_QsVezhgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsVexxgOEeixJaG6Mh6fxA</Predecessor>
+              <Task>_ZPjZwBZdEei-X60GZyOg_w</Task>
+              <MandatoryInput>_QsVewxgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsVexBgOEeixJaG6Mh6fxA</MandatoryInput>
+              <Output>_QsVexRgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsVexhgOEeixJaG6Mh6fxA</Output>
+              <PerformedPrimarilyBy>_QsVewhgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <Step name="Modify design based on requirements change" briefDescription="" id="_ylC6IBdUEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Modify design based on design review feedback" briefDescription="" id="_3noqQBdUEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="design_engineer" briefDescription="" id="_QsVewhgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Design Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <Role>_hmS7gAxHEeingdqlRSYTcw</Role>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="design_review_feedback" briefDescription="To modify design, hand carried" id="_QsVewxgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Design Review Feedback" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>__SDqUBDoEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_design" briefDescription="From software design document file, hand carried" id="_QsVexBgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Current Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_8xrYQBDoEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_design" briefDescription="From modify design, hand carried" id="_QsVexRgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modified Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_TNe6IBDtEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_QsVexhgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_M5ukcBDqEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="software_engineer" briefDescription="" id="_QsVeyBgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Software Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <Role>_pQJBwAxHEeingdqlRSYTcw</Role>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="qa_engineer" briefDescription="" id="_QsVeyRgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <Role>_dm_0YAxHEeingdqlRSYTcw</Role>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="approved_modified_design" briefDescription="" id="_QsVeyhgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Approved Modified Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_Rb2jgBUWEeiy1JjwJG5oCw</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="outcome_notification_number_of_defects_identified_aggregate_effort" briefDescription="From review design, e-mail" id="_QsVeyxgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Outcome notification, number of defects identified, aggregate effort" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsVewBgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_ZeXM4BDuEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+          </BreakdownElement>
+          <BreakdownElement xsi:type="uma:Iteration" name="Modify Code" briefDescription="" id="_QsCj0xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="true" variabilityType="na">
+            <SuperActivity>_QsCj0RgOEeixJaG6Mh6fxA</SuperActivity>
+            <Predecessor id="_QsCj3BgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsMU7BgOEeixJaG6Mh6fxA</Predecessor>
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="modify_code" briefDescription="This step involves the implementation of the design changes into code, and compilation of the modified source code into object code." id="_QsCj1BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modify Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <Presentation xsi:type="uma:DescriptorDescription" name="modify_code,_PRQGMBWwEeiy1JjwJG5oCw" briefDescription="" id="-s3ab8qddN2oTVTW7hQsCaA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+                <MainDescription></MainDescription>
+                <KeyConsiderations></KeyConsiderations>
+                <RefinedDescription>&lt;p>
+    This step involves the implementation of the design changes into code, and compilation of the modified source code into
+    object code. Implementation is accomplished by modifying existing source code. This step may also be based upon
+    feedback from testing, indicating that additional source code modifications are required.
+&lt;/p></RefinedDescription>
+              </Presentation>
+              <SuperActivity>_QsCj0xgOEeixJaG6Mh6fxA</SuperActivity>
+              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
+              <Guideline>_qKoRcRZ2Eeisp88dpWskHA</Guideline>
+              <Guideline>_qKoRchZ2Eeisp88dpWskHA</Guideline>
+              <Guideline>_pqtUERaeEeiP8KYb2COzmg</Guideline>
+              <Predecessor id="_QsCj3RgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsMU7BgOEeixJaG6Mh6fxA</Predecessor>
+              <Predecessor id="_QsCj3hgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsVexxgOEeixJaG6Mh6fxA</Predecessor>
+              <Task>_BEbLsA0LEeiMmoWQJFO3CQ</Task>
+              <MandatoryInput>_QsCj1hgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsCj1xgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsCj2hgOEeixJaG6Mh6fxA</MandatoryInput>
+              <Output>_QsCj2BgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsCj2RgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsCj2xgOEeixJaG6Mh6fxA</Output>
+              <PerformedPrimarilyBy>_QsCj1RgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <Step name="Implement design changes in code" briefDescription="" id="_oMFCkBdREeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Compile modified source code into object code" briefDescription="" id="_JFwq0BdREeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Complete additional source code modifications based on testing feedback" briefDescription="" id="_Uss4wBdREeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="design_engineer" briefDescription="" id="_QsCj1RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Design Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsCj0xgOEeixJaG6Mh6fxA</SuperActivity>
+              <Role>_hmS7gAxHEeingdqlRSYTcw</Role>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_design" briefDescription="From modify design, hand carried" id="_QsCj1hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modified Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsCj0xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_TNe6IBDtEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_source_code" briefDescription="From software development files, computer I/O" id="_QsCj1xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Current Source Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsCj0xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_e7-eYBDpEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_source_code" briefDescription="To software development files, computer I/O" id="_QsCj2BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modified source code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsCj0xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_Y-q_QBUXEeiy1JjwJG5oCw</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="object_code" briefDescription="From software development files, computer I/O" id="_QsCj2RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Object Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsCj0xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_q8wL0BDtEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="feedback_regarding_code" briefDescription="" id="_QsCj2hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Feedback Regarding Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsCj0xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_-8Sr4BZdEei-X60GZyOg_w</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_QsCj2xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsCj0xgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_M5ukcBDqEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+          </BreakdownElement>
+          <BreakdownElement xsi:type="uma:Iteration" name="Modify Tests" briefDescription="" id="_QsMU0hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modify Tests" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="true" variabilityType="na">
+            <SuperActivity>_QsCj0RgOEeixJaG6Mh6fxA</SuperActivity>
+            <Predecessor id="_QsMU4RgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsMU7BgOEeixJaG6Mh6fxA</Predecessor>
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="modify_test_plans" briefDescription="This step involves the modification of test plans and objectives to include testing of capabilities related to the requirements change prompting this software modification." id="_QsMU3BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modify Test Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <Presentation xsi:type="uma:DescriptorDescription" name="modify_test_plans,_sY3e8BgIEeiqZOF2Bql_hQ" briefDescription="" id="-BhChewE9Lgr_tybbANlHiw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
                 <MainDescription></MainDescription>
                 <KeyConsiderations></KeyConsiderations>
                 <RefinedDescription>&lt;p>
@@ -2477,15 +2380,15 @@ design based upon feedback from the design review.</RefinedDescription>
     package).
 &lt;/p></RefinedDescription>
               </Presentation>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
               <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
               <Guideline>_pqtUExaeEeiP8KYb2COzmg</Guideline>
-              <Predecessor id="_lt0RdRgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0ReRgKEeiqZOF2Bql_hQ</Predecessor>
+              <Predecessor id="_QsMU4BgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsMU7BgOEeixJaG6Mh6fxA</Predecessor>
               <Task>_DStBIA0LEeiMmoWQJFO3CQ</Task>
-              <MandatoryInput>_lt0RchgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <Output>_lt0RahgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RcBgKEeiqZOF2Bql_hQ</Output>
-              <PerformedPrimarilyBy>_lt0RaRgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
+              <MandatoryInput>_QsMU3RgOEeixJaG6Mh6fxA</MandatoryInput>
+              <Output>_QsMU1RgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU2xgOEeixJaG6Mh6fxA</Output>
+              <PerformedPrimarilyBy>_QsMU1BgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
               <Step name="Modification of test plans and objectives" briefDescription="" id="_Bey8oBdVEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
                 <Description></Description>
               </Step>
@@ -2499,9 +2402,63 @@ design based upon feedback from the design review.</RefinedDescription>
                 <Description></Description>
               </Step>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:TaskDescriptor" name="modify_unit_test_package" briefDescription="This step involves the modification of test plans and objectives to include testing of capabilities related to the requirements change prompting this software modification." id="_lt0RaBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modify Unit Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="qa_engineer" briefDescription="" id="_QsMU1BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <Presentation xsi:type="uma:DescriptorDescription" name="modify_unit_test_package,_q_3rsBgIEeiqZOF2Bql_hQ" briefDescription="" id="-zuGxAqN9I0yHpFpEJl-cKQ" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <Role>_dm_0YAxHEeingdqlRSYTcw</Role>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_test_plans" briefDescription="From test plans file, hand carried" id="_QsMU1RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modified Test Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_LhYxIBDtEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_unit_test_package" briefDescription="From test package file, computer I/O" id="_QsMU1hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Current Unit Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_wU21wBDpEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_design" briefDescription="From modify design, hand carried" id="_QsMU1xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modified Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_TNe6IBDtEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="source_code" briefDescription="From software development files, computer I/O" id="_QsMU2BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Source Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_dIcHYBDtEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="feedback_regarding_test_package" briefDescription="" id="_QsMU2RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Feedback Regarding Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_MRdWMBZeEei-X60GZyOg_w</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_unit_test_package" briefDescription="" id="_QsMU2hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modified unit test package " suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_kdCkwBV_Eeiy1JjwJG5oCw</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_QsMU2xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_M5ukcBDqEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_test_plans" briefDescription="From test plans file, hand carried" id="_QsMU3RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Current Test Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_qkeykBDpEeig5aQZWB7FhQ</WorkProduct>
+            </BreakdownElement>
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="modify_unit_test_package" briefDescription="This step involves the modification of test plans and objectives to include testing of capabilities related to the requirements change prompting this software modification." id="_QsMU0xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Modify Unit Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+              <Presentation xsi:type="uma:DescriptorDescription" name="modify_unit_test_package,_q_3rsBgIEeiqZOF2Bql_hQ" briefDescription="" id="-soU5B0iC1GBebKgY5zgHBw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
                 <MainDescription></MainDescription>
                 <KeyConsiderations></KeyConsiderations>
                 <RefinedDescription>&lt;p>
@@ -2514,21 +2471,21 @@ design based upon feedback from the design review.</RefinedDescription>
     feedback from testing, indicating that additional modifications to the unit test package are required.
 &lt;/p></RefinedDescription>
               </Presentation>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
               <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
               <Guideline>_qKoRcBZ2Eeisp88dpWskHA</Guideline>
               <Guideline>_pqtUFBaeEeiP8KYb2COzmg</Guideline>
-              <Predecessor id="_lt0RcxgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0RcRgKEeiqZOF2Bql_hQ</Predecessor>
-              <Predecessor id="_lt0RdBgKEeiqZOF2Bql_hQ" linkType="finishToStart">_lt0RVBgKEeiqZOF2Bql_hQ</Predecessor>
+              <Predecessor id="_QsMU3hgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsMU3BgOEeixJaG6Mh6fxA</Predecessor>
+              <Predecessor id="_QsMU3xgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsCj1BgOEeixJaG6Mh6fxA</Predecessor>
               <Task>_FscfsA0LEeiMmoWQJFO3CQ</Task>
-              <MandatoryInput>_lt0RahgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RaxgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RbBgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RbRgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <MandatoryInput>_lt0RbhgKEeiqZOF2Bql_hQ</MandatoryInput>
-              <Output>_lt0RbxgKEeiqZOF2Bql_hQ</Output>
-              <Output>_lt0RcBgKEeiqZOF2Bql_hQ</Output>
-              <PerformedPrimarilyBy>_lt0RaRgKEeiqZOF2Bql_hQ</PerformedPrimarilyBy>
+              <MandatoryInput>_QsMU1RgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU1hgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU1xgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU2BgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU2RgOEeixJaG6Mh6fxA</MandatoryInput>
+              <Output>_QsMU2hgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU2xgOEeixJaG6Mh6fxA</Output>
+              <PerformedPrimarilyBy>_QsMU1BgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
               <Step name="Comply with modifications made to the test plans and objective" briefDescription="" id="_9ZjwIBdVEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
                 <Description></Description>
               </Step>
@@ -2539,59 +2496,114 @@ design based upon feedback from the design review.</RefinedDescription>
                 <Description></Description>
               </Step>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:RoleDescriptor" name="qa_engineer" briefDescription="" id="_lt0RaRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="QA Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+            <BreakdownElement xsi:type="uma:TaskDescriptor" name="test_unit" briefDescription="This step involves the application of the unit test package on the modified code, and analysis of the results. Both the design and QA engineers participate in this step." id="_QsMU4hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Test Unit" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <Role>_dm_0YAxHEeingdqlRSYTcw</Role>
+              <Presentation xsi:type="uma:DescriptorDescription" name="test_unit,_9hOUwBgNEeixJaG6Mh6fxA" briefDescription="" id="-u7mCGI9qULimhujm2S3E5A" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+                <MainDescription></MainDescription>
+                <KeyConsiderations></KeyConsiderations>
+                <RefinedDescription>&lt;p>
+    This step involves the application of the unit test package on the modified code, and analysis of the results. Both the
+    design and QA engineers participate in this step. The entire test package is run before any analysis or further action
+    is taken. Although the unit tests are primarily functional, an automated coverage analyzer is employed to determine
+    that adequate test coverage of the unit’s code has been achieved; a 90% threshold has been established as acceptable.
+    If all tests are successfully completed, and 90% coverage attained, then the unit has successfully passed. When this is
+    not the case, the design and QA engineers jointly analyze the test results and determine appropriate actions. In order
+    to confine the problem, assume that either or both of the following are the outcomes of this analysis: the source code
+    needs to be modified further, the unit tests need to be modified further. When the indicated modifications have been
+    made, the unit can be retested.
+&lt;/p>
+&lt;p>
+    If the unit passes its tests and meets an acceptable coverage level, then this example process has been completed.
+    Steps beyond unit testing, such as integration testing, are beyond the scope of the core problem. The project manager
+    is notified that the latest version of the unit code is available for integration testing.
+&lt;/p>
+&lt;p>
+    Constraints:
+&lt;/p>
+&lt;p>
+    1) This step can begin as soon as both the object code and unit test package are available.
+&lt;/p>
+&lt;p>
+    2) This step ends when its outputs have been provided; assume that all outputs are produced simultaneously.
+&lt;/p></RefinedDescription>
+              </Presentation>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <Guideline>_BCWjMBGtEeifx6UZyY1EkQ</Guideline>
+              <Guideline>_pqt7IBaeEeiP8KYb2COzmg</Guideline>
+              <Predecessor id="_QsMU6RgOEeixJaG6Mh6fxA" linkType="finishToStart">_QsCj1BgOEeixJaG6Mh6fxA</Predecessor>
+              <Task>_IiffwA0LEeiMmoWQJFO3CQ</Task>
+              <MandatoryInput>_QsMU5BgOEeixJaG6Mh6fxA</MandatoryInput>
+              <MandatoryInput>_QsMU5RgOEeixJaG6Mh6fxA</MandatoryInput>
+              <Output>_QsMU5hgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU5xgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU6BgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU2RgOEeixJaG6Mh6fxA</Output>
+              <Output>_QsMU2xgOEeixJaG6Mh6fxA</Output>
+              <PerformedPrimarilyBy>_QsMU4xgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <PerformedPrimarilyBy>_QsMU1BgOEeixJaG6Mh6fxA</PerformedPrimarilyBy>
+              <Step name="Apply unit test package on modified code" briefDescription="" id="_5gB2YBfwEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Run entire test package before analysis or further action is taken" briefDescription="" id="_-ZW80BfwEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Employ test coverage analyzer to determine adequate coverage (90%)" briefDescription="" id="_ETSkoBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Design and QA engineers jointly analyze test results" briefDescription="" id="_SHBaQBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Determine actions when insufficient coverage is discovered" briefDescription="" id="_b_pFMBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Modify source code if insufficient coverage is discovered" briefDescription="" id="_h-ozMBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Modify unit tests if insufficient coverage is discovered" briefDescription="" id="_vFNn4BfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Re-run unit tests after changes are made" briefDescription="" id="_zXkN4BfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
+              <Step name="Notify project manager that latest version of the unit code is available for integration testing" briefDescription="" id="_4IxTEBfxEeifppTW44gyVw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+                <Description></Description>
+              </Step>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_test_plans" briefDescription="From test plans file, hand carried" id="_lt0RahgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modified Test Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:RoleDescriptor" name="design_engineer" briefDescription="" id="_QsMU4xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Design Engineer" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_LhYxIBDtEeig5aQZWB7FhQ</WorkProduct>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <Role>_hmS7gAxHEeingdqlRSYTcw</Role>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_unit_test_package" briefDescription="From test package file, computer I/O" id="_lt0RaxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Current Unit Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="object_code" briefDescription="From software development files, computer I/O" id="_QsMU5BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Object Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_wU21wBDpEeig5aQZWB7FhQ</WorkProduct>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_q8wL0BDtEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_design" briefDescription="From modify design, hand carried" id="_lt0RbBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modified Design" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="unit_test_package" briefDescription="From test package file, computer I/O" id="_QsMU5RgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Unit Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_TNe6IBDtEeig5aQZWB7FhQ</WorkProduct>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_wtbJ8BDtEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="source_code" briefDescription="From software development files, computer I/O" id="_lt0RbRgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Source Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="test_results" briefDescription="" id="_QsMU5hgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Test results" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_dIcHYBDtEeig5aQZWB7FhQ</WorkProduct>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_B8XwkBWAEeiy1JjwJG5oCw</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="feedback_regarding_test_package" briefDescription="" id="_lt0RbhgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Feedback Regarding Test Package" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_successful_testing" briefDescription="" id="_QsMU5xgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Notification of Successful Testing" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_MRdWMBZeEei-X60GZyOg_w</WorkProduct>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_jF20IBEFEeig5aQZWB7FhQ</WorkProduct>
             </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="modified_unit_test_package" briefDescription="" id="_lt0RbxgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Modified unit test package " suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="feedback_regarding_code" briefDescription="" id="_QsMU6BgOEeixJaG6Mh6fxA" orderingGuide="" presentationName="Feedback Regarding Code" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
               <MethodElementProperty name="descriptor_createdByReference" value="true"/>
               <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_kdCkwBV_Eeiy1JjwJG5oCw</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="notification_of_completion" briefDescription="From all technical tasks, via e-mail" id="_lt0RcBgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Notification of Completion" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_M5ukcBDqEeig5aQZWB7FhQ</WorkProduct>
-            </BreakdownElement>
-            <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="current_test_plans" briefDescription="From test plans file, hand carried" id="_lt0RchgKEeiqZOF2Bql_hQ" orderingGuide="" presentationName="Current Test Plans" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
-              <MethodElementProperty name="descriptor_createdByReference" value="true"/>
-              <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
-              <SuperActivity>_lt0RZxgKEeiqZOF2Bql_hQ</SuperActivity>
-              <WorkProduct>_qkeykBDpEeig5aQZWB7FhQ</WorkProduct>
+              <SuperActivity>_QsMU0hgOEeixJaG6Mh6fxA</SuperActivity>
+              <WorkProduct>_-8Sr4BZdEei-X60GZyOg_w</WorkProduct>
             </BreakdownElement>
           </BreakdownElement>
           <DefaultContext>_XiNlQAw4Eeiqu5ZRAGwGhg</DefaultContext>
@@ -2615,11 +2627,11 @@ design based upon feedback from the design review.</RefinedDescription>
     <MethodPackageSelection>_zUh7fBgGEeiqZOF2Bql_hQ</MethodPackageSelection>
     <MethodPackageSelection>_zUh7fRgGEeiqZOF2Bql_hQ</MethodPackageSelection>
     <MethodPackageSelection>_zVkdRRgGEeiqZOF2Bql_hQ</MethodPackageSelection>
-    <MethodPackageSelection>_vqDQ8BgKEeiqZOF2Bql_hQ</MethodPackageSelection>
+    <MethodPackageSelection>_lcTGsBgOEeixJaG6Mh6fxA</MethodPackageSelection>
     <MethodPackageSelection>_zUh7cRgGEeiqZOF2Bql_hQ</MethodPackageSelection>
     <MethodPackageSelection>_zUh7dxgGEeiqZOF2Bql_hQ</MethodPackageSelection>
     <MethodPackageSelection>_zUh7eRgGEeiqZOF2Bql_hQ</MethodPackageSelection>
     <ProcessView>_ntOhcBajEeiIf8YthU0UvA</ProcessView>
-    <AddedCategory>_0rRE4BgGEeiqZOF2Bql_hQ</AddedCategory>
+    <AddedCategory>_kkHo4BgLEeixJaG6Mh6fxA</AddedCategory>
   </MethodConfiguration>
 </uma:MethodLibrary>
