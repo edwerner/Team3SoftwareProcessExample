@@ -4,7 +4,7 @@
   <MethodPlugin name="software_process_example" briefDescription="Process Engineering software process example" id="_gAW5cAw8EeiOk4BfzayU7Q" orderingGuide="" presentationName="" suppressed="false" authors="Ed Werner, Cervantes Hernandez Moreira, Gourav Acharya, Talal Alsarrani" changeDate="2018-02-07T02:43:45" changeDescription="" version="" supporting="false" userChangeable="true">
     <MethodElementProperty name="plugin_synFree" value="true"/>
     <MethodElementProperty name="me_edited" value="true"/>
-    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_u_YiYBdREeiBzv2yz8Quzw">
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_6uk9UBdlEeiBzv2yz8Quzw">
       <ContentCategory xsi:type="uma:CustomCategory" name="example_custom_category" briefDescription="" id="_ntOhcBajEeiIf8YthU0UvA" orderingGuide="" presentationName="Example Custom Category" suppressed="false" isAbstract="false" variabilityType="na">
         <MethodElementProperty name="me_edited" value="true"/>
         <CategorizedElement>_7QlE8BamEeiIf8YthU0UvA</CategorizedElement>
@@ -298,6 +298,18 @@
     2) This step ends when its output has been provided.
 </p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
+          <Section name="Modification of test plans and objectives" briefDescription="" id="_Bey8oBdVEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Identify functionality and capabilities to be tested" briefDescription="" id="_QLqZsBdVEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Identify approach to be taken for testing" briefDescription="" id="_UVgj8BdVEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Test capabilities related to requirements change" briefDescription="" id="_LAk04BdVEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
@@ -333,6 +345,15 @@
     3) Subsequent iterations (if required) can begin as soon as the test unit step has completed.
 </p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
+          <Section name="Comply with modifications made to the test plans and objective" briefDescription="" id="_9ZjwIBdVEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Use modified design and/or source code for this unit as input" briefDescription="" id="_PkAuYBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Modify the actual unit test package for the affected code unit" briefDescription="" id="_llhTMBdVEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
@@ -455,46 +476,17 @@ multiple unit test package versions may be applied to a given object code versio
     CCB.
 </p>]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
-          <Section name="Inputs" briefDescription="" id="_WoZv4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>&lt;p>&#xD;
-    1) Notification of completion (from all technical tasks) (via e-mail)&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    2) Current project plans (from file) (computer I/O)&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    3) Outcome notification, number of defects identified, aggregate effort (from review design)&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    4) Notification of successful testing (from test unit) (e-mail)&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    5) Decision regarding cancellation (from CCB) (verbal)&#xD;
-&lt;/p></Description>
+          <Section name="Monitor progress and status of work" briefDescription="" id="_pCmBkBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
           </Section>
-          <Section name="Outputs" briefDescription="" id="_XLZvQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>&lt;p>&#xD;
-    1) Updated project plans (to file) (computer I/O)&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    2) Notification of revised task assignments and scheduled dates (to all affected personnel)&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    3) Recommendation to cancel (to CCB) (verbal)&#xD;
-&lt;/p></Description>
+          <Section name="Reschedule tasks due to deviations" briefDescription="" id="_tlb6oBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
           </Section>
-          <Section name="Responsibility" briefDescription="" id="_XoU70A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>This step is carried out by the project manager.</Description>
+          <Section name="Put the entire modification effort on hold (in severe cases)" briefDescription="" id="_x1VpkBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
           </Section>
-          <Section name="Constraints" briefDescription="" id="_YNpPYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
-            <Description>&lt;p>&#xD;
-    1) This step can begin as soon as the initial task, schedule and assign tasks, is completed.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    2) This step persists throughout the duration of this process. For the purposes of this example, assume that this task&#xD;
-    ends (1) when the unit testing has been successfully completed, or (2) after notifying personnel of cancellation by the&#xD;
-    CCB.&#xD;
-&lt;/p></Description>
+          <Section name="Recommend to the CCB that this change effort be canceled in severe cases)" briefDescription="" id="_4Nb0EBdWEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
           </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
@@ -655,10 +647,17 @@ multiple unit test package versions may be applied to a given object code versio
 creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the
 design based upon feedback from the design review.]]></MainDescription>
           <KeyConsiderations></KeyConsiderations>
+          <Section name="Modify design based on requirements change" briefDescription="" id="_ylC6IBdUEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Section name="Modify design based on design review feedback" briefDescription="" id="_3noqQBdUEeiBzv2yz8Quzw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
           <Alternatives></Alternatives>
           <Purpose></Purpose>
         </Presentation>
         <Guideline>_pqtUEhaeEeiP8KYb2COzmg</Guideline>
+        <PerformedBy>_hmS7gAxHEeingdqlRSYTcw</PerformedBy>
         <MandatoryInput>__SDqUBDoEeig5aQZWB7FhQ</MandatoryInput>
         <MandatoryInput>_8xrYQBDoEeig5aQZWB7FhQ</MandatoryInput>
         <Output>_TNe6IBDtEeig5aQZWB7FhQ</Output>
@@ -1849,7 +1848,7 @@ simultaneously]]></MainDescription>
             <Output>_PNniOhWWEeiy1JjwJG5oCw</Output>
             <Output>_Qcxt0RZjEei-X60GZyOg_w</Output>
             <PerformedPrimarilyBy>_GlXS8RWWEeiy1JjwJG5oCw</PerformedPrimarilyBy>
-            <Step name="Inputs" briefDescription="" id="_WoZv4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Inputs" briefDescription="" id="_WoZv4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" sectionName="">
               <Description>&lt;p>&#xD;
     1) Notification of completion (from all technical tasks) (via e-mail)&#xD;
 &lt;/p>&#xD;
@@ -1866,7 +1865,7 @@ simultaneously]]></MainDescription>
     5) Decision regarding cancellation (from CCB) (verbal)&#xD;
 &lt;/p></Description>
             </Step>
-            <Step name="Outputs" briefDescription="" id="_XLZvQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Outputs" briefDescription="" id="_XLZvQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" sectionName="">
               <Description>&lt;p>&#xD;
     1) Updated project plans (to file) (computer I/O)&#xD;
 &lt;/p>&#xD;
@@ -1877,10 +1876,10 @@ simultaneously]]></MainDescription>
     3) Recommendation to cancel (to CCB) (verbal)&#xD;
 &lt;/p></Description>
             </Step>
-            <Step name="Responsibility" briefDescription="" id="_XoU70A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Responsibility" briefDescription="" id="_XoU70A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" sectionName="">
               <Description>This step is carried out by the project manager.</Description>
             </Step>
-            <Step name="Constraints" briefDescription="" id="_YNpPYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Constraints" briefDescription="" id="_YNpPYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" sectionName="">
               <Description>&lt;p>&#xD;
     1) This step can begin as soon as the initial task, schedule and assign tasks, is completed.&#xD;
 &lt;/p>&#xD;
@@ -2555,7 +2554,7 @@ design based upon feedback from the design review.</RefinedDescription>
             <Output>_s4sSOxapEeiIf8YthU0UvA</Output>
             <Output>_s4sSPhapEeiIf8YthU0UvA</Output>
             <PerformedPrimarilyBy>_s4sSMRapEeiIf8YthU0UvA</PerformedPrimarilyBy>
-            <Step name="Inputs" briefDescription="" id="_WoZv4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Inputs" briefDescription="" id="_WoZv4A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" sectionName="">
               <Description>&lt;p>&#xD;
     1) Notification of completion (from all technical tasks) (via e-mail)&#xD;
 &lt;/p>&#xD;
@@ -2572,7 +2571,7 @@ design based upon feedback from the design review.</RefinedDescription>
     5) Decision regarding cancellation (from CCB) (verbal)&#xD;
 &lt;/p></Description>
             </Step>
-            <Step name="Outputs" briefDescription="" id="_XLZvQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Outputs" briefDescription="" id="_XLZvQA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" sectionName="">
               <Description>&lt;p>&#xD;
     1) Updated project plans (to file) (computer I/O)&#xD;
 &lt;/p>&#xD;
@@ -2583,10 +2582,10 @@ design based upon feedback from the design review.</RefinedDescription>
     3) Recommendation to cancel (to CCB) (verbal)&#xD;
 &lt;/p></Description>
             </Step>
-            <Step name="Responsibility" briefDescription="" id="_XoU70A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Responsibility" briefDescription="" id="_XoU70A0eEeidz4hOf6CHig" orderingGuide="" presentationName="" sectionName="">
               <Description>This step is carried out by the project manager.</Description>
             </Step>
-            <Step name="Constraints" briefDescription="" id="_YNpPYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Step name="Constraints" briefDescription="" id="_YNpPYA0eEeidz4hOf6CHig" orderingGuide="" presentationName="" sectionName="">
               <Description>&lt;p>&#xD;
     1) This step can begin as soon as the initial task, schedule and assign tasks, is completed.&#xD;
 &lt;/p>&#xD;
@@ -2888,7 +2887,7 @@ multiple unit test package versions may be applied to a given object code versio
     <MethodPackageSelection>_4Zlt4BafEeiIf8YthU0UvA</MethodPackageSelection>
     <MethodPackageSelection>_4Zlt4xafEeiIf8YthU0UvA</MethodPackageSelection>
     <MethodPackageSelection>_4Zlt5RafEeiIf8YthU0UvA</MethodPackageSelection>
-    <MethodPackageSelection>_u_YiYBdREeiBzv2yz8Quzw</MethodPackageSelection>
+    <MethodPackageSelection>_6uk9UBdlEeiBzv2yz8Quzw</MethodPackageSelection>
     <MethodPackageSelection>_4ZJB8RafEeiIf8YthU0UvA</MethodPackageSelection>
     <MethodPackageSelection>_4ZJB9xafEeiIf8YthU0UvA</MethodPackageSelection>
     <MethodPackageSelection>_4ZJB-RafEeiIf8YthU0UvA</MethodPackageSelection>
